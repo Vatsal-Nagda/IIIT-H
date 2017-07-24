@@ -1,0 +1,26 @@
+ Cross validation test phase 
+Accuracy :  0.776825540019
+ Cross validation test phase 
+Accuracy :  0.771563173458
+ Cross validation test phase 
+Accuracy :  0.771813762342
+ Cross validation test phase 
+Accuracy :  0.768243785084
+ Cross validation test phase 
+Accuracy :  0.7726042502
+ Cross validation test phase 
+Accuracy :  0.770799919808
+ Cross validation test phase 
+Accuracy :  0.771902566159
+ Cross validation test phase 
+Accuracy :  0.77415797915
+ Cross validation test phase 
+Accuracy :  0.76764234162
+ Cross validation test phase 
+Accuracy :  0.772403769046
+
+Mean Accuracy:  0.771795708688
+Standard Deviation:  0.00250653213826
+
+Running on test File 
+Accuracy :  0.772037449129

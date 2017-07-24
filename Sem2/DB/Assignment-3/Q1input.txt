@@ -1,0 +1,58 @@
+A 8 B 8 C 5 
+
+T1 16
+read(A,t)
+t := t*2
+write(A,t)
+read(B,t)
+t := t*2
+write(B,t)
+output(A)
+output(B)
+read(A,t)
+t := t*2
+write(A,t)
+read(B,t)
+t := t*2
+write(B,t)
+output(A)
+output(B)
+
+T2 18
+read(C,t1)
+read(A,t2)
+t1 := t1+t2
+write(C,t1)
+t1 := t1-t2
+t1 := t1+t2
+write(A,t1)
+output(C)
+output(A)
+read(C,t1)
+read(A,t2)
+t1 := t1+t2
+write(C,t1)
+t1 := t1-t2
+t1 := t1+t2
+write(A,t1)
+output(C)
+output(A)
+
+T3 16
+read(B,t)
+t := t+1
+write(C,t)
+read(C,t)
+t := t+1
+write(B,t)
+output(C)
+output(B)
+read(B,t)
+t := t+1
+write(C,t)
+read(C,t)
+t := t+1
+write(B,t)
+output(C)
+output(B)
+

@@ -1,0 +1,52 @@
+
+---------------
+bWAPP - INSTALL
+---------------
+
+*/ Extract the 'zip' file.
+
+	example on Linux:
+
+		unzip bWAPP.zip
+
+*/ Move the directory 'bWAPP' (and the entire content) to the root of your web server.
+
+*/ Give full permission to the directories 'passwords', 'images', 'documents' and 'logs'. 
+   This step is optional but it will give you so much fun when exploiting bWAPP with tools like sqlmap and Metasploit.
+
+	example on Linux:
+
+		chmod 777 passwords/
+		chmod 777 images/
+		chmod 777 documents/
+		chmod 777 logs/
+
+*/ Edit the file 'admin/settings.php' with your own database connection settings.
+
+	example:
+
+		$db_server = "localhost"; 	// your database server (IP/name), here 'localhost'
+		$db_username = "root";		// your MySQL user, here 'root'
+		$db_password = "";		// your MySQL password, here 'blank'
+
+*/ Browse to the file 'install.php' in the directory 'bWAPP'.
+
+	example: http://localhost/bWAPP/install.php
+
+*/ Click on 'here' (Click 'here' to install bWAPP).
+
+	The database 'bWAPP' will be created and populated.
+
+*/ Go to the login page. If you browse the bWAPP root directory you will be redirected.
+
+	example: http://localhost/bWAPP/
+	example: http://localhost/bWAPP/login.php
+
+*/ Login with the default credentials, or make a new user.
+
+	default credentials: bee/bug
+
+*/ You are ready to explore and exploit the bee!
+
+====
+Malik Mesellem

@@ -1,0 +1,15 @@
+ROll No : 20162008
+Name : Vatsal Nagda
+
+Running:
+Server:		./a.out portnumber
+Client:		./a.out server_ip portnumber
+
+Functionalities Implemented:
+	Deffie-Hellman Key Exchange protocol
+	Sending the encrypted contents of file by both server and client
+	Recieving and decrypting contents of the data recieved and storing in the file
+
+Note
+	Only the 41 characters mentioned in the PDF are supported (\n not handled)
+	The size of File cant be more than 256 characters

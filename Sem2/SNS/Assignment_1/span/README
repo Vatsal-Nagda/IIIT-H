@@ -1,0 +1,15 @@
+NAME : VATSAL M. NAGDA
+ROLL NO: 20162008
+
+Functionalities Implemented:
+	Registration
+	Login
+	Authentication
+
+Results:
+	OFMC : SAFE
+	ATSE : SAFE
+
+NOTE:
+	Database functionalities are done by the server
+	Valdity checks are also performed by the server

@@ -1,0 +1,147 @@
+%%% Protocol:
+%%% A -> B: E_K[Na]
+%%% B -> A: E_K[Nb]
+%%% A -> B: E_K1[Nb], where K1 = Hash(Na,Nb)
+%%% K is shared key symmetric key between two parties A and B;
+%%% Na and Nb are random nonces (numbers), and
+%%% E_K[M] is the symmetric encryption of M using the key K.
+%%% In HLPSL, it is denoted by {M}_K.
+
+% Role for Alice
+role alice(A,B: agent,
+           K: symmetric_key,
+           SND,RCV : channel(dy))
+played_by A 
+def=
+local State: nat,
+      Reg_Id : text,
+      Alpha : text,
+      Ci : message,
+      Ps : text,
+      G : text,
+      P : text,
+      Bi : text,
+      N1 : text,
+      K1 : text,
+      Vid : text,
+      Sks : text,
+      Vs : text,
+      Ski : text,
+      Mi : text,
+      Hash : hash_func
+const server_user_protocol, server_user_protocol1, server_user_protocol2, ski, sks: protocol_id
+init 
+State := 0
+
+transition
+1. State = 0 /\ RCV(start) =|>
+State':= 2   /\ Reg_Id' := new()
+             /\ SND({Reg_Id'}_K)
+2. State = 2 /\ RCV(Ci'.Ps'.G'.P'.Hash) =|>
+%login phase, login request
+
+State' := 4 /\ Alpha' := new()
+            /\ N1' := new()
+            /\ K1' := exp(Ps',Hash(Alpha',Ci'))
+            /\ Vid' := exp(G',Hash(Alpha'.Ci'))
+            /\ SND(xor(Reg_Id'.N1',Hash(K1')),Vid')
+            /\ witness(A,B, server_user_protocol,N1')
+            /\ witness(A,B, server_user_protocol1, Alpha')
+3. State = 4 /\ RCV(Vs',Hash(Vid'.Ci'.Vs'.Sks'.N1')) =|>
+State' := 6 /\ Ski':= exp(Vs',Hash(Alpha'.Ci'))
+            /\ secret(Ski', ski, {A,B})
+            /\ Mi' := Hash(Ski'.Vs'.Ci'.N1')
+            /\ SND(Mi')
+end role
+
+%%% Role for Bob
+role bob(A,B: agent,
+         K: symmetric_key,
+         Ks: symmetric_key,
+         SND,RCV: channel(dy))
+played_by B
+def=
+local State: nat,
+      Nb,Na : text,
+      K1: message,
+      Reg_Id : text,
+      Sid : text,
+      Ci : message,
+      Ps : text,
+      G : text,
+      P : text,
+      Tid : text,
+      Alpha : text,
+      Vid : text,
+      K2 : text,
+      N1 : text,
+      Beta : text,
+      Sks : text,
+      Vs : text,
+      Mi  : text,
+      Hash : hash_func
+const k1,server_user_protocol, server_user_protocol1, server_user_protocol2, ski, sks: protocol_id
+init
+State := 1
+
+transition
+1. State = 1 /\ RCV({Reg_Id'}_K) =|>
+State' := 3  /\ Ks' := new()
+             /\ Sid' := new()
+             /\ Ci' := Hash(Reg_Id'.Ks'.Sid')
+             /\ Ps' := exp(G,Ks')
+             /\ G' := new()
+             /\ P' := new()
+             /\ SND(Ci'.Ps'.G'.P'.Hash)
+2. State = 3 /\ RCV(xor(Reg_Id'.N1',Hash(K1')),Vid') =|>
+State' := 5 /\ request(B, A,server_user_protocol, N1') 
+            /\ request(B, A,server_user_protocol, Alpha') 
+            /\ K2' := exp(Vid',Ks')
+             /\ Beta' := new()
+             /\ Ci' := Hash(Reg_Id'.Ks'.Sid')
+             /\ Sks' := exp(Vid,Hash(Ks'.Beta'))
+             /\ secret(Sks', sks, {A,B})
+             /\ Vs' := exp(G,Hash(Ks'.Beta'))
+             /\ SND(Vs',Hash(Vid'.Ci'.Vs'.Sks'.N1'))
+3.State = 5 /\ RCV(Mi') =|>
+State' := 7
+end role
+
+%%% Role for session
+role session( A,B : agent,
+              K, Ks: symmetric_key)
+def=
+local SA, SB, RA, RB : channel (dy)
+composition
+      alice(A,B,K,SA,RA)
+   /\ bob (A,B,K,Ks,SB,RB)
+end role
+
+%%% Role for goal and environment
+role environment()
+def=
+local G,P : text,
+      H : hash_func
+const server_user_protocol, server_user_protocol1, server_user_protocol2, sks, ski: protocol_id,
+      kab,ks : symmetric_key,
+      a,b: agent
+
+intruder_knowledge = {a,b,H,G,P}
+
+composition
+session(a,b,kab,ks)
+/\ session(a,i,kab,ks)
+/\ session(i,b,kab,ks)
+end role
+
+goal
+secrecy_of sks, ski
+authentication_on server_user_protocol, server_user_protocol1, server_user_protocol2
+end goal
+environment()
+
+
+
+
+
+

@@ -1,0 +1,99 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Role for User%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+role user(
+		   A,B: agent,
+		   K:symmetric_key,
+		   SND,RCV : channel(dy))
+played_by A
+def=
+local State: nat,
+     ID,Var1,N,Ci,Ps,G,P, K1, TID, Vi, Vs, Mi, Ms, Ski, N1, Var2:text,
+	 Hash : hash_func
+const server_user_protocol, server_user_protocol1, server_user_protocol2, ski, sks: protocol_id
+init
+State := 0
+transition
+1. State = 0 /\ RCV(start) =|>
+State':= 2 /\ SND({ID}_K)
+2.State = 2 /\ RCV({Ci'.Ps'.G'.P'.Hash}_K) =|>
+State' := 4	/\  Var1' :=new()
+/\ N1' := new()
+/\ K1' := exp(Ps', Hash(Var1'.Ci'))
+/\ Vi' := exp(G', Hash(Var1'.Ci'))
+/\ SND(xor((ID.N'), Hash(K1')).Vi')
+/\ witness(A,B, server_user_protocol,N1')
+/\ witness(A,B, server_user_protocol1, Var1')
+3.State = 4 /\ RCV(Vs'.Ms') =|>
+State' := 6 /\ Ski' := exp(Vs', Hash(Var1'.Ci'))
+/\ secret(Ski', ski, {A,B})
+/\ Mi' := Hash(Ski'.Vs'. Ci'.N1')
+/\ SND(Mi')
+
+end role
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Role for Server%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+role server(
+		A,B: agent,
+		K:symmetric_key,
+		Ks: symmetric_key,
+                SND,RCV: channel(dy))
+played_by B
+def=
+local State: nat,
+     G,Ps,P,Ci,ID, Sks, TID, Vi, Vs, Var2, N1, K2, Ms, Mi, Var1,K1 :text,
+Hash:hash_func
+const k1,server_user_protocol, server_user_protocol1, server_user_protocol2, ski, sks: protocol_id
+init
+State := 1
+transition
+1. State = 1 /\ RCV({ID'}_K) =|>
+State' := 3 /\ G' := new()
+/\ Ps' := exp(G,Ks')
+/\ Ci' := Hash(ID'.Ks')
+/\ SND({Ci'.Ps'.G'.P.Hash}_K)
+2. State = 3 /\ RCV(xor((ID'.N1'), Hash(K1')).Vi') =|>
+State' := 5 /\ request(A,B, server_user_protocol, N1')
+/\ request(A,B,server_user_protocol1, Var1')
+/\ K2' := exp(Vi', Ks')
+/\ Var2' := new()
+/\ Ci' := Hash(ID'. Ks')
+/\ Sks' := exp(Vi', Hash(Ks'.Var2'))
+/\ secret(Sks', sks, {A,B})
+/\ Vs' := exp(G', Hash(Ks'. Var2'))
+/\ Ms' := Hash(Vi'.Ci'.Vs'.Sks'.N1')
+/\ SND(Vs'.Ms')
+3. State = 5 /\ RCV(Mi') =|>
+State' :=  7
+end role
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Role for session%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+role session( 
+		A,B : agent,
+		K, Ks: symmetric_key)
+def=
+local SA, SB, RA, RB : channel (dy)
+composition
+     user(A,B,K,SA,RA)
+   /\ server (A,B,K,Ks,SB,RB)
+end role
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Role for goal and environment%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+role environment()
+def=
+local G,P : text,
+        H : hash_func
+const server_user_protocol, server_user_protocol1, server_user_protocol2, sks, ski: protocol_id,
+      kab,ks : symmetric_key,
+      a,b: agent
+
+intruder_knowledge = {a,b, H, G,P}
+
+composition
+session(a,b, kab,ks)
+/\ session(a,i, kab,ks)
+/\ session(i,b, kab,ks)
+end role
+
+goal
+secrecy_of sks, ski
+authentication_on server_user_protocol, server_user_protocol1, server_user_protocol2
+end goal
+environment()
