@@ -1,0 +1,12 @@
+String :history 10 > hist
+the length reuired is 10
+248 ls -l
+249 ls -l|wc
+250 ls -i | wc|WC
+251      18      36     354
+252 ls -i |wc|wc|wc|wc
+253 ls -a
+254 exit
+255 ls -l
+256 exit
+257 history 10 > hist

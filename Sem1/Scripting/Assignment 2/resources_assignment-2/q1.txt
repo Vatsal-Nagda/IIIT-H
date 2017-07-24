@@ -1,0 +1,14 @@
+100  Thomas  Manager    Sales       $5,000
+200  Jason   Developer  Technology  $5,500
+300  Sanjay  Sysadmin   Technology  $7,000
+400  Nisha   Manager    Marketing   $9,500
+500  Randy   DBA        Technology  $6,000
+600  Shesh   Manager    R%D	    $12,000
+700  Ayush   Meh 	Freelancing $12,000
+800  Kalpi   Meh	HumanResou  $12,000
+900  aYUsh   Beh 	Freelancing $12,000
+977  vivek   Phy	Associate   $12,000
+888  jorda   Math       Prof.senior $30000
+999  KNN     Chem	Senior.prof $000000
+777  Shweta  Distri	Senior.prof $45555
+888  rabdi   OS		Senior.prof $99999	

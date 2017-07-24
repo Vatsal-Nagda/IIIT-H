@@ -1,0 +1,21 @@
+A bit on intro
+
+AWK : used for text processing
+
+Founders : A. Aho, B. W. Kernighan and P. Weinberger. (let's remember them for making text processing simpler for over 4 decades :)  )
+
+We have grep and sed so why awk?
+
+* with grep and sed we cannot search for "specific fields" and replace them with texts, awk comes in handy!
+* It brings with it a lot of programming funtionalities.
+* We have arrays and other C supported operators.
+* A huge programming language by itself! (very very useful for field manipulation)
+
+So, let's start!
+
+Topics for today:
+
+1. simple usage of awk 
+
+2. 
+

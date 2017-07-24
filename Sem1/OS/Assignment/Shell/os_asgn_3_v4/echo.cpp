@@ -1,0 +1,55 @@
+#include <string>
+#include <iostream>
+
+using namespace std;
+
+void echo(string line){
+
+//	cout<<"Echo called\n";
+	line = line.substr(4);
+	int i=0;
+
+	bool flag_dub_quote = false;
+	bool flag_sing_quote = false;
+
+	char *ip_arr = new char[line.length()+1];
+	strcpy(ip_arr,line.c_str());
+
+	string buffer="";
+
+	while(ip_arr[i]!= '\0'){
+		if(ip_arr[i] == '"'){
+			i++;
+			while(ip_arr[i] != '\0'){
+				if(ip_arr[i] == '"')
+					break;
+				buffer += ip_arr[i];
+				i++;
+			}
+		}
+
+		else if(ip_arr[i] == '\''){
+			i++;
+			while(ip_arr[i] != '\0'){
+				if(ip_arr[i] == '\'')
+					break;
+				buffer += ip_arr[i];
+				i++;
+			}
+		}
+		else{
+
+			if(ip_arr[i] ==' ' && ip_arr[i+1]==' ')
+				ip_arr[i] = '\0';
+			else
+				buffer += ip_arr[i];
+
+		}
+
+		i++;
+	}
+
+	//cout<<"\nThe string is";
+	cout << buffer<<endl;
+	
+}

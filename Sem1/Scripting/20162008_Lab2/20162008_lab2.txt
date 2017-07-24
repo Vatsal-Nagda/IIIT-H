@@ -1,0 +1,90 @@
+ Section 1
+ 1985  sudo useradd TonyStark
+ 1986  sudo pswd
+ 1987  sudo psswd
+ 1988  su TonyStark 
+ 1989  sudo useradd TonyStark
+ 1990  su TonyStark 
+ 1991  sudo passwd
+ 1992  aprpos passwd
+ 1993  apropos passwd
+ 1994  man passwd
+ 1995  ls
+ 1996  exi
+ 1997  exit
+ 1998  reset
+ 1999  man echo
+ 2000  echo -e "99/100 \n 101/100" > APS_Assign.scorecard
+ 2001  cat APS_Assign.scorecard 
+ 2002  echo -e "99/100 \n101/100" > APS_Assign.scorecard
+ 2003  cat APS_Assign.scorecard 
+
+ Section 2
+ 2004  echo Section 2
+ 2005  pwd
+ 2006  man ln
+ 2007  man symlink
+ 2008  man sym-link
+ 2009  man 2 symlink
+ 2010  man ln
+ 2011  ln -s copy_f1.txt f1.txt
+ 2012  ls -alF
+ 2013  ln -s copy_d1 d1
+ 2014  ls -alF
+ 2015  ln -s copy_f1.txt /home/vatsal/answer.txt 
+ 2016  ln -s symbolic_f1.txt /home/vatsal/answer.txt 
+ 2017  man ln
+ 2018  ln -s /home/vatsal/answer.txt sybolic_f1.txt
+ 2019  ls -alF
+ 2020  ln -s /home/vatsal/Music/ symbolic_d1
+ 2021  man ln
+ 2022  ls
+ 2023  mkdir DropBox/GoogleDrive
+ 2024  mkdir -p DropBox/GoogleDrive
+ 2025  ln -s DropBox/GoogleDrive/  symbolic_d1
+ 2026  ls
+ 2027  ls -alF
+ 2028  ln -s DropBox/GoogleDrive/  /home/vatsal/Music/
+ 2029  ls -alF
+ 2030  ln -s /home/vatsal/Music/ DropBox/GoogleDrive/
+ 2031  ls -alF
+ 2032  clear
+ 2033  mkdir \$DIR
+ 2034  ls
+ 2035  ls ~ ~/$PATH 1>out.txt 2>err.txt
+ 2036  ls
+ 2037  echo Section 3
+
+ Section 3
+ 2038  sudo service NetworkManager restart
+ 2039  man bc
+ 2040  man cut
+ 2041  ls
+ 2042  cd ../
+ 2043  ls
+ 2044  man bc
+ 2045  tr ',' '+' wine.csv | bc
+ 2046  tr ',' '+' < wine.csv | bc
+ 2047  man cut
+ 2048  tr ',\n' '++' < wine.csv | bc
+ 2049  tr ",\n" "++" < wine.csv | bc
+ 2050* n' '++' < wine.csv | bc
+ 2051  tr ','[:space:] '++' 
+ 2052  tr ','[:space:] '++' < wine.csv |bc
+ 2053  man cut
+ 2054  man tr
+ 2055  tr ',''\n' '++' < wine.csv |bc
+ 2056  tr ',\n' '++' < wine.csv |bc
+ 2057  man tr
+ 2058  tr ',' '+' < wine.csv > mid.csv
+ 2059  ls
+ 2060  tr '\n' '+' < mid.csv | bc
+ 2061  tr '\n' '+' < mid.csv >mid.csv
+ 2062  cat mid.csv 
+ 2063  tr ',' '+' < wine.csv > mid.csv
+ 2064  tr '\n' '+' < mid.csv | bc
+ 2065  tr ',' '+' < wine.csv > mid.csv
+ 2066  more mid.csv 
+ 2067  bc < mid.csv 
+ 2068  history
+ 2069  history > answer.txt

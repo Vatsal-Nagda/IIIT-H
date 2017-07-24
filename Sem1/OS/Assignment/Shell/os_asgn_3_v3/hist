@@ -1,0 +1,1000 @@
+ 1004  reset
+ 1005  ./client hillol 51757
+ 1006  lsof -i
+ 1007  ./client localhost 51757
+ 1008  ./client localhost 51717
+ 1009  gcc -Wall -o client client.cpp
+ 1010  ./client localhost 51717
+ 1011  HELLO HI
+ 1012  JILLO
+ 1013  gcc -Wall -o client client.cpp
+ 1014  ./client localhost 51717
+ 1015  ./client localhost 51717
+ 1016  cd aps
+ 1017  ls 
+ 1018  cd lab3
+ 1019  ls
+ 1020  gcc -Wall prob2 prob2.c
+ 1021  gcc -Wall -o prob2 prob2.c
+ 1022  ls
+ 1023  gcc -Wall -o prob2 prob2.c
+ 1024  ls
+ 1025  gcc -Wall -o prob2 prob2.c
+ 1026  cp prob2.c probb.c
+ 1027  gcc -Wall -o probb probb.c
+ 1028  ./client 127.0.0.1 10000
+ 1029  ./client localhost 10000
+ 1030  ./client localhost 1000`
+ 1031  ./client localhost 10001
+ 1032  g++ -Wall -o client client.cpp
+ 1033  ./client localhost 10001
+ 1034  g++ -Wall -o client client.cpp
+ 1035  ./client localhost 10001
+ 1036  g++ -Wall -o client client.cpp
+ 1037  ./client localhost 10001
+ 1038  g++ -Wall -o client client.cpp
+ 1039  ./client localhost 10001
+ 1040  g++ -Wall -o client client.cpp
+ 1041  ./client localhost 10001
+ 1042  g++ -Wall -o client client.cpp
+ 1043  ./client localhost 10001
+ 1044  ./client localhost 10002
+ 1045  g++ -Wall -o client client.cpp
+ 1046  ./client localhost 10003
+ 1047  g++ -Wall -o client client.cpp
+ 1048  ./client localhost 10003
+ 1049  cd osassignmemnt
+ 1050  cd osassignment
+ 1051  ls
+ 1052  g++ -Wall -o server server.c
+ 1053  g++ -Wall -o server server.cpp
+ 1054  ./server 10000
+ 1055  firefox
+ 1056  ./server 10000
+ 1057  g++ -Wall -o server server.cpp
+ 1058  ./server 10000
+ 1059  g++ -Wall -o server server.cpp
+ 1060  ./server 10000
+ 1061  g++ -Wall -o server server.cpp
+ 1062  ./server 10000
+ 1063  ./server 10001
+ 1064  g++ -Wall -o server server.cpp
+ 1065  ./server 10001
+ 1066  g++ -Wall -o server server.cpp
+ 1067  ./server 10001
+ 1068  g++ -Wall -o server server.cpp
+ 1069  ./server 10001
+ 1070  g++ -Wall -o server server.cpp
+ 1071  ./server 10001
+ 1072  g++ -Wall -o server server.cpp
+ 1073  ./server 10001
+ 1074  ./server 10002
+ 1075  g++ -Wall -o server server.cpp
+ 1076  ./server 10002
+ 1077  ./server 10003
+ 1078  g++ -Wall -o server server.cpp
+ 1079  ./server 10003
+ 1080  g++ -Wall -o server server.cpp
+ 1081  ./server 10003
+ 1082  ./client localhost 10004
+ 1083  g++ -Wall -o client client.cpp
+ 1084  ./client localhost 10004
+ 1085  ./client localhost 10004
+ 1086  g++ -Wall -o server server.cpp
+ 1087  ./server 10003
+ 1088  ./server 10004
+ 1089  g++ -Wall -o server server.cpp
+ 1090  ./server 10004
+ 1091  ./cient localhost 10000
+ 1092  ./client localhost 10000
+ 1093  ./client 127.0.0.1 10000
+ 1094  ./client 127.0.0.1 10001
+ 1095  g++ -Wall -o client client.cpp
+ 1096  ./client 127.0.0.1 10001
+ 1097  g++ -Wall -o client client.cpp
+ 1098  ./client 127.0.0.1 10001
+ 1099  g++ -Wall -o client client.cpp
+ 1100  ./client 127.0.0.1 10001
+ 1101  g++ -Wall -o client client.cpp
+ 1102  ./client 127.0.0.1 10001
+ 1103  g++ -Wall -o client client.cpp
+ 1104  ./client 127.0.0.1 10001
+ 1105  g++ -Wall -o client client.cpp
+ 1106  ./client 127.0.0.1 10001
+ 1107  cp client.cpp clientd.cpp
+ 1108  g++ -Wall -o client cliend.cpp
+ 1109  g++ -Wall -o client clientd.cpp
+ 1110  lsof -i
+ 1111  g++ -Wall -o server server.cpp
+ 1112  cd osassignment
+ 1113  g++ -Wall -o server server.cpp
+ 1114  g++ -Wall -o client client.cpp
+ 1115  ./server 10000
+ 1116  g++ -Wall -o server server.cpp
+ 1117  ./server 10000
+ 1118  ./server 10001
+ 1119  ./client loclhost 20000
+ 1120  ./client localhost 20000
+ 1121  ./client loclhost 20000
+ 1122  ./client localhost 10000
+ 1123  lsof -i
+ 1124  kill -9 4313
+ 1125  kill -9 4327
+ 1126  ./client localhost 10000
+ 1127  lsof -i
+ 1128  kill -9 4345
+ 1129  kill -9 4348
+ 1130  kill -9 4370
+ 1131  ./client localhost 10000
+ 1132  cd Desktop/aps_assign3/
+ 1133  gcc assign3_a.c -o 3a
+ 1134  ./3a
+ 1135  gcc assign3_a.c -o 3a
+ 1136  ./3a
+ 1137  clear
+ 1138  gcc assign3_a.c -o 3a
+ 1139  ./3a
+ 1140  gcc assign3_a.c -o 3a
+ 1141  ./3a
+ 1142  gcc assign3_a.c -o 3a
+ 1143  ./3a
+ 1144  gcc assign3_a.c -o 3a
+ 1145  ./3a
+ 1146  gcc assign3_a.c -o 3a
+ 1147  ./3a
+ 1148  gcc assign3_a.c -o 3a
+ 1149  ./3a
+ 1150  gcc assign3_a.c -o 3a
+ 1151  ./3a
+ 1152  gcc assign3_a.c -o 3a
+ 1153  ./3a
+ 1154  gcc assign3_a.c -o 3a
+ 1155  ./3a
+ 1156  gcc atemp.c -o 3atemp
+ 1157  ./3atemp 
+ 1158  gcc atemp.c -o 3atemp -g
+ 1159  gdb ./3atemp 
+ 1160  gcc atemp.c -o 3atemp -g
+ 1161  gdb ./3atemp 
+ 1162  gcc atemp.c -o 3atemp -g
+ 1163  gdb ./3atemp 
+ 1164  gcc atemp.c -o 3atemp -g
+ 1165  ./3atemp 
+ 1166  gcc atemp.c -o 3atemp -g
+ 1167  ./3atemp 
+ 1168  gcc atemp.c -o 3atemp -g
+ 1169  ./3atemp 
+ 1170  gcc atemp.c -o 3atemp -g
+ 1171  ./3atemp 
+ 1172  gcc atemp.c -o 3atemp -g
+ 1173  ./3atemp 
+ 1174  gcc atemp.c -o 3atemp -g
+ 1175  ./3atemp 
+ 1176  gcc atemp.c -o 3atemp -g
+ 1177  ./3atemp 
+ 1178  gcc atemp.c -o 3atemp -g
+ 1179  ./3atemp 
+ 1180  gcc atemp.c -o 3atemp -g
+ 1181  ./3atemp 
+ 1182  gcc atemp.c -o 3atemp -g
+ 1183  ./3atemp 
+ 1184  gcc atemp.c -o 3atemp -g
+ 1185  ./3atemp 
+ 1186  man memset
+ 1187  ./3atemp 
+ 1188  man memset
+ 1189  gcc atemp.c -o 3atemp -g
+ 1190  ./3atemp 
+ 1191  gcc atemp.c -o 3atemp -g
+ 1192  ./3atemp 
+ 1193  gcc atemp.c -o 3atemp -g
+ 1194  ./3atemp 
+ 1195  gcc atemp.c -o 3atemp -g
+ 1196  ./3atemp 
+ 1197  gcc atemp.c -o 3atemp -g
+ 1198  ./3atemp 
+ 1199  gcc atemp.c -o 3atemp -g
+ 1200  ./3atemp 
+ 1201  gcc atemp.c -o 3atemp -g
+ 1202  ./3atemp 
+ 1203  clear
+ 1204  gcc atemp.c -o 3atemp -g
+ 1205  ./3atemp 
+ 1206  gcc atemp.c -o 3atemp -g
+ 1207  ./3atemp 
+ 1208  gcc atemp.c -o 3atemp -g
+ 1209  ./3atemp 
+ 1210  gcc atemp.c -o 3atemp -g
+ 1211  ./3atemp 
+ 1212  gcc atemp.c -o 3atemp -g
+ 1213  ./3atemp 
+ 1214  gcc atemp.c -o 3atemp -g
+ 1215  ./3atemp 
+ 1216  gcc atemp.c -o 3atemp -g
+ 1217  ./3atemp 
+ 1218  gcc atemp.c -o 3atemp -g
+ 1219  ./3atemp 
+ 1220  gcc atemp.c -o 3atemp -g
+ 1221  ./3atemp 
+ 1222  gcc atemp.c -o 3atemp -g
+ 1223  ./3atemp 
+ 1224  gcc atemp.c -o 3atemp -g
+ 1225  ./3atemp 
+ 1226  gcc atemp.c -o 3atemp -g-Wll
+ 1227  gcc atemp.c -o 3atemp -g-Wall
+ 1228  gcc atemp.c -o 3atemp -g -Wall
+ 1229  ./3atemp 
+ 1230  cd Desktop/aps_assign3/
+ 1231  gcc atemp.c -o 3atemp 
+ 1232  ./3atemp 
+ 1233  gcc atemp.c -o 3atemp -Wall
+ 1234  ./3atemp 
+ 1235  gcc atemp.c -o 3atemp -Wall
+ 1236  ./3atemp 
+ 1237  gcc atemp.c -o 3atemp -Wall
+ 1238  ./3atemp 
+ 1239  gcc atemp.c -o 3atemp -Wall
+ 1240  ./3atemp 
+ 1241  gcc atemp.c -o 3atemp -Wall
+ 1242  ./3atemp 
+ 1243  gcc atemp.c -o 3atemp -Wall
+ 1244  ./3atemp 
+ 1245  gcc atemp.c -o 3atemp -Wall
+ 1246  ./3atemp 
+ 1247  cd Desktop/20162056_assignment1/
+ 1248  ls
+ 1249  cd Resources/
+ 1250  cd repo/
+ 1251  ls
+ 1252  cd ..
+ 1253  cd neededFiles/
+ 1254  ls
+ 1255  cat secret.txt | tr -s [a-z]| sed -r "s/[0-9\!\#A-Z]//g"| tr "abcdefghijklmnopqrstuvwxyz" "efghijklmnopqrstuvwxyzabcd"| tr -s [a-z]
+ 1256  cat secret.txt | tr -s [a-z]| sed -r "s/[0-9\!\#A-Z]//g"| tr e-zabcd a-z | tr -s [a-z]
+ 1257  cd ..
+ 1258  l
+ 1259  ls
+ 1260  l
+ 1261  script -a 20162056_assignment1.script 
+ 1262  cd Resources/neededFiles/
+ 1263  cat secred -r "s/[0-9\!\#A-Z]//g"| tr e-zabcd a-z | tr -s [a-z]
+ 1264  ls
+ 1265  clear
+ 1266  cd ..
+ 1267  mkdi SCE
+ 1268  mkdir SCE
+ 1269  sudo groupadd Hogwarts  
+ 1270  cd SCE/
+ 1271  sudo goupadd Hogwarts
+ 1272  sudo groupadd Hogwarts
+ 1273  sudo useradd -m -h ~/SCE/Assignment1 -g Hogwarts Hermione
+ 1274  sudo useradd -m -d ~/SCE/Assignment1 -g Hogwarts Hermione
+ 1275  clear
+ 1276  cd ..
+ 1277  cd 20162056_assignment1/
+ 1278  ls
+ 1279  cat > 1_1.sh
+ 1280  cat > 1_2.sh
+ 1281  cat > 2_1.sh
+ 1282  cat > 2_1.a.sh
+ 1283  cat > 2_1.b.sh
+ 1284  cat > 2_1.c.sh
+ 1285  cler
+ 1286  clear
+ 1287  cat > 2_2.sh
+ 1288  cat > 2_3.a.sh
+ 1289  cat > 2_3.b.sh
+ 1290  cat > 2_3.c.sh
+ 1291  cat > 2_3.d.sh
+ 1292  cat > 2_3.e.sh
+ 1293  cat > 2_3.f.sh
+ 1294  cat > 2_4.a.sh
+ 1295  cat > 2_4.b.sh
+ 1296  cat > 2_4.c.sh
+ 1297  cat > 2_4.d.sh
+ 1298  cat > 2_4.e.sh
+ 1299  cat > 2_4.f.sh
+ 1300  clear
+ 1301  cat > 2_5.sh
+ 1302  cat > 2_6.sh
+ 1303  cat > 2_7.sh
+ 1304  cat > 2_8.sh
+ 1305  cat > 2_9.sh
+ 1306  cat > 2_10.a.sh
+ 1307  cat > 2_10.b.sh
+ 1308  cat > 2_11.sh
+ 1309  cat > 2_12.sh
+ 1310  cat > 2_13.sh
+ 1311  cat > 2_14.sh
+ 1312  clear
+ 1313  cat > 3_1.sh
+ 1314  cat > 3_2.sh
+ 1315  cat > 3_3.sh
+ 1316  cat > 3_4.sh
+ 1317  cat > 3_5.sh
+ 1318  cat > 3_6.sh
+ 1319  cat > 3_7.sh
+ 1320  ls
+ 1321  ls .*sh
+ 1322  ls *sh
+ 1323  clear
+ 1324  ls
+ 1325  clear
+ 1326  ./1_3.sh
+ 1327  ls -l
+ 1328  clear
+ 1329  chmod 754 1_3.sh
+ 1330  ./1_3.sh
+ 1331  man ssh
+ 1332  ls
+ 1333  ls -l |cut -d ' ' --fields=2|sed -r '1 d'|sort -u
+ 1334  ls -l
+ 1335  ls
+ 1336  cd Desktop/
+ 1337  cd 20162056_assignment1/
+ 1338  ls
+ 1339  ls -i
+ 1340  ls -i| grep -E "^.*[02468]$" |sort -d|cut -d ' ' --fields=2| tr '\n' ' '| sed -r "s/(.*)/\1\n/"
+ 1341  ls -i| grep -oE "^.*[02468]$" |sort -d|cut -d ' ' --fields=2| tr '\n' ' '| sed -r "s/(.*)/\1\n/"
+ 1342  ls -i| grep -E "^.*[02468][' '].*$"
+ 1343  ls -i| grep -E "^.*[02468][' '].*$"|sort -4
+ 1344  ls -i| grep -E "^.*[02468][' '].*$"|sort -r
+ 1345  ls -i| grep -E "^.*[02468][' '].*$"|sort -d
+ 1346  man sort
+ 1347  ls -i| grep -E "^.*[02468][' '].*$"|sort -d
+ 1348  ls -Ci| grep -E "^.*[02468][' '].*$"|sort -d
+ 1349  ls -i| grep -E "^.*[02468][' '].*$"|sort -d|cut -d' ' -f2
+ 1350  ls
+ 1351  cd Resources/
+ 1352  ls
+ 1353  cd repo/
+ 1354  ls
+ 1355  ls -i
+ 1356  ls -i| grep -E "^.*[02468][' '].*$" |sort -r|cut -d ' ' --fields=2| tr '\n' ' '| sed -r "s/(.*)/\1
+ 1357  "
+ 1358  ls -i| grep -E "^.*[02468][' '].*$" |sort -r|cut -d ' ' --fields=2| tr '\n' ' '| sed -r "s/(.*)/\1\n/"
+ 1359  g++ client.cpp -o client
+ 1360  ./client 19000
+ 1361  ./client loclhost 19000
+ 1362  ./client localhost 19000
+ 1363  lsof -i
+ 1364  kill -9 4481
+ 1365  ./client localhost 19000
+ 1366  cd Documents/Dowloads
+ 1367  cd Documents/
+ 1368  cd Downloads
+ 1369  ls
+ 1370  cd ..
+ 1371  ls
+ 1372  Downloads/
+ 1373  cd Downloads/
+ 1374  ls
+ 1375  clear
+ 1376  gcc server.cpp -o server
+ 1377  g++ server.cpp -o server
+ 1378  ls
+ 1379  cd 20162056_Assignment2 
+ 1380  ls
+ 1381  g++ server.cpp -o server
+ 1382  ./server 19000
+ 1383  man connect
+ 1384  man bind
+ 1385  man connect
+ 1386  man socket
+ 1387  man listen
+ 1388  man accept
+ 1389  man 2 accept
+ 1390  man 2 open
+ 1391  man 2 read
+ 1392  man AF_INET
+ 1393  man inet_ntop
+ 1394  sudo add-apt-repository ppa:apandada1/brightness-controller
+ 1395  sudo apt-get update
+ 1396  sudo apt-get install brightness-controller
+ 1397  grep -e "if" *
+ 1398  ls -l | grep -E -v "total.[0-9]*$" | tr -s " " | cut -d" " -f2 | sort -nu
+ 1399  ls -l
+ 1400  ls -l /etc/
+ 1401  ls -l /etc | grep -E -v "total.[0-9]*$" | tr -s " " | cut -d" " -f2 | sort -nu
+ 1402  reset
+ 1403  sublime-text fibonacci.sh
+ 1404  ls
+ 1405  ./fibonacci.sh
+ 1406  chmod u+x ./
+ 1407  ./fibonacci.sh
+ 1408  ls fibonacci.sh 
+ 1409  ls -l fibonacci.sh 
+ 1410  chmod u+x fibonacci.sh 
+ 1411  ./fibonacci.sh 
+ 1412  ./1_1.sh 
+ 1413  [2 -ge ]
+ 1414  [[2 -ge ]]
+ 1415  [[ 2 -ge 1 ]]
+ 1416  ./1_1.sh 
+ 1417  ls
+ 1418  ls ../
+ 1419  ls ../Resources\ for\ Lab4
+ 1420  man awk
+ 1421  awk ../Resources\ for\ Lab4/grades.txt 
+ 1422  awk '' ../Resources\ for\ Lab4/grades.txt 
+ 1423  cd  ../Resources\ for\ Lab4/
+ 1424  awk grades.txt 
+ 1425  man awk 
+ 1426  awk {} grades.txt 
+ 1427  awk -F" " grades.txt 
+ 1428  awk -F" " < grades.txt 
+ 1429  awk 'BEGIN{ for(i=1;i<10;i++) {priint 2*$i=(2*$i)}++i}'
+ 1430  awk 'BEGIN{ for(i=1;i<=10;i++) {priint 2*$i=(2*$i)}++i}'
+ 1431  awk 'BEGIN{ for(i=1;i<=10;i++) {priint 2*$i=((2*$i))}++i}'
+ 1432  awk 'BEGIN{ for(i=1;i<=10;i++) {print 2*$i=((2*$i))}++i}'
+ 1433  awk 'BEGIN{ for(i=1;i<=10;i++) {print 2*i=((2*$i))}++i}'
+ 1434  awk 'BEGIN{ for(i=1;i<=10;i++) {print i=1}}'
+ 1435  awk 'BEGIN{ for(i=1;i<=10;i++) {print i = 1}}'
+ 1436  awk 'BEGIN{ for(i=1;i<=10;i++) {print  hello}}'
+ 1437  awk 'BEGIN{ for(i=1;i<=10;i++) {print i = 1}}'
+ 1438  awk 'BEGIN{ for(i=1;i<=10;i++) {printf"2=*%d",i,(2*i)}}'
+ 1439  reset
+ 1440  awk 'BEGIN{ for(i=1;i<=10;i++) {printf"2*%d=%d",i,(2*i)}}'
+ 1441  awk 'BEGIN{ for(i=1;i<=10;i++) {printf"2*%d=%d\n",i,(2*i)}}'
+ 1442  awk 'BEGIN{ for(i=1;i<=10;i++) {print"2*"i"="i*2}}'
+ 1443  ls
+ 1444  awk '/r1/'
+ 1445  awk '/r1/=>$0'
+ 1446  awk '/r1/ $0'
+ 1447  man awk]
+ 1448  man awk
+ 1449  awk '/r1/{print "=>"$0}'
+ 1450  awk '/r1/{print "=>"$0} || /r2/{print"*"$0}'
+ 1451  awk ''/r1/{print "=>"$0}' || '/r2/{print"*"$0}''
+ 1452  awk '/r1/{print "=>"$0}' || '/r2/{print"*"$0}'
+ 1453  awk -e '/r1/{print "=>"$0}' || '/r2/{print"*"$0}'
+ 1454  man awk
+ 1455  awk -e '/r1/{print "=>"$0}' || '/r2/{print"*"$0}'
+ 1456  awk '/r1/{print "=>"$0}' R2D2.txt 
+ 1457  awk '/r1|r2/{print "=>"$0}{print "*"$0}' R2D2.txt 
+ 1458  awk '/r1||r2/{print "=>"$0}{print "*"$0}' R2D2.txt 
+ 1459  awk '/r1|r2/{print "=>"$0}{print "*"$0}' R2D2.txt 
+ 1460  awk '/r1/{print "=>"$0}' R2D2.txt 
+ 1461  ls
+ 1462  ls ../20162008_lab4/
+ 1463  awk -f ../20162008_lab4/2_3_awkfile 
+ 1464  awk -f ../20162008_lab4/2_3_awkfile  R2D2.txt 
+ 1465  awk -f ../20162008_lab4/2_3_awkfile 
+ 1466  awk -f ../20162008_lab4/2_3_awkfile R2D2.txt 
+ 1467  awk -f ../20162008_lab4/2_1_awkfile  grades.txt 
+ 1468  reset
+ 1469  ls
+ 1470  cat numbers.txt 
+ 1471  cat num_sort.txt 
+ 1472  cat num_sort
+ 1473  ls
+ 1474  ls ../
+ 1475  cat num_sort | awk -f ../20162008_lab4/1_3.sh 
+ 1476  for i in $((seq 0 10)); do echo $i; done
+ 1477  echo {{1..10}}
+ 1478  echo {1..10}
+ 1479  for i in $(echo {1..10}); do echo $i; done
+ 1480  exit
+ 1481  echo "get me a cup of cofee | awk '/cof?fee/'
+ 1482  echo "get me a cup of cofee" | awk '/cof?fee/'
+ 1483  cd 20162008_lab4/
+ 1484  script -a 20162008_lab4.script
+ 1485  exit
+ 1486  gcc- Wall KaranOS.c 
+ 1487  gcc -Wall KaranOS.c 
+ 1488  ./a.out 
+ 1489  gcc -Wall KaranOS.c 
+ 1490  ./a.out 
+ 1491  gcc -Wall KaranOS.c 
+ 1492  ./a.out 
+ 1493  gcc -Wall KaranOS.c 
+ 1494  ./a.out 
+ 1495  gcc -Wall KaranOS.c 
+ 1496  ./a.out 
+ 1497  gcc -Wall KaranOS.c 
+ 1498  ./a.out 
+ 1499  gcc -Wall KaranOS.c 
+ 1500  3
+ 1501  gcc -Wall KaranOS.c 
+ 1502  ./a.out 
+ 1503  gcc -Wall KaranOS.c 
+ 1504  ./a.out 
+ 1505  gcc -Wall KaranOS.c 
+ 1506  ./a.out 
+ 1507  man execvp
+ 1508  ls
+ 1509  cd Desktop/
+ 1510  cd Vatsal_work/OS/os_asgn_3/
+ 1511  g++ shellMain.cpp 
+ 1512  ./a.out 
+ 1513  g++ shellMain.cpp 
+ 1514  ./a.out 
+ 1515  g++ shellMain.cpp 
+ 1516  ./a.out 
+ 1517  cd Desktop/Vatsal_work/OS/os_asgn_3/
+ 1518  ./a.out 
+ 1519  man dup2
+ 1520  g++ pipe_concept.cpp 
+ 1521  ./a.out 
+ 1522  ls -l| wc -l
+ 1523  g++ pipe_concept.cpp 
+ 1524  g++ s
+ 1525  g++ shellMain.cpp 
+ 1526  ./a.out 
+ 1527  clear
+ 1528  cd ~ | ls
+ 1529  ls
+ 1530  g++ shellMain.cpp 
+ 1531  ./a.out 
+ 1532  man dup2
+ 1533  g++ shellMain.cpp 
+ 1534  ./a.out 
+ 1535  g++ shellMain.cpp 
+ 1536  ./a.out 
+ 1537  clear
+ 1538  g++ shellMain.cpp 
+ 1539  ./a.out 
+ 1540  reset
+ 1541  g++ shellMain.cpp 
+ 1542  ./a.out 
+ 1543  clear
+ 1544  g++ shellMain.cpp 
+ 1545  ./a.out 
+ 1546  g++ shellMain.cpp 
+ 1547  man wait
+ 1548  g++ shellMain.cpp 
+ 1549  ./a.out 
+ 1550  g++ shellMain.cpp 
+ 1551  ./a.out 
+ 1552  g++ shellMain.cpp 
+ 1553  ./a.out 
+ 1554  !
+ 1555  g++ shellMain.cpp 
+ 1556  ./a.out 
+ 1557  g++ shellMain.cpp 
+ 1558  ./a.out 
+ 1559  ls -l|wc
+ 1560  ./a.out 
+ 1561  exit
+ 1562  g++ shellMain.cpp 
+ 1563  ./a.out 
+ 1564  g++ shellMain.cpp 
+ 1565  ./a.out 
+ 1566  ls|wc|wc
+ 1567  ./a.out 
+ 1568  clear
+ 1569  ./a.out 
+ 1570  exit
+ 1571  g++ shellMain.cpp 
+ 1572  ./a.out 
+ 1573  g++ shellMain.cpp 
+ 1574  ./a.out 
+ 1575  g++ shellMain.cpp 
+ 1576  ./a.out 
+ 1577  g++ shellMain.cpp 
+ 1578  ./a.out 
+ 1579  exit
+ 1580  ./a.out 
+ 1581  g++ shellMain.cpp 
+ 1582  ./a.out 
+ 1583  g++ shellMain.cpp 
+ 1584  ./a.out 
+ 1585  g++ shellMain.cpp 
+ 1586  ./a.out 
+ 1587  clear
+ 1588  g++ shellMain.cpp 
+ 1589  ./a.out 
+ 1590  clear
+ 1591  g++ test.cpp 
+ 1592  ./a.out 
+ 1593  g++ test.cpp 
+ 1594  ./a.out 
+ 1595  g++ test.cpp 
+ 1596  ./a.out 
+ 1597  clear
+ 1598  ./a.out 
+ 1599  g++ test.cpp 
+ 1600  ./a.out 
+ 1601  g++ test.cpp 
+ 1602  ./a.out 
+ 1603  g++ test.cpp 
+ 1604  ./a.out 
+ 1605  g++ test.cpp 
+ 1606  ./a.out 
+ 1607  g++ shellMain.cpp 
+ 1608  ./a.out 
+ 1609  clear
+ 1610  g++ test.cpp 
+ 1611  ./a.out 
+ 1612  g++ test.cpp 
+ 1613  ./a.out 
+ 1614  g++ test.cpp 
+ 1615  ./a.out 
+ 1616  g++ shellMain.cpp 
+ 1617  ./a.out 
+ 1618  g++ shellMain.cpp 
+ 1619  ./a.out 
+ 1620  g++ shellMain.cpp 
+ 1621  ./a.out 
+ 1622  clear
+ 1623  g++ shellMain.cpp 
+ 1624  ./a.out 
+ 1625  g++ shellMain.cpp 
+ 1626  ./a.out 
+ 1627  clear
+ 1628  g++ shellMain.cpp 
+ 1629  ./a.out 
+ 1630  g++ shellMain.cpp 
+ 1631  ./a.out 
+ 1632  clear
+ 1633  g++ shellMain.cpp 
+ 1634  ./a.out 
+ 1635  g++ shellMain.cpp 
+ 1636  ./a.out 
+ 1637  g++ shellMain.cpp 
+ 1638  ./a.out 
+ 1639  g++ shellMain.cpp 
+ 1640  ./a.out 
+ 1641  g++ shellMain.cpp 
+ 1642  ./a.out 
+ 1643  clear
+ 1644  g++ shellMain.cpp 
+ 1645  ./a.out 
+ 1646  g++ shellMain.cpp 
+ 1647  ./a.out 
+ 1648  clear
+ 1649  g++ shellMain.cpp 
+ 1650  ./a.out 
+ 1651  g++ shellMain.cpp 
+ 1652  ./a.out 
+ 1653  g++ shellMain.cpp 
+ 1654  ./a.out 
+ 1655  g++ shellMain.cpp 
+ 1656  ./a.out 
+ 1657  g++ shellMain.cpp 
+ 1658  ./a.out 
+ 1659  clear
+ 1660  g++ shellMain.cpp 
+ 1661  ./a.out 
+ 1662  g++ shellMain.cpp 
+ 1663  ./a.out 
+ 1664  g++ shellMain.cpp 
+ 1665  ./a.out 
+ 1666  g++ shellMain.cpp 
+ 1667  history 
+ 1668  ac
+ 1669  af
+ 1670  asf
+ 1671  sf
+ 1672  af
+ 1673  asf
+ 1674  history 
+ 1675  ls -l
+ 1676  history 
+ 1677  g++ history.cpp 
+ 1678  ./a.out 
+ 1679  g++ history.cpp 
+ 1680  ./a.out 
+ 1681  g++ history.cpp 
+ 1682  ./a.out 
+ 1683  g++ history.cpp 
+ 1684  ./a.out 
+ 1685  g++ history.cpp 
+ 1686  ./a.out 
+ 1687  g++ history.cpp 
+ 1688  ./a.out 
+ 1689  g++ history.cpp 
+ 1690  ./a.out 
+ 1691  g++ history.cpp 
+ 1692  ./a.out 
+ 1693  more history..t
+ 1694  more history.txt 
+ 1695  g++ history.cpp 
+ 1696  ./a.out 
+ 1697  df
+ 1698  more history.txt 
+ 1699  ./a.out 
+ 1700  more history.txt 
+ 1701  g++ history.cpp 
+ 1702  ./a.out 
+ 1703  more history.txt 
+ 1704  g++ history.cpp 
+ 1705  ./a.out 
+ 1706  more history.txt 
+ 1707  ./a.out 
+ 1708  g++ history.cpp 
+ 1709  ./a.out 
+ 1710  g++ history.cpp 
+ 1711  ./a.out 
+ 1712  g++ history.cpp 
+ 1713  ./a.out 
+ 1714  g++ history.cpp 
+ 1715  ./a.out 
+ 1716  g++ history.cpp 
+ 1717  history
+ 1718  history 4
+ 1719  history -4
+ 1720  !
+ 1721  history
+ 1722  history 
+ 1723  history -4
+ 1724  !
+ 1725  history 10
+ 1726  g++ history.cpp 
+ 1727  ./a.out 
+ 1728  g++ history.cpp 
+ 1729  ./a.out 
+ 1730  g++ history.cpp 
+ 1731  ./a.out 
+ 1732  mn toi
+ 1733  man atoi
+ 1734  mn toi
+ 1735  man atoi
+ 1736  g++ history.cpp 
+ 1737  ./a.out 
+ 1738  history 21
+ 1739  ./a.out 
+ 1740  g++ history.cpp 
+ 1741  ./a.out 
+ 1742  g++ history.cpp 
+ 1743  ./a.out 
+ 1744  g++ history.cpp 
+ 1745  ./a.out 
+ 1746  g++ history.cpp 
+ 1747  g++ -std=c++11 history.cpp
+ 1748  ./a.out 
+ 1749  g++ -std=c++11 history.cpp
+ 1750  g++ history.cpp 
+ 1751  ./a.out 
+ 1752  g++ history.cpp 
+ 1753  ./a.out 
+ 1754  g++ history.cpp 
+ 1755  ./a.out 
+ 1756  g++ history.cpp 
+ 1757  ./a.out 
+ 1758  g++ history.cpp 
+ 1759  ./a.out g++ history.cpp 
+ 1760  g++ history.cpp 
+ 1761  ./a.out 
+ 1762  g++ history.cpp 
+ 1763  ./a.out 
+ 1764  1g
+ 1765  g++ history.cpp 
+ 1766  ./a.out 
+ 1767  ./a.out history 21
+ 1768  g++ history.cpp 
+ 1769  ./a.out 
+ 1770  ./a.out history 21
+ 1771  ./a.out history
+ 1772  g++ history.cpp 
+ 1773  ./a.out 
+ 1774  g++ history.cpp 
+ 1775  ./a.out 
+ 1776  g++ history.cpp 
+ 1777  ./a.out 
+ 1778  g++ history.cpp 
+ 1779  ./a.out 
+ 1780  g++ history.cpp 
+ 1781  ./a.out 
+ 1782  g++ history.cpp 
+ 1783  ./a.out 
+ 1784  g++ history.cpp 
+ 1785  ./a.out 
+ 1786  g++ history.cpp 
+ 1787  ./a.out 
+ 1788  g++ history.cpp 
+ 1789  ./a.out 
+ 1790  g++ history.cpp 
+ 1791  ./a.out 
+ 1792  g++ history.cpp 
+ 1793  ./a.out 
+ 1794  g++ history.cpp 
+ 1795  ./a.out 
+ 1796  history 4
+ 1797  history -4
+ 1798  g++ shellMain.cpp 
+ 1799  ./a.out 
+ 1800  g++ shellMain.cpp 
+ 1801  ./a.out 
+ 1802  g++ shellMain.cpp 
+ 1803  ./a.out 
+ 1804  history 
+ 1805  history $-2
+ 1806  history $ -2
+ 1807  g++ shellMain.cpp 
+ 1808  ./a.out 
+ 1809  cler
+ 1810  clear
+ 1811  cd
+ 1812  cd -
+ 1813  man getenv
+ 1814  man getcwd
+ 1815  g++ shellMain.cpp 
+ 1816  ./a.out 
+ 1817  g++ shellMain.cpp 
+ 1818  ./a.out 
+ 1819  g++ shellMain.cpp 
+ 1820  ./a.out 
+ 1821  g++ shellMain.cpp 
+ 1822  ./a.out 
+ 1823  ls -l|wc|wc
+ 1824  g++ shellMain.cpp 
+ 1825  man strtok
+ 1826  man setenv
+ 1827  echo "    jhello   "
+ 1828  echo "    jhello   "   he; ee    e
+ 1829  echo "    jhello   "   hello          lllll
+ 1830  echo "   we'wewef' wefef "
+ 1831  echo '   we"wewef" wefef '
+ 1832  g++ shellMain.cpp 
+ 1833  ./a.out 
+ 1834  g++ shellMain.cpp +
+ 1835  g++ shellMain.cpp 
+ 1836  ./a.out 
+ 1837  g++ shellMain.cpp 
+ 1838  ./a.out 
+ 1839  cd Desktop/Vatsal_work/OS/os_asgn_3/
+ 1840  g++ shellMain.cpp 
+ 1841  ./a.out 
+ 1842  g++ shellMain.cpp 
+ 1843  reset
+ 1844  g++ shellMain.cpp 
+ 1845  ./a.out 
+ 1846  g++ shellMain.cpp 
+ 1847  ./a.out 
+ 1848  g++ shellMain.cpp 
+ 1849  ./a.out 
+ 1850  g++ shellMain.cpp 
+ 1851  ./a.out 
+ 1852  g++ shellMain.cpp 
+ 1853  ./a.out 
+ 1854  g++ shellMain.cpp 
+ 1855  ./a.out 
+ 1856  g++ shellMain.cpp 
+ 1857  ./a.out 
+ 1858  g++ shellMain.cpp 
+ 1859  ./a.out 
+ 1860  g++ shellMain.cpp 
+ 1861  ./a.out 
+ 1862  g++ shellMain.cpp 
+ 1863  ./a.out 
+ 1864  g++ shellMain.cpp 
+ 1865  ./a.out 
+ 1866  g++ shellMain.cpp 
+ 1867  ./a.out 
+ 1868  g++ shellMain.cpp 
+ 1869  ./a.out 
+ 1870  g++ shellMain.cpp 
+ 1871  reset
+ 1872  g++ shellMain.cpp 
+ 1873  ./a.out 
+ 1874  g++ shellMain.cpp 
+ 1875  ./a.out 
+ 1876  man getenv
+ 1877  gcc home.c 
+ 1878  ./a.out 
+ 1879  gcc home.c 
+ 1880  ./a.out 
+ 1881  g++ shellMain.cpp 
+ 1882  ./a.out 
+ 1883  g++ shellMain.cpp 
+ 1884  ./a.out 
+ 1885  g++ shellMain.cpp 
+ 1886  ./a.out 
+ 1887  g++ shellMain.cpp 
+ 1888  ./a.out 
+ 1889  cd Desktop/Vatsal_work/
+ 1890  cd OS/os_asgn_3/
+ 1891  ls
+ 1892  g++ shellMain.cpp 
+ 1893  ./a.out 
+ 1894  cd Desktop/Vatsal_work/OS/os_asgn_3/
+ 1895  @g
+ 1896  g++ shellMain.cpp 
+ 1897  reset
+ 1898  g++ shellMain.cpp 
+ 1899  reset
+ 1900  g++ shellMain.cpp 
+ 1901  man getenv
+ 1902  g++ shellMain.cpp 
+ 1903  reset
+ 1904  g++ shellMain.cpp 
+ 1905  ./a.out 
+ 1906  lg++ shellMain.cpp 
+ 1907  g++ shellMain.cpp 
+ 1908  ./a.out 
+ 1909  g++ shellMain.cpp 
+ 1910  ./a.out 
+ 1911  g++ shellMain.cpp 
+ 1912  ./a.out 
+ 1913  g++ shellMain.cpp 
+ 1914  ./a.out 
+ 1915  g++ shellMain.cpp 
+ 1916  ./a.out 
+ 1917  g++ shellMain.cpp 
+ 1918  ./a.out 
+ 1919  g++ shellMain.cpp 
+ 1920  ./a.out 
+ 1921  g++ shellMain.cpp 
+ 1922  ./a.out 
+ 1923  g++ shellMain.cpp 
+ 1924  ./a.out 
+ 1925  g++ shellMain.cpp 
+ 1926  ./a.out 
+ 1927  g++ shellMain.cpp 
+ 1928  ./a.out 
+ 1929  g++ shellMain.cpp 
+ 1930  ./a.out 
+ 1931  g++ shellMain.cpp 
+ 1932  ./a.out 
+ 1933  g++ shellMain.cpp 
+ 1934  ./a.out 
+ 1935  ls
+ 1936  g++ shellMain.cpp 
+ 1937  reset
+ 1938  ls -l > cout
+ 1939  more cout
+ 1940  cd ../../
+ 1941  cd os_asgn_3/
+ 1942  g++ shellMain.cpp 
+ 1943  reset
+ 1944  g++ shellMain.cpp 
+ 1945  man open
+ 1946  man2 open
+ 1947  man 2 open
+ 1948  g++ shellMain.cpp 
+ 1949  ls -l > out
+ 1950  ls
+ 1951  rm out
+ 1952  ./a.out 
+ 1953  reset
+ 1954  g++ shellMain.cpp 
+ 1955  ./a.out 
+ 1956  g++ shellMain.cpp 
+ 1957  ./a.out 
+ 1958  g++ shellMain.cpp 
+ 1959  g++ shellMain.cpp -g
+ 1960  gdb ./a.out 
+ 1961  ./a.out 
+ 1962  gdb ./a.out 
+ 1963  g++ shellMain.cpp 
+ 1964  ./a.out 
+ 1965  g++ shellMain.cpp 
+ 1966  ./a.out 
+ 1967  g++ shellMain.cpp 
+ 1968  ./a.out 
+ 1969  g++ shellMain.cpp 
+ 1970  ./a.out 
+ 1971  g++ shellMain.cpp 
+ 1972  ./a.out 
+ 1973  g++ shellMain.cpp 
+ 1974  ./a.out 
+ 1975  g++ shellMain.cpp 
+ 1976  ./a.out 
+ 1977  g++ shellMain.cpp 
+ 1978  ./a.out 
+ 1979  g++ shellMain.cpp 
+ 1980  ./a.out 
+ 1981  ls -l | wc > out
+ 1982  ./a.out 
+ 1983  ls -l | wc > out
+ 1984  g++ shellMain.cpp 
+ 1985  ./a.out 
+ 1986  g++ shellMain.cpp 
+ 1987  ./a.out 
+ 1988  g++ shellMain.cpp 
+ 1989  ./a.out 
+ 1990  g++ shellMain.cpp 
+ 1991  ./a.out 
+ 1992  g++ shellMain.cpp 
+ 1993  ./a.out 
+ 1994  g++ shellMain.cpp 
+ 1995  ./a.out 
+ 1996  g++ shellMain.cpp 
+ 1997  ./a.out 
+ 1998  g++ shellMain.cpp 
+ 1999  ./a.out 
+ 2000  g++ shellMain.cpp 
+ 2001  ./a.out 
+ 2002  ls -l > bvnvb | wc
+ 2003  history > hist

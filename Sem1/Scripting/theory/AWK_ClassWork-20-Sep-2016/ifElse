@@ -1,0 +1,17 @@
+BEGIN { print "Lets see for loop! "
+FS = "|"; OFS = " ! "; }
+
+{
+	if ( $NF >=9000)
+		printf "You own %d You've got more money than Trump!!\n",$NF
+	else
+		count++;
+}
+
+END{
+	printf "%d number of people have less money, need RTI and empowerment here \n",count
+	printf "\nआ नो भद्राः क्रतवो यन्तु विश्वतः \n" 
+	printf "Let noble thoughts come to me from all directions - RigVeda \n"
+	printf "\nThat's all folks!!\n"
+}
+

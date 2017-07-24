@@ -1,0 +1,1 @@
+cat q1.txt | awk '{ arr[$4]++ } END{ for(i in arr){ printf $i"=>"${arr[$i]}}}'

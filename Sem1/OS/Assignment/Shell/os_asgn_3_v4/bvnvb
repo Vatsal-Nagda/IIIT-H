@@ -1,0 +1,26 @@
+total 348
+-rwxrwxr-x 1 hillol hillol  49744 Oct  2 02:22 a.out
+-rw-rw-r-- 1 hillol hillol      0 Oct  2 02:25 bvnvb
+-rw-rw-r-- 1 hillol hillol    376 Sep 30 15:35 change_directory.cpp
+-rw-rw-r-- 1 hillol hillol    797 Oct  1 20:22 echo.cpp
+-rw-rw-r-- 1 hillol hillol   2720 Sep 30 23:36 execute.cpp
+-rw-rw-r-- 1 hillol hillol    144 Sep 30 16:07 export.cpp
+-rw-rw-r-- 1 hillol hillol  23935 Oct  2 02:25 hist
+-rw-rw-r-- 1 hillol hillol   1789 Oct  1 22:47 history.cpp
+-rw-rw-r-- 1 hillol hillol   1317 Oct  2 02:25 history.txt
+-rw-rw-r-- 1 hillol hillol    260 Sep 30 19:23 home.c
+-rw-rw-r-- 1 hillol hillol   3280 Sep 30 14:21 inbuilt.c
+-rw-rw-r-- 1 hillol hillol   1514 Sep 29 21:37 mult_pipe.c
+-rw-rw-r-- 1 hillol hillol 138520 Sep 27 07:45 OS-Assignment3.pdf
+-rw-r--r-- 1 hillol hillol     24 Oct  2 02:18 out
+-rw-r--r-- 1 hillol hillol     24 Oct  2 02:21 out1
+-rw-rw-r-- 1 hillol hillol   1835 Sep 29 23:23 parser.cpp
+-rw-rw-r-- 1 hillol hillol   1316 Sep 29 20:25 pipe_concept.cpp
+-rw-rw-r-- 1 hillol hillol    254 Sep 29 13:51 pwd.cpp
+-rw-rw-r-- 1 hillol hillol   3657 Sep 28 15:06 ref.c
+-rw-rw-r-- 1 hillol hillol    566 Sep 30 17:02 separate_command.cpp
+-rwxrwxr-x 1 hillol hillol  49696 Oct  1 23:37 shellMain
+-rw-rw-r-- 1 hillol hillol   5054 Oct  2 02:22 shellMain.cpp
+-rw-rw-r-- 1 hillol hillol   1962 Sep 29 23:22 test.cpp
+-rw-rw-r-- 1 hillol hillol    293 Sep 28 22:37 trim.c
+-rw-rw-r-- 1 hillol hillol   2742 Sep 30 23:02 untitled

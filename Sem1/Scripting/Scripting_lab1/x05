@@ -1,0 +1,5 @@
+tput the trailing newline
+
+       -e     enable interpretation of backslash escapes
+
+       -E     disable interpretation of backslash e

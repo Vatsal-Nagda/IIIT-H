@@ -1,0 +1,14 @@
+/home/vatsal:
+answer.txt
+Cpp
+Desktop
+Documents
+Downloads
+examples.desktop
+Music
+online_code
+Pictures
+Public
+Sem1
+Templates
+Videos

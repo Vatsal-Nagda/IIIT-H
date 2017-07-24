@@ -1,0 +1,1 @@
+awk -F"|" '{print $2,$1,$3,$4,$5,$6}' sort.lst | sort -g | awk  'BEGIN{OFS="| "} {print $2,$1,$3,$4,$5,$6}'

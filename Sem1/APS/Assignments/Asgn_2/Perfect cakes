@@ -1,0 +1,84 @@
+
+Perfect Cakes 
+Problem code: CHEFSOCD
+
+
+SUBMITMY SUBMISSIONS ALL SUBMISSIONS
+The Chef always makes perfect cakes and is known for the same. Its Christmas time and the Chef is asked to deliver a cake to all the houses. The Chef is given a sample cake (which is imperfect since the Chef hasn't baked it himself). When the Chef is done making all the cakes, he asks his subordinate the pack them all in boxes while he rests for sometime. When the Chef returns and counts the boxes, there is 1 extra. His worst fear comes true when he can't find the sample cake anywhere.
+
+He wants to find out which of the boxes contains the imperfect cake. He asks his subordinate to fix the issue he has created. But the subordinate is also in Christmas mood, and leaves after making a few comparisons.
+
+The Chef finds a sheet of paper with the comparisons, and needs your help to figure out the box with the imperfect cake.
+
+The boxes are marked 1 to N, and the comparisons are between weights of equal number of cakes. For example:
+
+Weight of (Cake #1 + Cake #2 + Cake #3) > Weight of (Cake #4 + Cake #5 + Cake #6)
+Weight of (Cake #2 + Cake #4 + Cake #6) = Weight of (Cake #1 + Cake #3 + Cake #5)
+Weight of (Cake #1 + Cake #5) < Weight of (Cake #2 + Cake #3)
+Input
+
+First line of input contains a single integer T, the number of test cases.
+
+Each test case starts with a line containing two space separated integers N and M, where N is the number of boxes and M is the number of comparisons made.
+
+Then follow 2M lines giving the result of M comparisons.
+
+The first line is of the form A L1 L2 ... LA R1 R2 ... RA. Each separated by a single space, where A is the number of boxes in the balance on each side followed by 2A integers where the first A integers are the box number on left balance and the next A integers are the box number on right balance.
+
+The second line contains a character among <, > or =. Where,
+
+'<' represents that the weight of left balance is less than that of the right balance.
+'>' represents that the weight of left balance is greater than that of the right balance.
+'=' represents that the weight of left balance is equal to that of the right balance.
+Output
+
+For each test case output a single line containing the box number of imperfect cake (if possible) else output '0' if the imperfect cake cannot be found from the following comparisons.
+
+Solution Templates
+
+In the solution templates provided, complete the function whose signature is
+
+C / C++
+int findImperfectCake(int N, int M, int numBoxesCompared[100],
+    int boxesLeft[100][1000], int boxesRight[100][1000], char compRes[100])
+
+Java
+static int findImperfectCake(int N, int M, int[] numBoxesCompared,
+    int[][] boxesLeft, int[][] boxesRight, char[] compRes)
+
+N is the number of cakes. M is the number of comparisons made. numBoxesConfigured[] is an array of size M, which lists the number of cakes on either side in the ith comparison. boxesLeft[][] lists the labels of the cakes that are on the left side of each comparison. boxesRight[][] lists the labels of the cakes that are on the right side of each comparison. comRes[], is the comparator that is present between the sum of weights of the left side, versus the sum of weights of the right side.
+
+boxesLeft and boxesRight have M arrays each. The ith index of boxesLeft (and respectively boxesRight) consists of numBoxesCompared[i] elements each (since the same number of boxes are on the either side of the comparison. Of course, compRes contains M values.
+
+Note: You are allowed to edit the code as you please. Add / delete headers. Add / delete methods. And so on.. So long as your final code solves the problem with Input and Output as described above. You may submit your own code, without using the template at all.
+
+Constraints
+
+1 ≤ T ≤ 50
+1 ≤ N ≤ 1000
+1 ≤ M ≤ 100
+Example
+
+Input:
+2
+5 3
+2 1 2 3 4
+<
+1 1 4
+=
+1 2 5
+=
+6 4
+3 1 2 3 4 5 6
+<
+1 1 2
+=
+2 1 3 4 5
+<
+2 4 5 2 6
+>
+>
+
+Output:
+3
+0

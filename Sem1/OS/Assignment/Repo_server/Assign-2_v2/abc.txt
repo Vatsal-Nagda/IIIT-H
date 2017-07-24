@@ -1,0 +1,11 @@
+a.mp3 172.17.15.254 ./vatsal/music/
+b.mp3 172.17.12.17 ./home/usr/
+c.mp3 172.17.12.17 ./home/usr/abc
+c.mp3 172.17.15.54 ./home/usr/vatsal
+d.mp3 172.17.12.17 ./home/usr/abc/pqr
+abc.txt 127.0.0.1 ./ref/abc.txt
+a.mp3 172.17.15.254 ./vatsal/music/
+b.mp3 172.17@@.12.17 ./home/usr/
+c.mp3 172.17.12.17 ./home/usr/abc
+c.mp3 172.17.15.54 ./home/usr/vatsal
+d.mp3 172.17.12.17 ./home/usr/abc/pqr

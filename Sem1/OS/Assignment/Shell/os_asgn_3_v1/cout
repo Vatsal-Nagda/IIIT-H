@@ -1,0 +1,17 @@
+total 236
+-rwxrwxr-x 1 hillol hillol  45192 Oct  1 22:38 a.out
+-rw-rw-r-- 1 hillol hillol    292 Sep 29 13:53 change_directory.cpp
+-rw-rw-r-- 1 hillol hillol      0 Oct  1 22:43 cout
+-rw-rw-r-- 1 hillol hillol   1679 Oct  1 21:02 history.cpp
+-rw-rw-r-- 1 hillol hillol    603 Oct  1 21:00 history.txt
+-rw-rw-r-- 1 hillol hillol   3280 Sep 30 14:21 inbuilt.c
+-rw-rw-r-- 1 hillol hillol   1514 Sep 29 21:37 mult_pipe.c
+-rw-rw-r-- 1 hillol hillol 138520 Sep 27 07:45 OS-Assignment3.pdf
+-rw-rw-r-- 1 hillol hillol   1835 Sep 29 23:23 parser.cpp
+-rw-rw-r-- 1 hillol hillol   1316 Sep 29 20:25 pipe_concept.cpp
+-rw-rw-r-- 1 hillol hillol    254 Sep 29 13:51 pwd.cpp
+-rw-rw-r-- 1 hillol hillol   3657 Sep 28 15:06 ref.c
+-rw-rw-r-- 1 hillol hillol    561 Sep 30 00:02 separate_command.cpp
+-rw-rw-r-- 1 hillol hillol   3062 Oct  1 20:44 shellMain.cpp
+-rw-rw-r-- 1 hillol hillol   1962 Sep 29 23:22 test.cpp
+-rw-rw-r-- 1 hillol hillol    293 Sep 28 22:37 trim.c

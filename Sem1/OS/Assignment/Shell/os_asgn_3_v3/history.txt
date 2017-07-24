@@ -1,0 +1,147 @@
+ls -l > out
+exit
+ls -l > out
+ls
+exxit
+exit
+
+ls -l > outw
+exit
+echo "  sdf 'sff s    ' efsefre      c"
+echo "sdfgvg" hrbty "  rtiutit    v"
+echo hi
+echo " hi hello"
+echo    "hi  he"
+		  echo hi "s"
+
+echo  bc bc
+echo "ssdsd'
+echo "'ds'"
+echo "dssdfsdffds
+echo ""
+echo  "bcd
+echo"dsdsdsd'
+cler
+clear
+echo hi
+echo "hello'
+echo "'sdfsd'"
+exit
+
+!
+
+!
+
+!
+
+!
+
+!
+
+!
+
+
+
+ls -l
+ls
+ls -l > out
+exit
+ls -l
+exit
+ls -l > out
+ls |wc
+exit
+ls -l > o
+exit
+ls -l > r
+exit
+ls -l
+ls -l > po
+ls -l >po | wc
+exit
+ls > pow | wc
+ls pow
+ls > pow
+ls -l > pow | wc
+exit
+ls -l sd | wc
+ls -l sd
+ls -i
+ls -i > sd | wc
+ls -l > sd
+ls -i > sd
+more sd
+exit
+ls -i > sd
+more sd
+ls > sd
+exit
+ls > sd
+more sd
+b[2;2R]11;rgb:3030/0a0a/2424[>1;4205;0cvvv::;W`OAOAOAOAOAOA
+ls -l > sd
+more sd
+ ls > sd
+more sd
+ls > sd
+more sd
+ls -l > sd
+more sd
+exit
+ls -l > sd | wc
+ls -l > sd
+ls -l > sd | wc
+ls -l | wc < sd
+exit
+ls -l | wc > out
+clear
+ls -l  | wc
+exit
+ls -l | wc
+exit
+ls -l
+ls -l |wc
+clear
+ls -l | wc |wc 
+	exit
+ls -l
+ls -l | wc | wc | wc |wc
+exit
+ls -l |wc |wc |wc
+ls -l > we | wc
+exit
+ls -l | wc | wc | wc
+ls -l > ryrt | wc
+ls -l | wc
+ls -i
+ls -i | wc
+ls -i | wc > psdf
+exit
+ls -l | wc > out
+exit
+ls -l | wc > out
+ls -l | wc | wc > out
+exit
+ls -l | wc
+ls -l | wc > out1
+wc < out1
+exit
+more out1
+wc < out1
+exit
+ls -l > bvnvb | wc
+history > hist
+c
+more hist
+history
+clear
+ls -i
+ls -i > inode
+ls -l > m
+ls -i > inode | wc
+more inode
+wc < inode
+exit
+ls -i > inode
+wc < inode
+exit

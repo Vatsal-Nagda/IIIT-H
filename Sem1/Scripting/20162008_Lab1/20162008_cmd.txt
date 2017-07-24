@@ -1,0 +1,59 @@
+1. mkdir 20162008_lab1
+2. pwd
+ 	cd ..
+ 	pwd
+
+3. touch wright.txt
+	cat > wright.txt
+	Created by Night King
+
+4&5. mkdir Winterfell
+	touch temp1.txt
+	mkdir temp
+	touch temp/temp2.txt
+	chmod u-r temp/temp2.txt 
+	cat >> temp1.txt
+	chmod u+x temp2.txt
+	chmod u-x temp
+	cd temp
+	chmod u-w temp/temp2.txt
+	more temp/temp2.txt
+
+6.head -100 GameOfScripting.txt | tail -1 GameOfScripting.txt
+
+7. head -30 GameOfScripting.txt | tail -10
+
+8. tail -10 GameOfScripting.txt
+
+9. touch HouseLannister.txt HouseStark.txt
+
+10.cat >>HouseStarks.txt 
+There should always be a stark in winterfell
+
+echo "A Lannister always pays his debts" >> HouseLannister.txt 
+
+11. cat >> HouseStarks.txt
+
+12.more HouseStarks.txt HouseLannister.txt
+
+13.tr [:lower:] [:upper:] < HouseStarks.txt > HouseStarks1.txt
+
+13. touch .Daenerys_Targaryen.txt
+	cat >> .Daenerys_Targaryen.txt
+	chmod 700 .Daenerys_Targaryen.txt 
+
+14. cat > HouseLannister.txt
+
+15.	mkdir -p ./GameOfScripting/Lannister/Tyrion ./GameOfScripting/Starks ./GameOfScripting/Starks/JonSnow ./GameOfScripting/Targaryen/Daenerys_Targaryen
+
+16. cp -p HouseStarks.txt GameOfScripting/Starks/
+	cp -p HouseLannister.txt GameOfScripting/Lannister/Tyrion/
+
+17.cp -r GameOfScripting/ CopyOfGameOfScripting/
+
+18. mv -t GameOfScripting/Targaryen/ GameOfScripting/Lannister/Tyrion/
+    mv -t GameOfScripting/Targaryen/  GameOfScripting/Starks/JonSnow/
+
+19.rm -r CopyOfGameOfScripting/
+
+20. tar -czf todayswork.tar.gz GameOfScripting/    

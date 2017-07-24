@@ -1,0 +1,256 @@
+Script started on Tuesday 06 September 2016 06:40:12 PM IST
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Lab2[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab2[00m$ sudo adduser[K[K[K[K[K[K[Kuser ad[K[K[Kadd TonyStark
+sudo: unable to resolve host lenovo-g50-80
+[sudo] password for vatsal: 
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Lab2[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab2[00m$ sudo pswd
+sudo: unable to resolve host lenovo-g50-80
+sudo: pswd: command not found
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Lab2[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab2[00m$ sudo pswd[Cswd
+sudo: unable to resolve host lenovo-g50-80
+sudo: psswd: command not found
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Lab2[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab2[00m$ sudo psswd[K[K[K[K[K[K[K[K[K[KsuTony[K[K[K[K TonyStark 
+Password: 
+su: Authentication failure
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Lab2[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab2[00m$ su TonyStark [3Pdo psswd[1Pwduseradd TonyStark
+sudo: unable to resolve host lenovo-g50-80
+useradd: user 'TonyStark' already exists
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Lab2[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab2[00m$ sudo useradd TonyStark[9P TonyStark 
+Password: 
+su: Authentication failure
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Lab2[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab2[00m$ su TonyStark 
+Password: 
+su: Authentication failure
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Lab2[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab2[00m$ su TonyStark 
+Password: 
+su: Authentication failure
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Lab2[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab2[00m$ sudo passwd
+sudo: unable to resolve host lenovo-g50-80
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Lab2[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab2[00m$ aprpos pasw[Kswd
+No command 'aprpos' found, did you mean:
+ Command 'apropos' from package 'man-db' (main)
+aprpos: command not found
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Lab2[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab2[00m$ aprpos passwd[1@o
+chgpasswd (8)        - update group passwords in batch mode
+chpasswd (8)         - update passwords in batch mode
+fgetpwent_r (3)      - get passwd file entry reentrantly
+getpwent_r (3)       - get passwd file entry reentrantly
+gpasswd (1)          - administer /etc/group and /etc/gshadow
+grub-mkpasswd-pbkdf2 (1) - generate hashed password for GRUB
+pam_localuser (8)    - require users to be listed in /etc/passwd
+passwd (1)           - change user password
+passwd (1ssl)        - compute password hashes
+passwd (5)           - the password file
+passwd2des (3)       - RFS password encryption
+update-passwd (8)    - safely update /etc/passwd, /etc/shadow and /e...
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Lab2[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab2[00m$ [H[2J]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Lab2[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab2[00m$ man passwd
+[?1049h[?1h=PASSWD(1)                   User Commands                   PASSWD(1)[m
+[m
+[1mNAME[0m[m
+       passwd - change user password[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mpasswd[0m [[4moptions[24m] [[4mLOGIN[24m][m
+[m
+[1mDESCRIPTION[0m[m
+       The [1mpasswd[0m command changes passwords for user accounts. A[m
+       normal user may only change the password for his/her own[m
+       account, while the superuser may change the password for any[m
+       account.  [1mpasswd[0m also changes the account or associated[m
+       password validity period.[m
+[m
+   [1mPassword[0m [1mChanges[0m[m
+       The user is first prompted for his/her old password, if one is[m
+       present. This password is then encrypted and compared against[m
+       the stored password. The user has only one chance to enter the[m
+       correct password. The superuser is permitted to bypass this[m
+       step so that forgotten passwords may be changed.[m
+[m
+       After the password has been entered, password aging[m
+       information is checked to see if the user is permitted to[m
+       change the password at this time. If not, [1mpasswd[0m refuses to[m
+       change the password and exits.[m
+[m
+       The user is then prompted twice for a replacement password.[m
+       The second entry is compared against the first and both are[m
+       required to match in order for the password to be changed.[m
+[m
+       Then, the password is tested for complexity. As a general[m
+       guideline, passwords should consist of 6 to 8 characters[m
+       including one or more characters from each of the following[m
+       sets:[m
+[m
+       ·   lower case alphabetics[m
+[m
+       ·   digits 0 thru 9[m
+[m
+       ·   punctuation marks[m
+[7m Manual page passwd(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Care must be taken not to include the system default erase or[m
+[7m Manual page passwd(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       kill characters.  [1mpasswd[0m will reject any password which is not[m
+[7m Manual page passwd(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       suitably complex.[m
+[7m Manual page passwd(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K   [1mHints[0m [1mfor[0m [1muser[0m [1mpasswords[0m[m
+[7m Manual page passwd(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The security of a password depends upon the strength of the[m
+[7m Manual page passwd(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       encryption algorithm and the size of the key space. The legacy[m
+[7m Manual page passwd(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4mUNIX[24m System encryption method is based on the NBS DES[m
+[7m Manual page passwd(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       algorithm. More recent methods are now recommended (see[m
+[7m Manual page passwd(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mENCRYPT_METHOD[0m). The size of the key space depends upon the[m
+[7m Manual page passwd(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       randomness of the password which is selected.[m
+[7m Manual page passwd(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Compromises in password security normally result from careless[m
+[7m Manual page passwd(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       password selection or handling. For this reason, you should[m
+[7m Manual page passwd(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       not select a password which appears in a dictionary or which[m
+[7m Manual page passwd(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       must be written down. The password should also not be a proper[m
+[7m Manual page passwd(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       name, your license number, birth date, or street address. Any[m
+[7m Manual page passwd(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       of these may be used as guesses to violate system security.[m
+[7m Manual page passwd(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       You can find advices on how to choose a strong password on[m
+[7m Manual page passwd(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       http://en.wikipedia.org/wiki/Password_strength[m
+[7m Manual page passwd(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mOPTIONS[0m[m
+[7m Manual page passwd(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The options which apply to the [1mpasswd[0m command are:[m
+[7m Manual page passwd(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-a[0m, [1m--all[0m[m
+[7m Manual page passwd(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           This option can be used only with [1m-S[0m and causes show[m
+[7m Manual page passwd(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           status for all users.[m
+[7m Manual page passwd(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-d[0m, [1m--delete[0m[m
+[7m Manual page passwd(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Delete a user's password (make it empty). This is a quick[m
+[7m Manual page passwd(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           way to disable a password for an account. It will set the[m
+[7m Manual page passwd(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           named account passwordless.[m
+[7m Manual page passwd(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-e[0m, [1m--expire[0m[m
+[7m Manual page passwd(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Immediately expire an account's password. This in effect[m
+[7m Manual page passwd(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           can force a user to change his/her password at the user's[m
+[7m Manual page passwd(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           next login.[m
+[7m Manual page passwd(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-h[0m, [1m--help[0m[m
+[7m Manual page passwd(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Display help message and exit.[m
+[7m Manual page passwd(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-i[0m, [1m--inactive[0m [4mINACTIVE[24m[m
+[7m Manual page passwd(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           This option is used to disable an account after the[m
+[7m Manual page passwd(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           password has been expired for a number of days. After a[m
+[7m Manual page passwd(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           user account has had an expired password for [4mINACTIVE[24m[m
+[7m Manual page passwd(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           days, the user may no longer sign on to the account.[m
+[7m Manual page passwd(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-k[0m, [1m--keep-tokens[0m[m
+[7m Manual page passwd(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Indicate password change should be performed only for[m
+[7m Manual page passwd(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           expired authentication tokens (passwords). The user wishes[m
+[7m Manual page passwd(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           to keep their non-expired tokens as before.[m
+[7m Manual page passwd(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-l[0m, [1m--lock[0m[m
+[7m Manual page passwd(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Lock the password of the named account. This option[m
+[7m Manual page passwd(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           disables a password by changing it to a value which[m
+[7m Manual page passwd(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           matches no possible encrypted value (it adds a ´!´ at the[m
+[7m Manual page passwd(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           beginning of the password).[m
+[7m Manual page passwd(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Note that this does not disable the account. The user may[m
+[7m Manual page passwd(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           still be able to login using another authentication token[m
+[7m Manual page passwd(1) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           (e.g. an SSH key). To disable the account, administrators[m
+[7m Manual page passwd(1) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           should use [1musermod[0m [1m--expiredate[0m [1m1[0m (this set the account's[m
+[7m Manual page passwd(1) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           expire date to Jan 2, 1970).[m
+[7m Manual page passwd(1) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Users with a locked password are not allowed to change[m
+[7m Manual page passwd(1) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           their password.[m
+[7m Manual page passwd(1) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-n[0m, [1m--mindays[0m [4mMIN_DAYS[24m[m
+[7m Manual page passwd(1) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Set the minimum number of days between password changes to[m
+[7m Manual page passwd(1) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [4mMIN_DAYS[24m. A value of zero for this field indicates that[m
+[7m Manual page passwd(1) line 73 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           the user may change his/her password at any time.[m
+[7m Manual page passwd(1) line 74 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 75 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-q[0m, [1m--quiet[0m[m
+[7m Manual page passwd(1) line 76 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Quiet mode.[m
+[7m Manual page passwd(1) line 77 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 78 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-r[0m, [1m--repository[0m [4mREPOSITORY[24m[m
+[7m Manual page passwd(1) line 79 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           change password in [4mREPOSITORY[24m repository[m
+[7m Manual page passwd(1) line 80 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 81 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-R[0m, [1m--root[0m [4mCHROOT_DIR[24m[m
+[7m Manual page passwd(1) line 82 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Apply changes in the [4mCHROOT_DIR[24m directory and use the[m
+[7m Manual page passwd(1) line 83 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           configuration files from the [4mCHROOT_DIR[24m directory.[m
+[7m Manual page passwd(1) line 84 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 85 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-S[0m, [1m--status[0m[m
+[7m Manual page passwd(1) line 86 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Display account status information. The status information[m
+[7m Manual page passwd(1) line 87 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           consists of 7 fields. The first field is the user's login[m
+[7m Manual page passwd(1) line 88 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           name. The second field indicates if the user account has a[m
+[7m Manual page passwd(1) line 89 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           locked password (L), has no password (NP), or has a usable[m
+[7m Manual page passwd(1) line 90 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           password (P). The third field gives the date of the last[m
+[7m Manual page passwd(1) line 91 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           password change. The next four fields are the minimum age,[m
+[7m Manual page passwd(1) line 92 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           maximum age, warning period, and inactivity period for the[m
+[7m Manual page passwd(1) line 93 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           password. These ages are expressed in days.[m
+[7m Manual page passwd(1) line 94 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 95 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-u[0m, [1m--unlock[0m[m
+[7m Manual page passwd(1) line 96 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Unlock the password of the named account. This option[m
+[7m Manual page passwd(1) line 97 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           re-enables a password by changing the password back to its[m
+[7m Manual page passwd(1) line 98 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           previous value (to the value before using the [1m-l[0m option).[m
+[7m Manual page passwd(1) line 99 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 100 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-w[0m, [1m--warndays[0m [4mWARN_DAYS[24m[m
+[7m Manual page passwd(1) line 101 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Set the number of days of warning before a password change[m
+[7m Manual page passwd(1) line 102 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           is required. The [4mWARN_DAYS[24m option is the number of days[m
+[7m Manual page passwd(1) line 103 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           prior to the password expiring that a user will be warned[m
+[7m Manual page passwd(1) line 104 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           that his/her password is about to expire.[m
+[7m Manual page passwd(1) line 105 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 106 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-x[0m, [1m--maxdays[0m [4mMAX_DAYS[24m[m
+[7m Manual page passwd(1) line 107 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Set the maximum number of days a password remains valid.[m
+[7m Manual page passwd(1) line 108 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           After [4mMAX_DAYS[24m, the password is required to be changed.[m
+[7m Manual page passwd(1) line 109 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 110 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mCAVEATS[0m[m
+[7m Manual page passwd(1) line 111 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Password complexity checking may vary from site to site. The[m
+[7m Manual page passwd(1) line 112 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       user is urged to select a password as complex as he or she[m
+[7m Manual page passwd(1) line 113 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       feels comfortable with.[m
+[7m Manual page passwd(1) line 114 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 115 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Users may not be able to change their password on a system if[m
+[7m Manual page passwd(1) line 116 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       NIS is enabled and they are not logged into the NIS server.[m
+[7m Manual page passwd(1) line 117 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 118 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mpasswd[0m uses PAM to authenticate users and to change their[m
+[7m Manual page passwd(1) line 119 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       passwords.[m
+[7m Manual page passwd(1) line 120 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 121 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mFILES[0m[m
+[7m Manual page passwd(1) line 122 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       /etc/passwd[m
+[7m Manual page passwd(1) line 123 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           User account information.[m
+[7m Manual page passwd(1) line 124 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 125 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       /etc/shadow[m
+[7m Manual page passwd(1) line 126 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Secure user account information.[m
+[7m Manual page passwd(1) line 127 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 128 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       /etc/pam.d/passwd[m
+[7m Manual page passwd(1) line 129 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           PAM configuration for [1mpasswd[0m.[m
+[7m Manual page passwd(1) line 130 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 131 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mEXIT[0m [1mVALUES[0m[m
+[7m Manual page passwd(1) line 132 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The [1mpasswd[0m command exits with the following values:[m
+[7m Manual page passwd(1) line 133 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 134 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4m0[24m[m
+[7m Manual page passwd(1) line 135 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           success[m
+[7m Manual page passwd(1) line 136 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 137 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4m1[24m[m
+[7m Manual page passwd(1) line 138 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           permission denied[m
+[7m Manual page passwd(1) line 139 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 140 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4m2[24m[m
+[7m Manual page passwd(1) line 141 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           invalid combination of options[m
+[7m Manual page passwd(1) line 142 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 143 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4m3[24m[m
+[7m Manual page passwd(1) line 144 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           unexpected failure, nothing done[m
+[7m Manual page passwd(1) line 145 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 146 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4m4[24m[m
+[7m Manual page passwd(1) line 147 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           unexpected failure, passwd file missing[m
+[7m Manual page passwd(1) line 148 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 149 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4m5[24m[m
+[7m Manual page passwd(1) line 150 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           passwd file busy, try again[m
+[7m Manual page passwd(1) line 151 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 152 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4m6[24m[m
+[7m Manual page passwd(1) line 153 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           invalid argument to option[m
+[7m Manual page passwd(1) line 154 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 155 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mSEE[0m [1mALSO[0m[m
+[7m Manual page passwd(1) line 156 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mchpasswd[0m(8), [1mpasswd[0m(5), [1mshadow[0m(5), [1musermod[0m(8).[m
+[7m Manual page passwd(1) line 157 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 158 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[Kshadow-utils 4.2              03/29/2016                    PASSWD(1)[m
+[7m Manual page passwd(1) line 159 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mual page passwd(1) line 159/199 (END) (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Lab2[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab2[00m$ sc[K[Kls
+-
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Lab2[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab2[00m$ exi
+No command 'exi' found, but there are 20 similar ones
+exi: command not found
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Lab2[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab2[00m$ exit
+exit
+
+Script done on Tuesday 06 September 2016 06:46:02 PM IST

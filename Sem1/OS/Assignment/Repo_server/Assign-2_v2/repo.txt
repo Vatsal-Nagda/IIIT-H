@@ -1,0 +1,13 @@
+a.mp3 172.17.15.254 ./vatsal/music/
+b.mp3 172.17.12.17 ./home/usr/
+c.mp3 172.17.12.17 ./home/usr/abc
+c.mp3 172.17.15.54 ./home/usr/vatsal
+d.mp3 172.17.12.17 ./home/usr/abc/pqr
+abc.txt 127.0.0.1 ./ref/abc.txt
+abc.txt 127.0.0.1 ./ref/qwe/abc.txt
+c.mp3 127.0.0.1 ./qwertytyi/zxcv/c.mp3
+c.mp3 127.0.0.1 /a/b/c/d/c.mp3
+f.mp3 127.0.0.1 /f.mp3
+lsof.txt 127.0.0.1 ./ref/lsof.txt
+lsof 127.0.0.1 /home/vatsal/Sem1/OS/Assignment2/ref/lsof
+OSAssignment2-Sockets.pdf 127.0.0.1 /home/vatsal/Downloads/OSAssignment2-Sockets.pdf

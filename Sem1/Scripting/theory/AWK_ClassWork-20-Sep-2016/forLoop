@@ -1,0 +1,13 @@
+BEGIN { print "Lets see for loop! "
+FS = "|"; OFS = " ! "; }
+
+{
+	assocArray[$2] = assocArray[$2] + 1;
+}
+
+END { printf "\nNOw is the time\n";
+
+for ( item in assocArray) {
+ 	print item,"sds",assocArray[item] ;
+}
+}

@@ -1,0 +1,1 @@
+cat q1.txt|awk '{print $4}'|sort|uniq -c|awk '{printf "%s => %d\n",$2,$1}'

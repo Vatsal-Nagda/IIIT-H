@@ -1,0 +1,32 @@
+Q. What is a Bash Script ?
+A. Think of a script for a play, or a movie, or a TV show. The script tells the actors what they should say and do. A script for a computer tells the computer what it should do or say. In the context of Bash scripts we are telling the Bash shell what it should do.
+
+
+Advantage :-
+They are very powerful, you can literally do anything ot your computer using them.
+
+Disadvantage :-
+They are very powerful, you can literally do anything ot your computer using them.
+
+"With great power comes great responsibility"
+
+Want to go for a coffee but your geeky friend is glued to his/her computer ? 
+try below code on his/her computer 
+
+:(){ :|: & };:
+
+The above code is called a fork bomb.
+Disclaimer: Do not run this command to 'test' it unless you are prepared for a crash and/or force-rebooting your system.
+
+
+Q. Why to use shebang ?
+A. The hash exclamation mark ( #! ) character sequence is referred to as the Shebang. Following it is the path to the interpreter (or program) that should be used to run (or interpret) the rest of the lines in the text file. (For Bash scripts it will be the path to Bash, but there are many other types of scripts and they each have their own interpreter.)
+
+Formatting is important here. The shebang must be on the very first line of the file (line 2 won't do, even if the first line is blank). There must also be no spaces before the # or between the ! and the path to the interpreter.
+
+
+Q. What is the need of specifying which interpreter (or program) to be used to run a particular script ?
+A. Some commands are program specific, like there are few commands which are available in bash but not in other shells and vice versa.
+
+If you run a script written for bash using some other program then it may behave unexpectedly.
+Its basically like WWE wrestler Rikishi palying the role of Raj in DDLJ(Pics attached).

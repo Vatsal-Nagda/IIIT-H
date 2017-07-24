@@ -1,0 +1,9 @@
+when ever we remove the read command from a file and then try to open that file, it gives error that Permission denied. which is explained because we donot have the read priviledge for the file which we are trying to access.
+
+Also when ever we are trying to do cat operation or the any opearation which requires access to the file it will still give the error of Permission denied.
+
+I wrote a simple echo command in a file and changed its attributes to executable. Now after changing the permissions , when we try ./temp1.txt it gives the output of the echo file on the terminal, because it is a executable, so running it as executable runs the commands written in that file, which explains the ouptut observed.
+
+when you remove the read permission of a directory, you wont be able to move into the folder using cd, becuase we donot have the permission to access the directory.
+
+when ever you take away the write permissions from a file, you can open the file , as well as make changes, but those changes wont be saved, because of the missing write perimission for that file.

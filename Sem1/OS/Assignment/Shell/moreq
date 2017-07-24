@@ -1,0 +1,16 @@
+total 300
+drwxrwxr-x 3 hillol hillol   4096 Oct  2 16:46 20162008_Assignment3
+-rw-rw-r-- 1 hillol hillol   5583 Oct  2 16:52 20162008_Assignment3.tar.gz
+-rwxrwxr-x 1 hillol hillol  57120 Oct  2 16:53 a.out
+-rw-rw-r-- 1 hillol hillol    435 Oct  2 15:09 change_directory.cpp
+-rw-rw-r-- 1 hillol hillol   1405 Oct  2 15:15 echo.cpp
+-rw-rw-r-- 1 hillol hillol    424 Oct  2 15:16 export.cpp
+-rw-rw-r-- 1 hillol hillol   2313 Oct  2 15:41 history.cpp
+-rw-rw-r-- 1 hillol hillol   3347 Oct  2 11:50 history.txt
+-rw-r--r-- 1 hillol hillol      0 Oct  2 16:53 moreq
+-rw-rw-r-- 1 hillol hillol 138520 Sep 27 07:45 OS-Assignment3.pdf
+-rw-rw-r-- 1 hillol hillol   1835 Sep 29 23:23 parser.cpp
+-rw-rw-r-- 1 hillol hillol    250 Oct  2 02:55 pwd.cpp
+-rw-rw-r-- 1 hillol hillol    566 Oct  2 15:20 separate_command.cpp
+-rwxrwxr-x 1 hillol hillol  54488 Oct  2 15:10 shellMain
+-rw-rw-r-- 1 hillol hillol   7275 Oct  2 16:44 shellMain.cpp

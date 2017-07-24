@@ -1,0 +1,5 @@
+<car>
+	<make> maruti </make>
+	<capacity> 800 cc </capacity>
+	<type> hatchback </type>
+</car>

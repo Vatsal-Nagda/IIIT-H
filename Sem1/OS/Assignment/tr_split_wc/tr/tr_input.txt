@@ -1,0 +1,6 @@
+1.This is just a new file which is being tested for the 
+2.tr command.This also has numbers like  1 2 3 4 
+3.Do not overwrite it with others.5 
+4.Please take care. Cheers3
+5.Cheers65
+6.OS TAs.768

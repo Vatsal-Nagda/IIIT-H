@@ -1,0 +1,4255 @@
+Script started on Tuesday 04 October 2016 04:08:22 PM IST
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ sublime-text 1ash[K[K.sh
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ basj[Kh 1b.sh 
+./1a.sh: line 3: circle_area: command not found
+./1a.sh: line 4: square_area: command not found
+./1a.sh: line 5: rectangle_area: command not found
+./1a.sh: line 6: r_triangle_area: command not found
+./1a.sh: line 7: a_triangle_area: command not found
+./1a.sh: line 8: trapezium_area: command not found
+1b.sh: line 3: circle_area: command not found
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2
+./1a.sh: line 3: circle_area: command not found
+./1a.sh: line 4: square_area: command not found
+./1a.sh: line 5: rectangle_area: command not found
+./1a.sh: line 6: r_triangle_area: command not found
+./1a.sh: line 7: a_triangle_area: command not found
+./1a.sh: line 8: trapezium_area: command not found
+1b.sh: line 3: circle_area: command not found
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2
+1b.sh: line 3: circle_area: command not found
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2
+./1a.sh: line 13: pi: command not found
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2
+./1a.sh: line 14: ((: 3.14159: syntax error: invalid arithmetic operator (error token is ".14159")
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ echo ""s"c"a"l"e"="2"c"[1P" "[1P";" "2"2"/"7"[C\[K|bc
+3.14
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ if [ $# -eq 1 ]
+> 
+Display all 2540 possibilities? (y or n)
+> 
+> 
+Display all 2540 possibilities? (y or n)
+:
+!
+./
+[
+[[
+]]
+{
+}
+2to3
+2to3-2.7
+2to3-3.5
+411toppm
+a11y-profile-manager-indicator
+aa-enabled
+aa-exec
+aa-status
+accept
+accessdb
+aconnect
+acpi_available
+acpid
+acpi_listen
+activity-log-manager
+--More--[Kadd-apt-repository
+addgnupghome
+addgroup
+addpart
+addr2line
+add-shell
+adduser
+agetty
+alert
+alias
+_allowed_groups
+_allowed_users
+alsa
+alsabat
+alsactl
+alsa-info.sh
+alsaloop
+alsamixer
+alsatplg
+alsaucm
+amidi
+amixer
+amuFormat.sh
+--More--[Kanacron
+--More--[Kanimate
+animate-im6
+anytopnm
+apg
+apgbfm
+aplay
+aplaymidi
+apm_available
+apparmor_parser
+apparmor_status
+applygnupgdefaults
+_apport-bug
+apport-bug
+_apport-cli
+apport-cli
+_apport-collect
+apport-collect
+_apport_parameterless
+_apport_symptoms
+_apport-unpack
+apport-unpack
+appres
+appstreamcli
+--More--[Kapropos
+apt
+apt-add-repository
+apt-cache
+apt-cdrom
+apt-config
+aptd
+aptdcon
+apt-extracttemplates
+apt-ftparchive
+apt-get
+apt-key
+apt-mark
+apt-sortpkgs
+apturl
+apturl-gtk
+ar
+arch
+arecord
+arecordmidi
+arm2hpdl
+arp
+arpd
+--More--[Karping
+--More--[C[C^C
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ n[K[H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ if [ $# -eq 1 ]; echo "scale=2; 22/7"|bc[11Pbash 1b.sh 2
+12.56
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3
+
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3
+NOT POSSIBLE
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3
+NOT POSSIBLE
+./1a.sh: line 25: return: NOT: numeric argument required
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3
+NOT POSSIBLE
+NOT POSSIBLE
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3[K
+./1a.sh: line 15: return: 12.56: numeric argument required
+1
+1
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 
+12.56
+NOT POSSIBLE
+1
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 
+12.56
+NOT POSSIBLE
+1b.sh: line 12: ans: command not found
+
+
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 
+12.56
+NOT POSSIBLE
+4
+4
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 
+12.56
+NOT POSSIBLE
+1b.sh: line 13: //echo: No such file or directory
+4
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 
+12.56
+NOT POSSIBLE
+4
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 
+12.56
+4
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 
+./1a.sh: line 13: let: x=3.14*2*2: syntax error: invalid arithmetic operator (error token is ".14*2*2")
+1
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 
+./1a.sh: line 10: syntax error near unexpected token `a'
+./1a.sh: line 10: `circle(a){'
+1b.sh: line 3: circle: command not found
+127
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 
+./1a.sh: line 13: let: x=3.14*2*2: syntax error: invalid arithmetic operator (error token is ".14*2*2")
+
+0
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 
+./1a.sh: line 13: let: x=3.14*2*2: syntax error: invalid arithmetic operator (error token is ".14*2*2")
+
+0
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ 
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 
+./1a.sh: line 13: let: x=3.14*2*2: syntax error: invalid arithmetic operator (error token is ".14*2*2")
+
+0
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ let x=3.14*$1*$1
+bash: let: x=3.14**: syntax error: invalid arithmetic operator (error token is ".14**")
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ let x=3.14*$1*$1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+bash: let: x=3.14**: syntax error: invalid arithmetic operator (error token is ".14**")
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ let x=3.14*$1*$1
+bash: let: x=3.14**: syntax error: invalid arithmetic operator (error token is ".14**")
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ let x=3.14*$1*$1[3Pbash 1b.sh 2 [K
+./1a.sh: line 13: let: x=3.14*2*2: syntax error: invalid arithmetic operator (error token is ".14*2*2")
+
+1b.sh: line 9: square: command not found
+127
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2
+4
+1b.sh: line 9: square: command not found
+127
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2
+./1a.sh: line 13: let: x=3.14*2*2: syntax error: invalid arithmetic operator (error token is ".14*2*2")
+1b.sh: line 9: square: command not found
+127
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2
+./1a.sh: line 18: return: 3.14*2*2: numeric argument required
+4
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2
+./1a.sh: line 18: return: 3.14*2*2: numeric argument required
+1
+1b.sh: line 11: square_area: command not found
+127
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2
+./1a.sh: line 18: return: 3.14*2*2: numeric argument required
+2
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2
+./1a.sh: line 17: let: x=3.14*2*2: syntax error: invalid arithmetic operator (error token is ".14*2*2")
+1
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2
+./1a.sh: line 18: return: 3.14*2*2: numeric argument required
+2
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3
+NOT POSSIBLE
+1b.sh: line 9: square_area: command not found
+127
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3 5
+./1a.sh: line 55: syntax error near unexpected token `fi'
+./1a.sh: line 55: `	fi'
+circle area :NOT POSSIBLE
+square area :NOT POSSIBLE
+1b.sh: line 24: trapezium: command not found
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3 5
+circle area :NOT POSSIBLE
+square area :NOT POSSIBLE
+.50
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3 5
+circle area :NOT POSSIBLE
+square area :NOT POSSIBLE
+In trapezium
+.50
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3 5[K
+circle area :NOT POSSIBLE
+square area :NOT POSSIBLE
+In r_triangle
+r_triangle_area
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3 
+circle area :NOT POSSIBLE
+square area :NOT POSSIBLE
+In r_triangle
+3.0
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3 [K[K
+12.56
+4
+square area :NOT POSSIBLE
+square area :NOT POSSIBLE
+square area :NOT POSSIBLE
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 
+12.56
+4
+rectangle area :NOT POSSIBLE
+r_triangle area :NOT POSSIBLE
+trapezium area :NOT POSSIBLE
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3
+circle area :NOT POSSIBLE
+square area :NOT POSSIBLE
+6
+In r_triangle
+0
+trapezium area :NOT POSSIBLE
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3
+circle area :NOT POSSIBLE
+square area :NOT POSSIBLE
+6
+3.0
+0
+trapezium area :NOT POSSIBLE
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3
+circle area :NOT POSSIBLE
+square area :NOT POSSIBLE
+6
+3.0
+0
+trapezium area :NOT POSSIBLE
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3 5
+circle area :NOT POSSIBLE
+square area :NOT POSSIBLE
+rectangle area :NOT POSSIBLE
+r_triangle area :NOT POSSIBLE
+In trapezium
+.50
+0
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3 5
+circle area :NOT POSSIBLE
+square area :NOT POSSIBLE
+rectangle area :NOT POSSIBLE
+r_triangle area :NOT POSSIBLE
+52
+0
+In trapezium
+.50
+0
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3 5
+circle area :NOT POSSIBLE
+square area :NOT POSSIBLE
+rectangle area :NOT POSSIBLE
+r_triangle area :NOT POSSIBLE
+In a_triangle
+52
+0
+In trapezium
+.50
+0
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3 5
+circle area :NOT POSSIBLE
+square area :NOT POSSIBLE
+rectangle area :NOT POSSIBLE
+r_triangle area :NOT POSSIBLE
+In a_triangle
+52
+In trapezium
+.50
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3 5[K[K[K[K
+12.56
+4
+rectangle area :NOT POSSIBLE
+r_triangle area :NOT POSSIBLE
+trapezium area :NOT POSSIBLE
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3
+circle area :NOT POSSIBLE
+square area :NOT POSSIBLE
+6
+In r_triangle
+3.0
+trapezium area :NOT POSSIBLE
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3 5
+circle area :NOT POSSIBLE
+square area :NOT POSSIBLE
+rectangle area :NOT POSSIBLE
+r_triangle area :NOT POSSIBLE
+In a_triangle
+52
+In trapezium
+.50
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3 5[K
+circle area :NOT POSSIBLE
+square area :NOT POSSIBLE
+6
+In r_triangle
+3
+trapezium area :NOT POSSIBLE
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3 
+circle area :NOT POSSIBLE
+square area :NOT POSSIBLE
+6
+In r_triangle
+3.0
+trapezium area :NOT POSSIBLE
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3 5
+./1a.sh: line 59: syntax error near unexpected token `('
+./1a.sh: line 59: `(area = semi *(semi - $1)*($semi - $2)*($semi - $3))'
+circle area :NOT POSSIBLE
+square area :NOT POSSIBLE
+rectangle area :NOT POSSIBLE
+r_triangle area :NOT POSSIBLE
+1b.sh: line 34: a_triangle: command not found
+1b.sh: line 41: trapezium: command not found
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3 5
+circle area :NOT POSSIBLE
+square area :NOT POSSIBLE
+rectangle area :NOT POSSIBLE
+r_triangle area :NOT POSSIBLE
+52
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3 5
+circle area :NOT POSSIBLE
+square area :NOT POSSIBLE
+rectangle area :NOT POSSIBLE
+r_triangle area :NOT POSSIBLE
+52
+In a_triangle :
+0
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3 5
+circle area :NOT POSSIBLE
+square area :NOT POSSIBLE
+rectangle area :NOT POSSIBLE
+r_triangle area :NOT POSSIBLE
+52
+In a_triangle :
+0
+In trapezium :
+1
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3 5
+circle area :NOT POSSIBLE
+square area :NOT POSSIBLE
+rectangle area :NOT POSSIBLE
+r_triangle area :NOT POSSIBLE
+52
+In a_triangle :
+0
+In trapezium :
+13
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3 5
+circle area :NOT POSSIBLE
+square area :NOT POSSIBLE
+rectangle area :NOT POSSIBLE
+r_triangle area :NOT POSSIBLE
+In a_triangle
+52
+a_triangle area :NOT POSSIBLE
+In trapezium :
+13
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3 5
+circle area :NOT POSSIBLE
+square area :NOT POSSIBLE
+rectangle area :NOT POSSIBLE
+r_triangle area :NOT POSSIBLE
+In a_triangle
+In a_triangle :
+120
+In trapezium :
+13
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 1b.sh 2 3 5
+circle area :NOT POSSIBLE
+square area :NOT POSSIBLE
+rectangle area :NOT POSSIBLE
+r_triangle area :NOT POSSIBLE
+In a_triangle
+In a_triangle :
+26
+In trapezium :
+13
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ man shuf
+[?1049h[?1h=SHUF(1)                          User Commands                         SHUF(1)[m
+[m
+[1mNAME[0m[m
+       shuf - generate random permutations[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mshuf[0m [[4mOPTION[24m]... [[4mFILE[24m][m
+       [1mshuf[0m [4m-e[24m [[4mOPTION[24m]... [[4mARG[24m]...[m
+       [1mshuf[0m [4m-i[24m [4mLO-HI[24m [[4mOPTION[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       Write a random permutation of the input lines to standard output.[m
+[m
+       With no FILE, or when FILE is -, read standard input.[m
+[m
+       Mandatory  arguments  to  long  options are mandatory for short options[m
+       too.[m
+[m
+       [1m-e[0m, [1m--echo[0m[m
+              treat each ARG as an input line[m
+[m
+       [1m-i[0m, [1m--input-range[0m=[4mLO-HI[24m[m
+              treat each number LO through HI as an input line[m
+[7m Manual page shuf(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ ./2_[K[K[K[Kls
+1a.sh  20162008_lab5.cmd     2_1.sh    SubmittedFiles.txt
+1b.sh  20162008_lab5.script  Lab5.pdf
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+2_1.sh: line 10: syntax error: unexpected end of file
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+^[[A^X^C
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+^[[A^C
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+^C
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+^C
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+2_1.sh: line 8: i++: command not found
+
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+201350914_Vikas Aggarwal_35166_assignsubmission_file_201350914_lab3.tar 201532656_pushpa bhavya vydana_35157_assignsubmission_file_201532656_lab3.tar.gz 201550848_Amit Kumar_35203_assignsubmission_file_201550848_lab3.tar.gz 201560516_Shweta Kulshreshtha_35171_assignsubmission_file_201560516_lab3.tar.gz 201560522_Tejeswi Muthireddy_35232_assignsubmission_file_201560522_lab03.tar.gz 201560543_Aditi Gautam_35151_assignsubmission_file_201560543_lab03.tar.gz 201560557_Sudhanshu Kumar Singh_35153_assignsubmission_file_201560557_lab03.tar 201560558_Gitanjali Vaidya_35129_assignsubmission_file_201560558_lab3.tar 201560562_Anjali Verma_35145_assignsubmission_file_201560562_lab3.tar.gz 201560573_sanchita chaturvedi_35193_assignsubmission_file_201560573_lab3.tar.gz 201560592_Vinay Kusuma_35184_assignsubmission_file_201560592_lab3.tar.gz 201560597_shreyali ganvir_35134_assignsubmission_file_201560597_lab3.tar 201560609_Rishi Sethia_35202_assignsubmission_file_201560609_lab03.tar.gz 201560617_vidushi walia_35178_assignsubmission_file_201560617_lab3.tar.gz 201560619_RIPAL KASUMBIWAL_35185_assignsubmission_file_201560619_lab3.tar.gz 201560625_DANAMMA KALAVIKATTE_35133_assignsubmission_file_201560625_lab03.tar.gz 201562640_Tanashree Jaganade_35138_assignsubmission_file_201562640_lab3.tar.gz 20162004_RAJAT JAIN_35219_assignsubmission_file_20162004_lab3.tar.gz 20162006_Shikha Rani_35125_assignsubmission_file_20162006_lab3.tar.gz 20162007_Nishu Vats_35128_assignsubmission_file_20162007_lab3.tar.gz 20162008_Vatsal Nagda_35227_assignsubmission_file_20162008_lab3.tar.gz 20162011_Varun Mundale_35195_assignsubmission_file_20162011_lab3.tar.gz 20162012_Rini Tikarya_35209_assignsubmission_file_20162012_lab3.tar.gz 20162013_Manoj Kabra_35168_assignsubmission_file_20162013_Lab3.tar.gz 20162014_Ranjana Mummidivarapu_35194_assignsubmission_file_20162014_lab3.tar.gz 20162015_Abhinav Gupta_35139_assignsubmission_file_20162015_lab3.tar.gz 20162016_Snehal Pathak_35233_assignsubmission_file_20162016_lab3.tar.gz 20162019_CHINMAY AGARWAL_35137_assignsubmission_file_20162019_lab3.tar.gz 20162020_Saniya Sharma_35229_assignsubmission_file_20162020_lab3.tar.gz 20162021_AKSHAY KOLGE_35189_assignsubmission_file_20162021_lab3.tar.gz 20162023_NIKITA WANI_35183_assignsubmission_file_20162023_lab3.tar.gz 20162024_Abhishek Sharma_35217_assignsubmission_file_20162024_lab3.tar.gz 20162025_Sandeepan Baidya_35158_assignsubmission_file_20162025_lab3.tar.gz 20162026_Akhil Gupta_35231_assignsubmission_file_20162026_lab3.tar.gz 20162027_Pritam Rathi_35131_assignsubmission_file_20162027_lab3.tar.gz 20162028_Ravi Prakash_35200_assignsubmission_file_20162028_lab3.tar.gz 20162029_ramamurthi kumar_35167_assignsubmission_file_20162029_lab3.tar.gz 20162032_Sandip Tiwari_35226_assignsubmission_file_20162032_lab3.tar 20162034_mansi singh_35180_assignsubmission_file_20162034_lab3.tar.gz 20162035_aneel ._35223_assignsubmission_file_20162035_lab3.tar.gz 20162037_Suryansh Agnihotri_35216_assignsubmission_file_20162037_lab3.tar.gz 20162039_Piyush Shrivastava_35188_assignsubmission_file_20162039_lab3.tar.gz 20162040_ASHWIN P_35198_assignsubmission_file_20162040_lab3.tar.gz 20162041_VINAY R_35173_assignsubmission_file_20162041_Lab3.tar.gz 20162042_Meenal Jain_35204_assignsubmission_file_20162042_lab3.tar 20162043_Saad Khan_35147_assignsubmission_file_20162043_lab3.tar.gz 20162044_Anandita Dhasmana_35140_assignsubmission_file_20162044_lab3.tar.gz 20162045_Mohammed Ujjainwala_35156_assignsubmission_file_20162045_lab3.tar.gz 20162046_M Chandravati_35165_assignsubmission_file_20162046_lab3.tar.gz 20162048_Ramkrishna Maheta_35126_assignsubmission_file_20162048_lab3.tar.gz 20162050_Rohit Dayama_35179_assignsubmission_file_20162050_lab3.tar.gz 20162053_Mohsin Mulani_35190_assignsubmission_file_20162053_lab3.tar.gz 20162055_Damodar Pai Dukle_35149_assignsubmission_file_20162055_lab3.tar.gz 20162056_Pulkit Bansal_35225_assignsubmission_file_20162056_lab3.tar.gz 20162057_Manish Nalla_35199_assignsubmission_file_20162057_lab3.tar.gz 20162059_Aditi Gangrade_35164_assignsubmission_file_20162059_lab3.tar.gz 20162060_Shreya Singh_35218_assignsubmission_file_20162060_lab3.tar.gz 20162063_Rupali Aher_35206_assignsubmission_file_20162063_lab3.tar.gz 20162064_Rajesh Mahato_35155_assignsubmission_file_20162064_lab3.tar.gz 20162065_Sachin Lomte_35187_assignsubmission_file_20162065_lab3.tar.gz 20162068_Sunny Ahlawat_35182_assignsubmission_file_20162068_lab3.tar.gz 20162070_vikas Raghuwanshi_35181_assignsubmission_file_20162070_lab3.tar.gz 20162073_Jayant Kumar Tanwani_35141_assignsubmission_file_20162073_lab3.tar.gz 20162074_SIDDHARTHA JAIN_35154_assignsubmission_file_20162074_lab3.tar.gz 20162075_Chetan Chhabra_35169_assignsubmission_file_20162075_lab3.tar.gz 20162076_Dhawnit Khurana_35161_assignsubmission_file_20162076_lab3.tar.gz 20162078_Hemant Verma_35170_assignsubmission_file_20162078_lab3.tar.gz 20162080_kanishtha surana_35136_assignsubmission_file_20162080_lab3.tar.gz 20162082_riddhi patel_35192_assignsubmission_file_20162082_lab3.tar.gz 20162083_Neethu Shaji_35224_assignsubmission_file_20162083_lab3.tar.gz 20162084_Shivani Tyagi_35214_assignsubmission_file_20162084_lab_3.tar.gz 20162085_Rohit Tiwari_35196_assignsubmission_file_20162085_lab3.tar.gz 20162087_shashank upadhyay_35201_assignsubmission_file_20162087_lab3.tar.gz 20162088_Gaurav Agarwal_35148_assignsubmission_file_20162088_lab3.tar.gz 20162092_Hillol Datta_35142_assignsubmission_file_20162092_lab3.tar.gz 20162093_Satrajit Datta_35210_assignsubmission_file_20162093_lab3.tar.gz 20162094_Swarnadeep Chatterjee_35127_assignsubmission_file_20162094_lab3.tar.gz 20162095_tannika majumder_35221_assignsubmission_file_20162095_lab3.tar.gz 20162097_Sayan Dutta_35211_assignsubmission_file_20162097_lab3.tar.gz 20162098_Vinisha Parwal_35132_assignsubmission_file_20162098_lab3.tar.gz 20162099_Diptam Ghosh_35143_assignsubmission_file_20162099_lab3.tar.gz 20162100_Arijit Das_35146_assignsubmission_file_20162100_lab3.tar.gz 20162101_Mainak Bhattacharjee_35212_assignsubmission_file_20162101_lab3.tar.gz 20162102_Saurabh Singh_35230_assignsubmission_file_20162102_lab3.tar.gz 20162104_Sejal Naidu_35186_assignsubmission_file_20162104_lab3.tar.gz 20162107_Naveen Sharma_35205_assignsubmission_file_20162107_lab3.tar.gz 20162109_Dishant Chauhan_35159_assignsubmission_file_20162109_Lab3.tar.gz 20162110_Bhavana Podapati_35208_assignsubmission_file_20162110_lab3.tar.gz 20162112_hemang akbari_35150_assignsubmission_file_20162112_lab3.tar.gz 20162115_Mohammad Ishan Rayeen_35162_assignsubmission_file_20162115_lab3.tar.gz 20162116_Adithya Avvaru_35191_assignsubmission_file_20162116_lab3.tar.gz 20162118_Anupam Pandey_35175_assignsubmission_file_20162118_lab3.tar.gz 20162119_Muzammil Ahmad Syed_35160_assignsubmission_file_20162119_lab_3.tar.gz 20162123_Divyani Sharma_35176_assignsubmission_file_20162123_lab3.tar.gz 20162126_Sayantan Gangopadhyay_35144_assignsubmission_file_20162126_lab3.tar.gz 20162127_Rohan Adesara_35174_assignsubmission_file_20162127_lab3.tar.gz 20162130_Yojana Birje_35130_assignsubmission_file_20162130_lab3.tar.gz 20162138_Vini Garg_35222_assignsubmission_file_20162138_lab3.tar.gz 20163013_Gandhi Gangadhari_35152_assignsubmission_file_Lab3.tar.gz 20163027_Nikhil Ranjan_35197_assignsubmission_file_20163027_lab3.tar.gz
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [K]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [K]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+2_1.sh: line 18: syntax error: unexpected end of file
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ resset[K[K[Ket
+[3g        H        H        H        H        H        H        H        H        Hc[!p[?3;4l[4l>]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ reset
+[3g        H        H        H        H        H        H        H        H        Hc[!p[?3;4l[4l>^[[A]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ resetbash 2_1.sh 
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+201350914_Vikas Aggarwal_35166_assignsubmission_file_201350914_lab3.tar
+201532656_pushpa bhavya vydana_35157_assignsubmission_file_201532656_lab3.tar.gz
+201550848_Amit Kumar_35203_assignsubmission_file_201550848_lab3.tar.gz
+201560516_Shweta Kulshreshtha_35171_assignsubmission_file_201560516_lab3.tar.gz
+201560522_Tejeswi Muthireddy_35232_assignsubmission_file_201560522_lab03.tar.gz
+201560543_Aditi Gautam_35151_assignsubmission_file_201560543_lab03.tar.gz
+201560557_Sudhanshu Kumar Singh_35153_assignsubmission_file_201560557_lab03.tar
+201560558_Gitanjali Vaidya_35129_assignsubmission_file_201560558_lab3.tar
+201560562_Anjali Verma_35145_assignsubmission_file_201560562_lab3.tar.gz
+201560573_sanchita chaturvedi_35193_assignsubmission_file_201560573_lab3.tar.gz
+201560592_Vinay Kusuma_35184_assignsubmission_file_201560592_lab3.tar.gz
+201560597_shreyali ganvir_35134_assignsubmission_file_201560597_lab3.tar
+201560609_Rishi Sethia_35202_assignsubmission_file_201560609_lab03.tar.gz
+201560617_vidushi walia_35178_assignsubmission_file_201560617_lab3.tar.gz
+201560619_RIPAL KASUMBIWAL_35185_assignsubmission_file_201560619_lab3.tar.gz
+201560625_DANAMMA KALAVIKATTE_35133_assignsubmission_file_201560625_lab03.tar.gz
+201562640_Tanashree Jaganade_35138_assignsubmission_file_201562640_lab3.tar.gz
+20162004_RAJAT JAIN_35219_assignsubmission_file_20162004_lab3.tar.gz
+20162006_Shikha Rani_35125_assignsubmission_file_20162006_lab3.tar.gz
+20162007_Nishu Vats_35128_assignsubmission_file_20162007_lab3.tar.gz
+20162008_Vatsal Nagda_35227_assignsubmission_file_20162008_lab3.tar.gz
+20162011_Varun Mundale_35195_assignsubmission_file_20162011_lab3.tar.gz
+20162012_Rini Tikarya_35209_assignsubmission_file_20162012_lab3.tar.gz
+20162013_Manoj Kabra_35168_assignsubmission_file_20162013_Lab3.tar.gz
+20162014_Ranjana Mummidivarapu_35194_assignsubmission_file_20162014_lab3.tar.gz
+20162015_Abhinav Gupta_35139_assignsubmission_file_20162015_lab3.tar.gz
+20162016_Snehal Pathak_35233_assignsubmission_file_20162016_lab3.tar.gz
+20162019_CHINMAY AGARWAL_35137_assignsubmission_file_20162019_lab3.tar.gz
+20162020_Saniya Sharma_35229_assignsubmission_file_20162020_lab3.tar.gz
+20162021_AKSHAY KOLGE_35189_assignsubmission_file_20162021_lab3.tar.gz
+20162023_NIKITA WANI_35183_assignsubmission_file_20162023_lab3.tar.gz
+20162024_Abhishek Sharma_35217_assignsubmission_file_20162024_lab3.tar.gz
+20162025_Sandeepan Baidya_35158_assignsubmission_file_20162025_lab3.tar.gz
+20162026_Akhil Gupta_35231_assignsubmission_file_20162026_lab3.tar.gz
+20162027_Pritam Rathi_35131_assignsubmission_file_20162027_lab3.tar.gz
+20162028_Ravi Prakash_35200_assignsubmission_file_20162028_lab3.tar.gz
+20162029_ramamurthi kumar_35167_assignsubmission_file_20162029_lab3.tar.gz
+20162032_Sandip Tiwari_35226_assignsubmission_file_20162032_lab3.tar
+20162034_mansi singh_35180_assignsubmission_file_20162034_lab3.tar.gz
+20162035_aneel ._35223_assignsubmission_file_20162035_lab3.tar.gz
+20162037_Suryansh Agnihotri_35216_assignsubmission_file_20162037_lab3.tar.gz
+20162039_Piyush Shrivastava_35188_assignsubmission_file_20162039_lab3.tar.gz
+20162040_ASHWIN P_35198_assignsubmission_file_20162040_lab3.tar.gz
+20162041_VINAY R_35173_assignsubmission_file_20162041_Lab3.tar.gz
+20162042_Meenal Jain_35204_assignsubmission_file_20162042_lab3.tar
+20162043_Saad Khan_35147_assignsubmission_file_20162043_lab3.tar.gz
+20162044_Anandita Dhasmana_35140_assignsubmission_file_20162044_lab3.tar.gz
+20162045_Mohammed Ujjainwala_35156_assignsubmission_file_20162045_lab3.tar.gz
+20162046_M Chandravati_35165_assignsubmission_file_20162046_lab3.tar.gz
+20162048_Ramkrishna Maheta_35126_assignsubmission_file_20162048_lab3.tar.gz
+20162050_Rohit Dayama_35179_assignsubmission_file_20162050_lab3.tar.gz
+20162053_Mohsin Mulani_35190_assignsubmission_file_20162053_lab3.tar.gz
+20162055_Damodar Pai Dukle_35149_assignsubmission_file_20162055_lab3.tar.gz
+20162056_Pulkit Bansal_35225_assignsubmission_file_20162056_lab3.tar.gz
+20162057_Manish Nalla_35199_assignsubmission_file_20162057_lab3.tar.gz
+20162059_Aditi Gangrade_35164_assignsubmission_file_20162059_lab3.tar.gz
+20162060_Shreya Singh_35218_assignsubmission_file_20162060_lab3.tar.gz
+20162063_Rupali Aher_35206_assignsubmission_file_20162063_lab3.tar.gz
+20162064_Rajesh Mahato_35155_assignsubmission_file_20162064_lab3.tar.gz
+20162065_Sachin Lomte_35187_assignsubmission_file_20162065_lab3.tar.gz
+20162068_Sunny Ahlawat_35182_assignsubmission_file_20162068_lab3.tar.gz
+20162070_vikas Raghuwanshi_35181_assignsubmission_file_20162070_lab3.tar.gz
+20162073_Jayant Kumar Tanwani_35141_assignsubmission_file_20162073_lab3.tar.gz
+20162074_SIDDHARTHA JAIN_35154_assignsubmission_file_20162074_lab3.tar.gz
+20162075_Chetan Chhabra_35169_assignsubmission_file_20162075_lab3.tar.gz
+20162076_Dhawnit Khurana_35161_assignsubmission_file_20162076_lab3.tar.gz
+20162078_Hemant Verma_35170_assignsubmission_file_20162078_lab3.tar.gz
+20162080_kanishtha surana_35136_assignsubmission_file_20162080_lab3.tar.gz
+20162082_riddhi patel_35192_assignsubmission_file_20162082_lab3.tar.gz
+20162083_Neethu Shaji_35224_assignsubmission_file_20162083_lab3.tar.gz
+20162084_Shivani Tyagi_35214_assignsubmission_file_20162084_lab_3.tar.gz
+20162085_Rohit Tiwari_35196_assignsubmission_file_20162085_lab3.tar.gz
+20162087_shashank upadhyay_35201_assignsubmission_file_20162087_lab3.tar.gz
+20162088_Gaurav Agarwal_35148_assignsubmission_file_20162088_lab3.tar.gz
+20162092_Hillol Datta_35142_assignsubmission_file_20162092_lab3.tar.gz
+20162093_Satrajit Datta_35210_assignsubmission_file_20162093_lab3.tar.gz
+20162094_Swarnadeep Chatterjee_35127_assignsubmission_file_20162094_lab3.tar.gz
+20162095_tannika majumder_35221_assignsubmission_file_20162095_lab3.tar.gz
+20162097_Sayan Dutta_35211_assignsubmission_file_20162097_lab3.tar.gz
+20162098_Vinisha Parwal_35132_assignsubmission_file_20162098_lab3.tar.gz
+20162099_Diptam Ghosh_35143_assignsubmission_file_20162099_lab3.tar.gz
+20162100_Arijit Das_35146_assignsubmission_file_20162100_lab3.tar.gz
+20162101_Mainak Bhattacharjee_35212_assignsubmission_file_20162101_lab3.tar.gz
+20162102_Saurabh Singh_35230_assignsubmission_file_20162102_lab3.tar.gz
+20162104_Sejal Naidu_35186_assignsubmission_file_20162104_lab3.tar.gz
+20162107_Naveen Sharma_35205_assignsubmission_file_20162107_lab3.tar.gz
+20162109_Dishant Chauhan_35159_assignsubmission_file_20162109_Lab3.tar.gz
+20162110_Bhavana Podapati_35208_assignsubmission_file_20162110_lab3.tar.gz
+20162112_hemang akbari_35150_assignsubmission_file_20162112_lab3.tar.gz
+20162115_Mohammad Ishan Rayeen_35162_assignsubmission_file_20162115_lab3.tar.gz
+20162116_Adithya Avvaru_35191_assignsubmission_file_20162116_lab3.tar.gz
+20162118_Anupam Pandey_35175_assignsubmission_file_20162118_lab3.tar.gz
+20162119_Muzammil Ahmad Syed_35160_assignsubmission_file_20162119_lab_3.tar.gz
+20162123_Divyani Sharma_35176_assignsubmission_file_20162123_lab3.tar.gz
+20162126_Sayantan Gangopadhyay_35144_assignsubmission_file_20162126_lab3.tar.gz
+20162127_Rohan Adesara_35174_assignsubmission_file_20162127_lab3.tar.gz
+20162130_Yojana Birje_35130_assignsubmission_file_20162130_lab3.tar.gz
+20162138_Vini Garg_35222_assignsubmission_file_20162138_lab3.tar.gz
+20163013_Gandhi Gangadhari_35152_assignsubmission_file_Lab3.tar.gz
+20163027_Nikhil Ranjan_35197_assignsubmission_file_20163027_lab3.tar.gz
+
+
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+201350914_Vikas
+201532656_pushpa
+201550848_Amit
+201560516_Shweta
+201560522_Tejeswi
+201560543_Aditi
+201560557_Sudhanshu
+201560558_Gitanjali
+201560562_Anjali
+201560573_sanchita
+201560592_Vinay
+201560597_shreyali
+201560609_Rishi
+201560617_vidushi
+201560619_RIPAL
+201560625_DANAMMA
+201562640_Tanashree
+20162004_RAJAT
+20162006_Shikha
+20162007_Nishu
+20162008_Vatsal
+20162011_Varun
+20162012_Rini
+20162013_Manoj
+20162014_Ranjana
+20162015_Abhinav
+20162016_Snehal
+20162019_CHINMAY
+20162020_Saniya
+20162021_AKSHAY
+20162023_NIKITA
+20162024_Abhishek
+20162025_Sandeepan
+20162026_Akhil
+20162027_Pritam
+20162028_Ravi
+20162029_ramamurthi
+20162032_Sandip
+20162034_mansi
+20162035_aneel
+20162037_Suryansh
+20162039_Piyush
+20162040_ASHWIN
+20162041_VINAY
+20162042_Meenal
+20162043_Saad
+20162044_Anandita
+20162045_Mohammed
+20162046_M
+20162048_Ramkrishna
+20162050_Rohit
+20162053_Mohsin
+20162055_Damodar
+20162056_Pulkit
+20162057_Manish
+20162059_Aditi
+20162060_Shreya
+20162063_Rupali
+20162064_Rajesh
+20162065_Sachin
+20162068_Sunny
+20162070_vikas
+20162073_Jayant
+20162074_SIDDHARTHA
+20162075_Chetan
+20162076_Dhawnit
+20162078_Hemant
+20162080_kanishtha
+20162082_riddhi
+20162083_Neethu
+20162084_Shivani
+20162085_Rohit
+20162087_shashank
+20162088_Gaurav
+20162092_Hillol
+20162093_Satrajit
+20162094_Swarnadeep
+20162095_tannika
+20162097_Sayan
+20162098_Vinisha
+20162099_Diptam
+20162100_Arijit
+20162101_Mainak
+20162102_Saurabh
+20162104_Sejal
+20162107_Naveen
+20162109_Dishant
+20162110_Bhavana
+20162112_hemang
+20162115_Mohammad
+20162116_Adithya
+20162118_Anupam
+20162119_Muzammil
+20162123_Divyani
+20162126_Sayantan
+20162127_Rohan
+20162130_Yojana
+20162138_Vini
+20163013_Gandhi
+20163027_Nikhil
+
+
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+201350914
+201532656
+201550848
+201560516
+201560522
+201560543
+201560557
+201560558
+201560562
+201560573
+201560592
+201560597
+201560609
+201560617
+201560619
+201560625
+201562640
+20162004
+20162006
+20162007
+20162008
+20162011
+20162012
+20162013
+20162014
+20162015
+20162016
+20162019
+20162020
+20162021
+20162023
+20162024
+20162025
+20162026
+20162027
+20162028
+20162029
+20162032
+20162034
+20162035
+20162037
+20162039
+20162040
+20162041
+20162042
+20162043
+20162044
+20162045
+20162046
+20162048
+20162050
+20162053
+20162055
+20162056
+20162057
+20162059
+20162060
+20162063
+20162064
+20162065
+20162068
+20162070
+20162073
+20162074
+20162075
+20162076
+20162078
+20162080
+20162082
+20162083
+20162084
+20162085
+20162087
+20162088
+20162092
+20162093
+20162094
+20162095
+20162097
+20162098
+20162099
+20162100
+20162101
+20162102
+20162104
+20162107
+20162109
+20162110
+20162112
+20162115
+20162116
+20162118
+20162119
+20162123
+20162126
+20162127
+20162130
+20162138
+20163013
+20163027
+
+
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+201350914
+201532656
+201550848
+201560516
+201560522
+201560543
+201560557
+201560558
+201560562
+201560573
+201560592
+201560597
+201560609
+201560617
+201560619
+201560625
+201562640
+20162004
+20162006
+20162007
+20162008
+20162011
+20162012
+20162013
+20162014
+20162015
+20162016
+20162019
+20162020
+20162021
+20162023
+20162024
+20162025
+20162026
+20162027
+20162028
+20162029
+20162032
+20162034
+20162035
+20162037
+20162039
+20162040
+20162041
+20162042
+20162043
+20162044
+20162045
+20162046
+20162048
+20162050
+20162053
+20162055
+20162056
+20162057
+20162059
+20162060
+20162063
+20162064
+20162065
+20162068
+20162070
+20162073
+20162074
+20162075
+20162076
+20162078
+20162080
+20162082
+20162083
+20162084
+20162085
+20162087
+20162088
+20162092
+20162093
+20162094
+20162095
+20162097
+20162098
+20162099
+20162100
+20162101
+20162102
+20162104
+20162107
+20162109
+20162110
+20162112
+20162115
+20162116
+20162118
+20162119
+20162123
+20162126
+20162127
+20162130
+20162138
+20163013
+20163027
+
+
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+201350914
+201532656
+201550848
+201560516
+201560522
+201560543
+201560557
+201560558
+201560562
+201560573
+201560592
+201560597
+201560609
+201560617
+201560619
+201560625
+201562640
+20162004
+20162006
+20162007
+20162008
+20162011
+20162012
+20162013
+20162014
+20162015
+20162016
+20162019
+20162020
+20162021
+20162023
+20162024
+20162025
+20162026
+20162027
+20162028
+20162029
+20162032
+20162034
+20162035
+20162037
+20162039
+20162040
+20162041
+20162042
+20162043
+20162044
+20162045
+20162046
+20162048
+20162050
+20162053
+20162055
+20162056
+20162057
+20162059
+20162060
+20162063
+20162064
+20162065
+20162068
+20162070
+20162073
+20162074
+20162075
+20162076
+20162078
+20162080
+20162082
+20162083
+20162084
+20162085
+20162087
+20162088
+20162092
+20162093
+20162094
+20162095
+20162097
+20162098
+20162099
+20162100
+20162101
+20162102
+20162104
+20162107
+20162109
+20162110
+20162112
+20162115
+20162116
+20162118
+20162119
+20162123
+20162126
+20162127
+20162130
+20162138
+20163013
+20163027
+
+
+size :102
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+201350914
+201532656
+201550848
+201560516
+201560522
+201560543
+201560557
+201560558
+201560562
+201560573
+201560592
+201560597
+201560609
+201560617
+201560619
+201560625
+201562640
+20162004
+20162006
+20162007
+20162008
+20162011
+20162012
+20162013
+20162014
+20162015
+20162016
+20162019
+20162020
+20162021
+20162023
+20162024
+20162025
+20162026
+20162027
+20162028
+20162029
+20162032
+20162034
+20162035
+20162037
+20162039
+20162040
+20162041
+20162042
+20162043
+20162044
+20162045
+20162046
+20162048
+20162050
+20162053
+20162055
+20162056
+20162057
+20162059
+20162060
+20162063
+20162064
+20162065
+20162068
+20162070
+20162073
+20162074
+20162075
+20162076
+20162078
+20162080
+20162082
+20162083
+20162084
+20162085
+20162087
+20162088
+20162092
+20162093
+20162094
+20162095
+20162097
+20162098
+20162099
+20162100
+20162101
+20162102
+20162104
+20162107
+20162109
+20162110
+20162112
+20162115
+20162116
+20162118
+20162119
+20162123
+20162126
+20162127
+20162130
+20162138
+20163013
+20163027
+
+
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ an suh[K[Khuf
+The program 'an' is currently not installed. You can install it by typing:
+sudo apt install an
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ man shuf
+[?1049h[?1h=SHUF(1)                          User Commands                         SHUF(1)[m
+[m
+[1mNAME[0m[m
+       shuf - generate random permutations[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mshuf[0m [[4mOPTION[24m]... [[4mFILE[24m][m
+       [1mshuf[0m [4m-e[24m [[4mOPTION[24m]... [[4mARG[24m]...[m
+       [1mshuf[0m [4m-i[24m [4mLO-HI[24m [[4mOPTION[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       Write a random permutation of the input lines to standard output.[m
+[m
+       With no FILE, or when FILE is -, read standard input.[m
+[m
+       Mandatory  arguments  to  long  options are mandatory for short options[m
+       too.[m
+[m
+       [1m-e[0m, [1m--echo[0m[m
+              treat each ARG as an input line[m
+[m
+       [1m-i[0m, [1m--input-range[0m=[4mLO-HI[24m[m
+              treat each number LO through HI as an input line[m
+[7m Manual page shuf(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page shuf(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-n[0m, [1m--head-count[0m=[4mCOUNT[24m[m
+[7m Manual page shuf(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              output at most COUNT lines[m
+[7m Manual page shuf(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page shuf(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-o[0m, [1m--output[0m=[4mFILE[24m[m
+[7m Manual page shuf(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              write result to FILE instead of standard output[m
+[7m Manual page shuf(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page shuf(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--random-source[0m=[4mFILE[24m[m
+[7m Manual page shuf(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              get random bytes from FILE[m
+[7m Manual page shuf(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page shuf(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-r[0m, [1m--repeat[0m[m
+[7m Manual page shuf(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              output lines can be repeated[m
+[7m Manual page shuf(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page shuf(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-z[0m, [1m--zero-terminated[0m[m
+[7m Manual page shuf(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              line delimiter is NUL, not newline[m
+[7m Manual page shuf(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page shuf(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--help[0m display this help and exit[m
+[7m Manual page shuf(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page shuf(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--version[0m[m
+[7m Manual page shuf(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              output version information and exit[m
+[7m Manual page shuf(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page shuf(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mAUTHOR[0m[m
+[7m Manual page shuf(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Written by Paul Eggert.[m
+[7m Manual page shuf(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page shuf(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mREPORTING[0m [1mBUGS[0m[m
+[7m Manual page shuf(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GNU coreutils online help: <http://www.gnu.org/software/coreutils/>[m
+[7m Manual page shuf(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Report shuf translation bugs to <http://translationproject.org/team/>[m
+[7m Manual page shuf(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page shuf(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mCOPYRIGHT[0m[m
+[7m Manual page shuf(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Copyright © 2016 Free Software Foundation, Inc.   License  GPLv3+:  GNU[m
+[7m Manual page shuf(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GPL version 3 or later <http://gnu.org/licenses/gpl.html>.[m
+[7m Manual page shuf(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       This  is  free  software:  you  are free to change and redistribute it.[m
+[7m Manual page shuf(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       There is NO WARRANTY, to the extent permitted by law.[m
+[7m Manual page shuf(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page shuf(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mSEE[0m [1mALSO[0m[m
+[7m Manual page shuf(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Full documentation at: <http://www.gnu.org/software/coreutils/shuf>[m
+[7m Manual page shuf(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       or available locally via: info '(coreutils) shuf invocation'[m
+[7m Manual page shuf(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page shuf(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[KGNU coreutils 8.25               February 2016                         SHUF(1)[m
+[7m Manual page shuf(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page shuf(1) line 40/62 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page shuf(1) line 40/62 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page shuf(1) line 40/62 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page shuf(1) line 40/62 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page shuf(1) line 40/62 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page shuf(1) line 39/62 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              line delimiter is NUL, not newline[m
+[24;1H[K[7m Manual page shuf(1) line 38/62 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-z[0m, [1m--zero-terminated[0m[m
+[24;1H[K[7m Manual page shuf(1) line 37/62 94% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page shuf(1) line 36/62 90% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              output lines can be repeated[m
+[24;1H[K[7m Manual page shuf(1) line 35/62 89% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-r[0m, [1m--repeat[0m[m
+[24;1H[K[7m Manual page shuf(1) line 34/62 89% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page shuf(1) line 33/62 87% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              get random bytes from FILE[m
+[24;1H[K[7m Manual page shuf(1) line 32/62 83% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--random-source[0m=[4mFILE[24m[m
+[24;1H[K[7m Manual page shuf(1) line 31/62 80% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page shuf(1) line 30/62 77% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              write result to FILE instead of standard output[m
+[24;1H[K[7m Manual page shuf(1) line 29/62 76% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-o[0m, [1m--output[0m=[4mFILE[24m[m
+[24;1H[K[7m Manual page shuf(1) line 28/62 76% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page shuf(1) line 27/62 72% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              output at most COUNT lines[m
+[24;1H[K[7m Manual page shuf(1) line 26/62 69% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-n[0m, [1m--head-count[0m=[4mCOUNT[24m[m
+[24;1H[K[7m Manual page shuf(1) line 25/62 67% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page shuf(1) line 24/62 67% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              treat each number LO through HI as an input line[m
+[24;1H[K[7m Manual page shuf(1) line 23/62 66% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-i[0m, [1m--input-range[0m=[4mLO-HI[24m[m
+[24;1H[K[7m Manual page shuf(1) line 22/62 65% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page shuf(1) line 21/62 65% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              treat each ARG as an input line[m
+[24;1H[K[7m Manual page shuf(1) line 20/62 63% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-e[0m, [1m--echo[0m[m
+[24;1H[K[7m Manual page shuf(1) line 19/62 61% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page shuf(1) line 18/62 61% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       too.[m
+[24;1H[K[7m Manual page shuf(1) line 17/62 59% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Mandatory  arguments  to  long  options are mandatory for short options[m
+[24;1H[K[7m Manual page shuf(1) line 16/62 59% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page shuf(1) line 15/62 57% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       With no FILE, or when FILE is -, read standard input.[m
+[24;1H[K[7m Manual page shuf(1) line 14/62 54% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page shuf(1) line 13/62 54% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Write a random permutation of the input lines to standard output.[m
+[24;1H[K[7m Manual page shuf(1) line 12/62 52% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[24;1H[K[7m Manual page shuf(1) line 11/62 50% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page shuf(1) line 10/62 50% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mshuf[0m [4m-i[24m [4mLO-HI[24m [[4mOPTION[24m]...[m
+[24;1H[K[7m Manual page shuf(1) line 9/62 49% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mshuf[0m [4m-e[24m [[4mOPTION[24m]... [[4mARG[24m]...[m
+[24;1H[K[7m Manual page shuf(1) line 8/62 46% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mshuf[0m [[4mOPTION[24m]... [[4mFILE[24m][m
+[24;1H[K[7m Manual page shuf(1) line 7/62 46% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m[m
+[24;1H[K[7m Manual page shuf(1) line 6/62 43% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page shuf(1) line 5/62 41% (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ man shuf[H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ man shuf[1P[C[C[C[C[C[C[Cbash 2_1.sh 
+201350914
+201532656
+201550848
+201560516
+201560522
+201560543
+201560557
+201560558
+201560562
+201560573
+201560592
+201560597
+201560609
+201560617
+201560619
+201560625
+201562640
+20162004
+20162006
+20162007
+20162008
+20162011
+20162012
+20162013
+20162014
+20162015
+20162016
+20162019
+20162020
+20162021
+20162023
+20162024
+20162025
+20162026
+20162027
+20162028
+20162029
+20162032
+20162034
+20162035
+20162037
+20162039
+20162040
+20162041
+20162042
+20162043
+20162044
+20162045
+20162046
+20162048
+20162050
+20162053
+20162055
+20162056
+20162057
+20162059
+20162060
+20162063
+20162064
+20162065
+20162068
+20162070
+20162073
+20162074
+20162075
+20162076
+20162078
+20162080
+20162082
+20162083
+20162084
+20162085
+20162087
+20162088
+20162092
+20162093
+20162094
+20162095
+20162097
+20162098
+20162099
+20162100
+20162101
+20162102
+20162104
+20162107
+20162109
+20162110
+20162112
+20162115
+20162116
+20162118
+20162119
+20162123
+20162126
+20162127
+20162130
+20162138
+20163013
+20163027
+
+2_1.sh: line 27: syntax error: unexpected end of file
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+201350914
+201532656
+201550848
+201560516
+201560522
+201560543
+201560557
+201560558
+201560562
+201560573
+201560592
+201560597
+201560609
+201560617
+201560619
+201560625
+201562640
+20162004
+20162006
+20162007
+20162008
+20162011
+20162012
+20162013
+20162014
+20162015
+20162016
+20162019
+20162020
+20162021
+20162023
+20162024
+20162025
+20162026
+20162027
+20162028
+20162029
+20162032
+20162034
+20162035
+20162037
+20162039
+20162040
+20162041
+20162042
+20162043
+20162044
+20162045
+20162046
+20162048
+20162050
+20162053
+20162055
+20162056
+20162057
+20162059
+20162060
+20162063
+20162064
+20162065
+20162068
+20162070
+20162073
+20162074
+20162075
+20162076
+20162078
+20162080
+20162082
+20162083
+20162084
+20162085
+20162087
+20162088
+20162092
+20162093
+20162094
+20162095
+20162097
+20162098
+20162099
+20162100
+20162101
+20162102
+20162104
+20162107
+20162109
+20162110
+20162112
+20162115
+20162116
+20162118
+20162119
+20162123
+20162126
+20162127
+20162130
+20162138
+20163013
+20163027
+
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+201350914
+201532656
+201550848
+201560516
+201560522
+201560543
+201560557
+201560558
+201560562
+201560573
+201560592
+201560597
+201560609
+201560617
+201560619
+201560625
+201562640
+20162004
+20162006
+20162007
+20162008
+20162011
+20162012
+20162013
+20162014
+20162015
+20162016
+20162019
+20162020
+20162021
+20162023
+20162024
+20162025
+20162026
+20162027
+20162028
+20162029
+20162032
+20162034
+20162035
+20162037
+20162039
+20162040
+20162041
+20162042
+20162043
+20162044
+20162045
+20162046
+20162048
+20162050
+20162053
+20162055
+20162056
+20162057
+20162059
+20162060
+20162063
+20162064
+20162065
+20162068
+20162070
+20162073
+20162074
+20162075
+20162076
+20162078
+20162080
+20162082
+20162083
+20162084
+20162085
+20162087
+20162088
+20162092
+20162093
+20162094
+20162095
+20162097
+20162098
+20162099
+20162100
+20162101
+20162102
+20162104
+20162107
+20162109
+20162110
+20162112
+20162115
+20162116
+20162118
+20162119
+20162123
+20162126
+20162127
+20162130
+20162138
+20163013
+20163027
+
+size :101
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ 
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+201350914
+201532656
+201550848
+201560516
+201560522
+201560543
+201560557
+201560558
+201560562
+201560573
+201560592
+201560597
+201560609
+201560617
+201560619
+201560625
+201562640
+20162004
+20162006
+20162007
+20162008
+20162011
+20162012
+20162013
+20162014
+20162015
+20162016
+20162019
+20162020
+20162021
+20162023
+20162024
+20162025
+20162026
+20162027
+20162028
+20162029
+20162032
+20162034
+20162035
+20162037
+20162039
+20162040
+20162041
+20162042
+20162043
+20162044
+20162045
+20162046
+20162048
+20162050
+20162053
+20162055
+20162056
+20162057
+20162059
+20162060
+20162063
+20162064
+20162065
+20162068
+20162070
+20162073
+20162074
+20162075
+20162076
+20162078
+20162080
+20162082
+20162083
+20162084
+20162085
+20162087
+20162088
+20162092
+20162093
+20162094
+20162095
+20162097
+20162098
+20162099
+20162100
+20162101
+20162102
+20162104
+20162107
+20162109
+20162110
+20162112
+20162115
+20162116
+20162118
+20162119
+20162123
+20162126
+20162127
+20162130
+20162138
+20163013
+20163027
+
+size :101
+2_1.sh: line 31: 35
+71
+27
+22
+10
+48
+66
+62
+60
+61
+74
+20
+95
+82
+38
+39
+93
+32
+63
+84
+55
+89
+46
+85
+30
+99
+73
+50
+69
+101
+17
+18
+83
+2
+67
+88
+58
+36
+26
+11
+15
+14
+4
+100
+54
+45
+7
+70
+57
+34
+19
+5
+33
+43
+13
+49
+96
+29
+53
+8
+90
+80
+68
+87
+37
+23
+64
+81
+31
+40
+97
+6
+77
+12
+44
+47
+1
+52
+24
+92
+76
+28
+65
+56
+41
+51
+3
+42
+16
+79
+9
+91
+72
+78
+94
+59
+75
+86
+21
+98
+25: syntax error in expression (error token is "71
+27
+22
+10
+48
+66
+62
+60
+61
+74
+20
+95
+82
+38
+39
+93
+32
+63
+84
+55
+89
+46
+85
+30
+99
+73
+50
+69
+101
+17
+18
+83
+2
+67
+88
+58
+36
+26
+11
+15
+14
+4
+100
+54
+45
+7
+70
+57
+34
+19
+5
+33
+43
+13
+49
+96
+29
+53
+8
+90
+80
+68
+87
+37
+23
+64
+81
+31
+40
+97
+6
+77
+12
+44
+47
+1
+52
+24
+92
+76
+28
+65
+56
+41
+51
+3
+42
+16
+79
+9
+91
+72
+78
+94
+59
+75
+86
+21
+98
+25")
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+size :101
+2_1.sh: line 31: 47
+51
+63
+93
+40
+28
+78
+89
+86
+71
+37
+62
+24
+87
+83
+30
+31
+95
+14
+10
+55
+64
+80
+70
+54
+5
+41
+26
+46
+36
+29
+32
+1
+101
+57
+96
+90
+12
+38
+58
+85
+48
+84
+39
+67
+76
+25
+22
+65
+74
+72
+79
+50
+52
+20
+42
+56
+16
+2
+98
+11
+69
+8
+61
+82
+94
+9
+49
+44
+19
+45
+88
+4
+75
+73
+97
+53
+99
+66
+60
+15
+43
+21
+81
+3
+6
+34
+59
+13
+77
+18
+27
+17
+68
+7
+35
+100
+23
+91
+92
+33: syntax error in expression (error token is "51
+63
+93
+40
+28
+78
+89
+86
+71
+37
+62
+24
+87
+83
+30
+31
+95
+14
+10
+55
+64
+80
+70
+54
+5
+41
+26
+46
+36
+29
+32
+1
+101
+57
+96
+90
+12
+38
+58
+85
+48
+84
+39
+67
+76
+25
+22
+65
+74
+72
+79
+50
+52
+20
+42
+56
+16
+2
+98
+11
+69
+8
+61
+82
+94
+9
+49
+44
+19
+45
+88
+4
+75
+73
+97
+53
+99
+66
+60
+15
+43
+21
+81
+3
+6
+34
+59
+13
+77
+18
+27
+17
+68
+7
+35
+100
+23
+91
+92
+33")
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+201350914
+201532656
+201550848
+201560516
+201560522
+201560543
+201560557
+201560558
+201560562
+201560573
+201560592
+201560597
+201560609
+201560617
+201560619
+201560625
+201562640
+20162004
+20162006
+20162007
+20162008
+20162011
+20162012
+20162013
+20162014
+20162015
+20162016
+20162019
+20162020
+20162021
+20162023
+20162024
+20162025
+20162026
+20162027
+20162028
+20162029
+20162032
+20162034
+20162035
+20162037
+20162039
+20162040
+20162041
+20162042
+20162043
+20162044
+20162045
+20162046
+20162048
+20162050
+20162053
+20162055
+20162056
+20162057
+20162059
+20162060
+20162063
+20162064
+20162065
+20162068
+20162070
+20162073
+20162074
+20162075
+20162076
+20162078
+20162080
+20162082
+20162083
+20162084
+20162085
+20162087
+20162088
+20162092
+20162093
+20162094
+20162095
+20162097
+20162098
+20162099
+20162100
+20162101
+20162102
+20162104
+20162107
+20162109
+20162110
+20162112
+20162115
+20162116
+20162118
+20162119
+20162123
+20162126
+20162127
+20162130
+20162138
+20163013
+20163027
+
+size :101
+2_1.sh: line 32: syntax error near unexpected token `done'
+2_1.sh: line 32: `	done'
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+size :101
+2_1.sh: line 31: 22
+93
+7
+56
+78
+1
+79
+50
+28
+21
+52
+27
+38
+20
+67
+58
+81
+35
+18
+41
+31
+39
+89
+44
+48
+33
+83
+64
+72
+63
+94
+101
+29
+88
+82
+71
+8
+62
+5
+65
+97
+43
+17
+86
+24
+59
+99
+12
+96
+87
+45
+10
+66
+13
+36
+92
+14
+61
+73
+85
+77
+16
+60
+95
+51
+98
+55
+30
+2
+47
+42
+84
+100
+6
+76
+34
+68
+26
+15
+53
+75
+25
+4
+40
+23
+74
+70
+9
+19
+11
+57
+37
+90
+46
+54
+3
+32
+69
+49
+91
+80: syntax error in expression (error token is "93
+7
+56
+78
+1
+79
+50
+28
+21
+52
+27
+38
+20
+67
+58
+81
+35
+18
+41
+31
+39
+89
+44
+48
+33
+83
+64
+72
+63
+94
+101
+29
+88
+82
+71
+8
+62
+5
+65
+97
+43
+17
+86
+24
+59
+99
+12
+96
+87
+45
+10
+66
+13
+36
+92
+14
+61
+73
+85
+77
+16
+60
+95
+51
+98
+55
+30
+2
+47
+42
+84
+100
+6
+76
+34
+68
+26
+15
+53
+75
+25
+4
+40
+23
+74
+70
+9
+19
+11
+57
+37
+90
+46
+54
+3
+32
+69
+49
+91
+80")
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+size :101
+2_1.sh: line 32: syntax error near unexpected token `done'
+2_1.sh: line 32: `	done'
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+size :101
+
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+size :101
+2_1.sh: line 31: 101
+9
+58
+97
+15
+93
+32
+46
+87
+7
+49
+37
+19
+83
+70
+27
+33
+64
+40
+98
+71
+79
+44
+14
+99
+75
+66
+1
+11
+43
+85
+78
+95
+42
+36
+35
+25
+77
+17
+50
+24
+16
+96
+12
+52
+8
+84
+61
+90
+41
+59
+26
+18
+65
+60
+62
+47
+4
+63
+73
+92
+3
+39
+91
+5
+30
+34
+31
+80
+82
+68
+100
+69
+81
+89
+54
+57
+28
+56
+94
+38
+13
+2
+55
+74
+6
+51
+23
+21
+10
+22
+29
+72
+86
+20
+76
+48
+45
+67
+53
+88: syntax error in expression (error token is "9
+58
+97
+15
+93
+32
+46
+87
+7
+49
+37
+19
+83
+70
+27
+33
+64
+40
+98
+71
+79
+44
+14
+99
+75
+66
+1
+11
+43
+85
+78
+95
+42
+36
+35
+25
+77
+17
+50
+24
+16
+96
+12
+52
+8
+84
+61
+90
+41
+59
+26
+18
+65
+60
+62
+47
+4
+63
+73
+92
+3
+39
+91
+5
+30
+34
+31
+80
+82
+68
+100
+69
+81
+89
+54
+57
+28
+56
+94
+38
+13
+2
+55
+74
+6
+51
+23
+21
+10
+22
+29
+72
+86
+20
+76
+48
+45
+67
+53
+88")
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+size :101
+2_1.sh: line 31: 45
+95
+77
+53
+8
+46
+40
+12
+79
+42
+48
+101
+22
+37
+85
+59
+28
+20
+90
+68
+49
+61
+15
+38
+92
+55
+56
+67
+32
+98
+84
+78
+60
+62
+30
+69
+27
+2
+6
+4
+96
+23
+34
+10
+44
+25
+88
+73
+66
+76
+63
+89
+81
+65
+74
+86
+47
+33
+19
+1
+70
+94
+83
+21
+75
+3
+43
+91
+51
+72
+39
+9
+97
+93
+13
+26
+17
+31
+14
+57
+80
+58
+82
+100
+54
+71
+24
+5
+35
+50
+99
+7
+18
+29
+16
+52
+64
+41
+11
+87
+36: syntax error in expression (error token is "95
+77
+53
+8
+46
+40
+12
+79
+42
+48
+101
+22
+37
+85
+59
+28
+20
+90
+68
+49
+61
+15
+38
+92
+55
+56
+67
+32
+98
+84
+78
+60
+62
+30
+69
+27
+2
+6
+4
+96
+23
+34
+10
+44
+25
+88
+73
+66
+76
+63
+89
+81
+65
+74
+86
+47
+33
+19
+1
+70
+94
+83
+21
+75
+3
+43
+91
+51
+72
+39
+9
+97
+93
+13
+26
+17
+31
+14
+57
+80
+58
+82
+100
+54
+71
+24
+5
+35
+50
+99
+7
+18
+29
+16
+52
+64
+41
+11
+87
+36")
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+size :101
+2_1.sh: line 31: 101
+11
+73
+74
+1
+47
+92
+84
+52
+2
+28
+90
+60
+51
+62
+13
+53
+97
+75
+82
+46
+5
+67
+68
+61
+20
+41
+88
+3
+93
+86
+32
+33
+42
+83
+39
+24
+16
+59
+44
+27
+19
+31
+9
+29
+40
+70
+94
+17
+89
+35
+50
+54
+56
+8
+71
+98
+49
+37
+81
+45
+14
+78
+69
+23
+79
+72
+77
+4
+30
+57
+36
+63
+25
+38
+66
+21
+87
+65
+18
+7
+15
+58
+6
+48
+91
+43
+22
+99
+85
+12
+100
+80
+10
+95
+26
+55
+64
+96
+76
+34: syntax error in expression (error token is "11
+73
+74
+1
+47
+92
+84
+52
+2
+28
+90
+60
+51
+62
+13
+53
+97
+75
+82
+46
+5
+67
+68
+61
+20
+41
+88
+3
+93
+86
+32
+33
+42
+83
+39
+24
+16
+59
+44
+27
+19
+31
+9
+29
+40
+70
+94
+17
+89
+35
+50
+54
+56
+8
+71
+98
+49
+37
+81
+45
+14
+78
+69
+23
+79
+72
+77
+4
+30
+57
+36
+63
+25
+38
+66
+21
+87
+65
+18
+7
+15
+58
+6
+48
+91
+43
+22
+99
+85
+12
+100
+80
+10
+95
+26
+55
+64
+96
+76
+34")
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+size :101
+2_1.sh: line 31: 98
+72
+48
+8
+46
+38
+75
+91
+51
+71
+32
+52
+67
+100
+63
+101
+7
+92
+81
+33
+58
+26
+50
+19
+35
+88
+16
+79
+66
+43
+62
+15
+53
+64
+70
+31
+80
+37
+3
+90
+59
+2
+76
+17
+30
+45
+29
+94
+24
+39
+34
+54
+73
+40
+18
+84
+44
+13
+56
+89
+47
+49
+14
+85
+9
+41
+87
+96
+74
+77
+21
+20
+5
+11
+55
+23
+25
+42
+36
+60
+1
+82
+28
+99
+69
+86
+95
+61
+78
+22
+10
+57
+12
+65
+68
+6
+93
+4
+83
+27
+97: syntax error in expression (error token is "72
+48
+8
+46
+38
+75
+91
+51
+71
+32
+52
+67
+100
+63
+101
+7
+92
+81
+33
+58
+26
+50
+19
+35
+88
+16
+79
+66
+43
+62
+15
+53
+64
+70
+31
+80
+37
+3
+90
+59
+2
+76
+17
+30
+45
+29
+94
+24
+39
+34
+54
+73
+40
+18
+84
+44
+13
+56
+89
+47
+49
+14
+85
+9
+41
+87
+96
+74
+77
+21
+20
+5
+11
+55
+23
+25
+42
+36
+60
+1
+82
+28
+99
+69
+86
+95
+61
+78
+22
+10
+57
+12
+65
+68
+6
+93
+4
+83
+27
+97")
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+size :101
+$i.  ${numbers[$i]} - 
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+size :101
+random. 
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+size :101
+47. 
+33. 
+7. 
+78. 
+82. 
+39. 
+8. 
+22. 
+21. 
+2. 
+76. 
+60. 
+63. 
+9. 
+61. 
+92. 
+6. 
+70. 
+10. 
+18. 
+35. 
+95. 
+52. 
+40. 
+65. 
+96. 
+99. 
+12. 
+5. 
+88. 
+51. 
+87. 
+67. 
+46. 
+3. 
+16. 
+62. 
+43. 
+84. 
+28. 
+41. 
+45. 
+69. 
+20. 
+81. 
+75. 
+53. 
+74. 
+17. 
+32. 
+24. 
+4. 
+26. 
+34. 
+90. 
+64. 
+80. 
+25. 
+86. 
+98. 
+29. 
+50. 
+13. 
+85. 
+100. 
+44. 
+38. 
+55. 
+68. 
+54. 
+14. 
+77. 
+42. 
+11. 
+36. 
+79. 
+19. 
+94. 
+58. 
+15. 
+66. 
+56. 
+72. 
+59. 
+31. 
+23. 
+30. 
+71. 
+91. 
+73. 
+89. 
+57. 
+93. 
+49. 
+83. 
+48. 
+101. 
+97. 
+37. 
+1. 
+27. 
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+size :101
+13. 201560609 - 
+52. 20162053 - 
+7. 201560557 - 
+76. 20162093 - 
+8. 201560558 - 
+22. 20162011 - 
+42. 20162039 - 
+90. 20162115 - 
+94. 20162123 - 
+59. 20162064 - 
+56. 20162059 - 
+58. 20162063 - 
+33. 20162025 - 
+86. 20162107 - 
+10. 201560573 - 
+67. 20162078 - 
+28. 20162019 - 
+43. 20162040 - 
+38. 20162032 - 
+97. 20162130 - 
+47. 20162044 - 
+73. 20162087 - 
+68. 20162080 - 
+61. 20162068 - 
+75. 20162092 - 
+78. 20162095 - 
+5. 201560522 - 
+98. 20162138 - 
+66. 20162076 - 
+6. 201560543 - 
+16. 201560625 - 
+55. 20162057 - 
+60. 20162065 - 
+18. 20162004 - 
+64. 20162074 - 
+34. 20162026 - 
+15. 201560619 - 
+14. 201560617 - 
+35. 20162027 - 
+25. 20162014 - 
+92. 20162118 - 
+11. 201560592 - 
+50. 20162048 - 
+21. 20162008 - 
+12. 201560597 - 
+82. 20162100 - 
+57. 20162060 - 
+96. 20162127 - 
+1. 201350914 - 
+84. 20162102 - 
+62. 20162070 - 
+45. 20162042 - 
+63. 20162073 - 
+3. 201550848 - 
+19. 20162006 - 
+24. 20162013 - 
+77. 20162094 - 
+69. 20162082 - 
+70. 20162083 - 
+30. 20162021 - 
+39. 20162034 - 
+41. 20162037 - 
+17. 201562640 - 
+2. 201532656 - 
+91. 20162116 - 
+9. 201560562 - 
+81. 20162099 - 
+32. 20162024 - 
+53. 20162055 - 
+87. 20162109 - 
+83. 20162101 - 
+29. 20162020 - 
+93. 20162119 - 
+101.  - 
+80. 20162098 - 
+54. 20162056 - 
+51. 20162050 - 
+72. 20162085 - 
+65. 20162075 - 
+44. 20162041 - 
+71. 20162084 - 
+23. 20162012 - 
+26. 20162015 - 
+49. 20162046 - 
+95. 20162126 - 
+36. 20162028 - 
+4. 201560516 - 
+100. 20163027 - 
+88. 20162110 - 
+79. 20162097 - 
+27. 20162016 - 
+48. 20162045 - 
+89. 20162112 - 
+40. 20162035 - 
+46. 20162043 - 
+31. 20162023 - 
+99. 20163013 - 
+20. 20162007 - 
+74. 20162088 - 
+85. 20162104 - 
+37. 20162029 - 
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+size :101
+0. 201560516 - 
+1. 20162073 - 
+2.  - 
+3. 20162107 - 
+4. 20162127 - 
+5. 201560625 - 
+6. 20162088 - 
+7. 20162046 - 
+8. 20162035 - 
+9. 20162025 - 
+10. 20162041 - 
+11. 201560562 - 
+12. 20162116 - 
+13. 20162098 - 
+14. 20162014 - 
+15. 20162029 - 
+16. 20162016 - 
+17. 20162109 - 
+18. 20162082 - 
+19. 20162011 - 
+20. 20162015 - 
+21. 20162021 - 
+22. 201550848 - 
+23. 20162024 - 
+24. 20162056 - 
+25. 20162027 - 
+26. 201532656 - 
+27. 20162006 - 
+28. 20162138 - 
+29. 20162065 - 
+30. 20162060 - 
+31. 20163013 - 
+32. 20162130 - 
+33. 20162094 - 
+34. 20162068 - 
+35. 20162020 - 
+36. 20162050 - 
+37. 201560573 - 
+38. 20162004 - 
+39. 20162040 - 
+40. 201560558 - 
+41. 201560522 - 
+42. 20162126 - 
+43. 20162093 - 
+44. 201560609 - 
+45. 20162118 - 
+46. 20162101 - 
+47. 201560597 - 
+48. 20162097 - 
+49. 20162110 - 
+50. 20162057 - 
+51. 20162013 - 
+52. 201562640 - 
+53. 20162078 - 
+54. 20162053 - 
+55. 20162119 - 
+56. 20162043 - 
+57. 20162007 - 
+58. 20162074 - 
+59. 20162048 - 
+60. 201560557 - 
+61. 20162045 - 
+62. 20163027 - 
+63. 20162008 - 
+64. 20162100 - 
+65. 20162037 - 
+66. 201560592 - 
+67. 20162012 - 
+68. 20162092 - 
+69. 20162039 - 
+70. 201560617 - 
+71. 20162059 - 
+72. 20162028 - 
+73. 20162085 - 
+74. 20162042 - 
+75. 20162123 - 
+76. 20162104 - 
+77. 20162099 - 
+78. 201560543 - 
+79. 20162070 - 
+80. 20162080 - 
+81. 201560619 - 
+82. 20162064 - 
+83. 20162034 - 
+84. 20162026 - 
+85. 20162023 - 
+86. 20162063 - 
+87. 20162087 - 
+88. 20162102 - 
+89. 20162076 - 
+90. 20162084 - 
+91. 20162055 - 
+92. 20162115 - 
+93. 20162019 - 
+94. 20162112 - 
+95. 20162032 - 
+96. 20162083 - 
+97. 20162075 - 
+98. 20162095 - 
+99. 201350914 - 
+100. 20162044 - 
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+size :101
+0. 201560558 - Prabhakar
+1. 20162063 - Sheshadri
+2. 20162020 - Viplav
+3. 20162015 - Akanksha
+4. 20162044 - Deeksha
+5. 201560597 - Rambabu
+6. 20162045 - Harika
+7. 20162126 - Prabhakar
+8. 20162024 - Sheshadri
+9. 20162130 - Viplav
+10. 20162050 - Akanksha
+11. 20162093 - Deeksha
+12. 20162104 - Rambabu
+13. 20162127 - Harika
+14. 201560557 - Prabhakar
+15. 20162040 - Sheshadri
+16. 20162014 - Viplav
+17. 201550848 - Akanksha
+18. 201560522 - Deeksha
+19. 20162070 - Rambabu
+20. 20162032 - Harika
+21. 20162085 - Prabhakar
+22. 20162043 - Sheshadri
+23. 20162116 - Viplav
+24. 20162074 - Akanksha
+25. 201532656 - Deeksha
+26. 20162048 - Rambabu
+27. 20162095 - Harika
+28. 20162075 - Prabhakar
+29. 20162098 - Sheshadri
+30. 20162100 - Viplav
+31. 20162053 - Akanksha
+32. 20162012 - Deeksha
+33. 20162101 - Rambabu
+34. 20162082 - Harika
+35. 20162016 - Prabhakar
+36. 20162092 - Sheshadri
+37. 20162042 - Viplav
+38. 20162115 - Akanksha
+39.  - Deeksha
+40. 20162084 - Rambabu
+41. 20162057 - Harika
+42. 201560619 - Prabhakar
+43. 20162013 - Sheshadri
+44. 20162118 - Viplav
+45. 20162035 - Akanksha
+46. 201560562 - Deeksha
+47. 20162068 - Rambabu
+48. 20162006 - Harika
+49. 20162107 - Prabhakar
+50. 20162065 - Sheshadri
+51. 20162007 - Viplav
+52. 20163013 - Akanksha
+53. 20162025 - Deeksha
+54. 20162064 - Rambabu
+55. 20162138 - Harika
+56. 20162026 - Prabhakar
+57. 20162041 - Sheshadri
+58. 20162080 - Viplav
+59. 20162076 - Akanksha
+60. 201560625 - Deeksha
+61. 20162094 - Rambabu
+62. 20162046 - Harika
+63. 20162028 - Prabhakar
+64. 20162008 - Sheshadri
+65. 201560516 - Viplav
+66. 20162021 - Akanksha
+67. 20162123 - Deeksha
+68. 201560609 - Rambabu
+69. 20162073 - Harika
+70. 201560592 - Prabhakar
+71. 20162011 - Sheshadri
+72. 20162087 - Viplav
+73. 20162059 - Akanksha
+74. 20162097 - Deeksha
+75. 20162039 - Rambabu
+76. 201350914 - Harika
+77. 20162112 - Prabhakar
+78. 20162055 - Sheshadri
+79. 201560573 - Viplav
+80. 20162083 - Akanksha
+81. 20162037 - Deeksha
+82. 20162060 - Rambabu
+83. 20162056 - Harika
+84. 20162029 - Prabhakar
+85. 201560543 - Sheshadri
+86. 20162102 - Viplav
+87. 20162110 - Akanksha
+88. 20162019 - Deeksha
+89. 20162088 - Rambabu
+90. 201560617 - Harika
+91. 20163027 - Prabhakar
+92. 20162119 - Sheshadri
+93. 20162004 - Viplav
+94. 201562640 - Akanksha
+95. 20162099 - Deeksha
+96. 20162078 - Rambabu
+97. 20162023 - Harika
+98. 20162027 - Prabhakar
+99. 20162109 - Sheshadri
+100. 20162034 - Viplav
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+size :101
+1. 20162075 - Prabhakar
+2. 20162097 - Sheshadri
+3. 20162109 - Viplav
+4. 20162053 - Akanksha
+5. 20162078 - Deeksha
+6. 20162060 - Rambabu
+7. 20162074 - Harika
+8. 201562640 - Prabhakar
+9. 20162083 - Sheshadri
+10. 20162068 - Viplav
+11. 20162070 - Akanksha
+12. 20162050 - Deeksha
+13. 20162034 - Rambabu
+14. 20162011 - Harika
+15. 20162007 - Prabhakar
+16. 201560597 - Sheshadri
+17. 20162118 - Viplav
+18. 20162059 - Akanksha
+19. 20162064 - Deeksha
+20. 20162099 - Rambabu
+21. 20162025 - Harika
+22. 20162123 - Prabhakar
+23. 20162063 - Sheshadri
+24. 20162055 - Viplav
+25. 20162014 - Akanksha
+26. 20162057 - Deeksha
+27. 20162004 - Rambabu
+28. 20162102 - Harika
+29. 20162045 - Prabhakar
+30. 20162013 - Sheshadri
+31. 201560543 - Viplav
+32. 20162104 - Akanksha
+33. 20162126 - Deeksha
+34. 20162127 - Rambabu
+35. 201560522 - Harika
+36. 20162015 - Prabhakar
+37. 20162042 - Sheshadri
+38. 201560592 - Viplav
+39. 20162024 - Akanksha
+40. 201550848 - Deeksha
+41. 20163027 - Rambabu
+42. 20162101 - Harika
+43. 20163013 - Prabhakar
+44. 201560557 - Sheshadri
+45. 201532656 - Viplav
+46. 20162138 - Akanksha
+47. 20162037 - Deeksha
+48.  - Rambabu
+49. 20162095 - Harika
+50. 20162084 - Prabhakar
+51. 20162023 - Sheshadri
+52. 201560625 - Viplav
+53. 20162016 - Akanksha
+54. 20162119 - Deeksha
+55. 20162115 - Rambabu
+56. 20162076 - Harika
+57. 20162020 - Prabhakar
+58. 20162056 - Sheshadri
+59. 20162087 - Viplav
+60. 20162039 - Akanksha
+61. 20162110 - Deeksha
+62. 20162085 - Rambabu
+63. 201560609 - Harika
+64. 20162035 - Prabhakar
+65. 20162116 - Sheshadri
+66. 201350914 - Viplav
+67. 20162028 - Akanksha
+68. 20162043 - Deeksha
+69. 20162130 - Rambabu
+70. 20162044 - Harika
+71. 20162065 - Prabhakar
+72. 20162029 - Sheshadri
+73. 201560516 - Viplav
+74. 20162006 - Akanksha
+75. 20162088 - Deeksha
+76. 20162012 - Rambabu
+77. 20162112 - Harika
+78. 20162040 - Prabhakar
+79. 20162092 - Sheshadri
+80. 20162026 - Viplav
+81. 20162019 - Akanksha
+82. 20162021 - Deeksha
+83. 20162107 - Rambabu
+84. 20162032 - Harika
+85. 20162027 - Prabhakar
+86. 20162082 - Sheshadri
+87. 201560558 - Viplav
+88. 20162046 - Akanksha
+89. 20162098 - Deeksha
+90. 201560562 - Rambabu
+91. 20162100 - Harika
+92. 20162008 - Prabhakar
+93. 20162041 - Sheshadri
+94. 201560617 - Viplav
+95. 20162094 - Akanksha
+96. 20162080 - Deeksha
+97. 20162073 - Rambabu
+98. 201560573 - Harika
+99. 20162093 - Prabhakar
+100. 20162048 - Sheshadri
+101. 201560619 - Viplav
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+size :101
+1. 20162107 - Prabhakar
+2. 20162039 - Sheshadri
+3. 20162021 - Viplav
+4. 20162115 - Akanksha
+5. 201560516 - Deeksha
+6. 201560543 - Rambabu
+7. 20162093 - Harika
+2_1.sh: line 36: echo------------------------ROUND 1------------------------: command not found
+8. 20162014 - Prabhakar
+9. 20162060 - Sheshadri
+10. 201532656 - Viplav
+11. 20162037 - Akanksha
+12. 20162068 - Deeksha
+13. 20162042 - Rambabu
+14. 201560592 - Harika
+2_1.sh: line 36: echo------------------------ROUND 2------------------------: command not found
+15. 20163027 - Prabhakar
+16. 20162035 - Sheshadri
+17. 20162056 - Viplav
+18. 20163013 - Akanksha
+19. 201560573 - Deeksha
+20. 20162138 - Rambabu
+21.  - Harika
+2_1.sh: line 36: echo------------------------ROUND 3------------------------: command not found
+22. 20162059 - Prabhakar
+23. 20162085 - Sheshadri
+24. 20162013 - Viplav
+25. 20162032 - Akanksha
+26. 20162034 - Deeksha
+27. 20162011 - Rambabu
+28. 20162101 - Harika
+2_1.sh: line 36: echo------------------------ROUND 4------------------------: command not found
+29. 20162083 - Prabhakar
+30. 20162057 - Sheshadri
+31. 20162076 - Viplav
+32. 20162029 - Akanksha
+33. 201560609 - Deeksha
+34. 20162118 - Rambabu
+35. 20162097 - Harika
+2_1.sh: line 36: echo------------------------ROUND 5------------------------: command not found
+36. 201560558 - Prabhakar
+37. 20162008 - Sheshadri
+38. 20162100 - Viplav
+39. 20162015 - Akanksha
+40. 20162082 - Deeksha
+41. 20162098 - Rambabu
+42. 20162026 - Harika
+2_1.sh: line 36: echo------------------------ROUND 6------------------------: command not found
+43. 20162094 - Prabhakar
+44. 20162127 - Sheshadri
+45. 20162078 - Viplav
+46. 20162050 - Akanksha
+47. 20162130 - Deeksha
+48. 20162110 - Rambabu
+49. 20162102 - Harika
+2_1.sh: line 36: echo------------------------ROUND 7------------------------: command not found
+50. 20162020 - Prabhakar
+51. 201560557 - Sheshadri
+52. 20162028 - Viplav
+53. 201560617 - Akanksha
+54. 20162104 - Deeksha
+55. 20162044 - Rambabu
+56. 20162027 - Harika
+2_1.sh: line 36: echo------------------------ROUND 8------------------------: command not found
+57. 20162074 - Prabhakar
+58. 20162095 - Sheshadri
+59. 20162007 - Viplav
+60. 20162055 - Akanksha
+61. 201562640 - Deeksha
+62. 201550848 - Rambabu
+63. 20162080 - Harika
+2_1.sh: line 36: echo------------------------ROUND 9------------------------: command not found
+64. 201560522 - Prabhakar
+65. 20162046 - Sheshadri
+66. 20162064 - Viplav
+67. 20162126 - Akanksha
+68. 20162109 - Deeksha
+69. 20162019 - Rambabu
+70. 20162123 - Harika
+2_1.sh: line 36: echo------------------------ROUND 10------------------------: command not found
+71. 20162053 - Prabhakar
+72. 20162041 - Sheshadri
+73. 20162048 - Viplav
+74. 20162087 - Akanksha
+75. 20162070 - Deeksha
+76. 20162065 - Rambabu
+77. 20162006 - Harika
+2_1.sh: line 36: echo------------------------ROUND 11------------------------: command not found
+78. 20162092 - Prabhakar
+79. 201560562 - Sheshadri
+80. 20162119 - Viplav
+81. 20162075 - Akanksha
+82. 20162004 - Deeksha
+83. 201560597 - Rambabu
+84. 20162116 - Harika
+2_1.sh: line 36: echo------------------------ROUND 12------------------------: command not found
+85. 20162024 - Prabhakar
+86. 20162073 - Sheshadri
+87. 201560625 - Viplav
+88. 201560619 - Akanksha
+89. 20162023 - Deeksha
+90. 20162045 - Rambabu
+91. 20162012 - Harika
+2_1.sh: line 36: echo------------------------ROUND 13------------------------: command not found
+92. 20162040 - Prabhakar
+93. 20162088 - Sheshadri
+94. 201350914 - Viplav
+95. 20162099 - Akanksha
+96. 20162063 - Deeksha
+97. 20162025 - Rambabu
+98. 20162016 - Harika
+2_1.sh: line 36: echo------------------------ROUND 14------------------------: command not found
+99. 20162112 - Prabhakar
+100. 20162084 - Sheshadri
+101. 20162043 - Viplav
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [K]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ [H[2J]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+size :101
+1. 20162004 - Prabhakar
+2. 20162115 - Sheshadri
+3. 20162074 - Viplav
+4. 20162042 - Akanksha
+5. 20162035 - Deeksha
+6. 20162014 - Rambabu
+7. 201560619 - Harika
+------------------------ROUND 1------------------------
+8. 20162123 - Prabhakar
+9. 20162060 - Sheshadri
+10. 20162084 - Viplav
+11. 20162015 - Akanksha
+12. 20162064 - Deeksha
+13. 20162104 - Rambabu
+14. 20162050 - Harika
+------------------------ROUND 2------------------------
+15. 20162057 - Prabhakar
+16. 20162026 - Sheshadri
+17. 20162008 - Viplav
+18. 20162100 - Akanksha
+19. 20162092 - Deeksha
+20. 20162041 - Rambabu
+21. 20162013 - Harika
+------------------------ROUND 3------------------------
+22. 20162112 - Prabhakar
+23. 20162118 - Sheshadri
+24. 201560597 - Viplav
+25. 20162028 - Akanksha
+26. 20162082 - Deeksha
+27. 20162099 - Rambabu
+28. 20162070 - Harika
+------------------------ROUND 4------------------------
+29. 201562640 - Prabhakar
+30. 20162016 - Sheshadri
+31. 20162127 - Viplav
+32. 20162073 - Akanksha
+33. 201560617 - Deeksha
+34. 201560557 - Rambabu
+35. 20163027 - Harika
+------------------------ROUND 5------------------------
+36. 20162080 - Prabhakar
+37. 201560573 - Sheshadri
+38. 20162034 - Viplav
+39. 201560522 - Akanksha
+40. 20162012 - Deeksha
+41. 20162097 - Rambabu
+42. 20162037 - Harika
+------------------------ROUND 6------------------------
+43. 20162130 - Prabhakar
+44. 201560516 - Sheshadri
+45. 20162083 - Viplav
+46. 20162116 - Akanksha
+47. 20162078 - Deeksha
+48. 201550848 - Rambabu
+49. 20162102 - Harika
+------------------------ROUND 7------------------------
+50.  - Prabhakar
+51. 201350914 - Sheshadri
+52. 20162126 - Viplav
+53. 201560558 - Akanksha
+54. 20162011 - Deeksha
+55. 20162094 - Rambabu
+56. 201560609 - Harika
+------------------------ROUND 8------------------------
+57. 20162046 - Prabhakar
+58. 201560592 - Sheshadri
+59. 20162109 - Viplav
+60. 20162098 - Akanksha
+61. 20162059 - Deeksha
+62. 201560562 - Rambabu
+63. 20163013 - Harika
+------------------------ROUND 9------------------------
+64. 201560625 - Prabhakar
+65. 20162019 - Sheshadri
+66. 20162006 - Viplav
+67. 20162088 - Akanksha
+68. 20162085 - Deeksha
+69. 20162023 - Rambabu
+70. 20162021 - Harika
+------------------------ROUND 10------------------------
+71. 20162101 - Prabhakar
+72. 20162039 - Sheshadri
+73. 20162040 - Viplav
+74. 20162107 - Akanksha
+75. 20162025 - Deeksha
+76. 20162110 - Rambabu
+77. 20162045 - Harika
+------------------------ROUND 11------------------------
+78. 201560543 - Prabhakar
+79. 20162063 - Sheshadri
+80. 20162043 - Viplav
+81. 20162053 - Akanksha
+82. 20162065 - Deeksha
+83. 20162095 - Rambabu
+84. 20162087 - Harika
+------------------------ROUND 12------------------------
+85. 20162044 - Prabhakar
+86. 20162119 - Sheshadri
+87. 20162138 - Viplav
+88. 20162093 - Akanksha
+89. 20162007 - Deeksha
+90. 201532656 - Rambabu
+91. 20162029 - Harika
+------------------------ROUND 13------------------------
+92. 20162056 - Prabhakar
+93. 20162027 - Sheshadri
+94. 20162076 - Viplav
+95. 20162020 - Akanksha
+96. 20162075 - Deeksha
+97. 20162055 - Rambabu
+98. 20162068 - Harika
+------------------------ROUND 14------------------------
+99. 20162024 - Prabhakar
+100. 20162032 - Sheshadri
+101. 20162048 - Viplav
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+size :101
+1. 20162007 - Prabhakar
+2. 201532656 - Sheshadri
+3. 20162027 - Viplav
+4. 201560617 - Akanksha
+5. 20162037 - Deeksha
+6. 20162013 - Rambabu
+7. 20162046 - Harika
+------------------------ROUND 1------------------------
+8. 20162026 - Prabhakar
+9.  - Sheshadri
+10. 20162078 - Viplav
+11. 20162075 - Akanksha
+12. 20162056 - Deeksha
+13. 20162092 - Rambabu
+14. 20162016 - Harika
+------------------------ROUND 2------------------------
+15. 201350914 - Prabhakar
+16. 201560543 - Sheshadri
+17. 201560562 - Viplav
+18. 20162082 - Akanksha
+19. 201560522 - Deeksha
+20. 20162011 - Rambabu
+21. 20162112 - Harika
+------------------------ROUND 3------------------------
+22. 20162004 - Prabhakar
+23. 20162014 - Sheshadri
+24. 20162028 - Viplav
+25. 201550848 - Akanksha
+26. 20162093 - Deeksha
+27. 20162059 - Rambabu
+28. 20162045 - Harika
+------------------------ROUND 4------------------------
+29. 201560557 - Prabhakar
+30. 20162012 - Sheshadri
+31. 20162041 - Viplav
+32. 20162119 - Akanksha
+33. 20162039 - Deeksha
+34. 20162065 - Rambabu
+35. 20162024 - Harika
+------------------------ROUND 5------------------------
+36. 201562640 - Prabhakar
+37. 20162032 - Sheshadri
+38. 20162020 - Viplav
+39. 20162029 - Akanksha
+40. 20162095 - Deeksha
+41. 20162019 - Rambabu
+42. 20162085 - Harika
+------------------------ROUND 6------------------------
+43. 20162100 - Prabhakar
+44. 20162138 - Sheshadri
+45. 20162115 - Viplav
+46. 20162097 - Akanksha
+47. 20163013 - Deeksha
+48. 201560592 - Rambabu
+49. 20162021 - Harika
+------------------------ROUND 7------------------------
+50. 20162023 - Prabhakar
+51. 20162070 - Sheshadri
+52. 20162050 - Viplav
+53. 201560625 - Akanksha
+54. 201560609 - Deeksha
+55. 20162057 - Rambabu
+56. 20162064 - Harika
+------------------------ROUND 8------------------------
+57. 20162034 - Prabhakar
+58. 20162099 - Sheshadri
+59. 201560597 - Viplav
+60. 20162087 - Akanksha
+61. 20162074 - Deeksha
+62. 201560619 - Rambabu
+63. 20162083 - Harika
+------------------------ROUND 9------------------------
+64. 20163027 - Prabhakar
+65. 20162116 - Sheshadri
+66. 20162040 - Viplav
+67. 20162073 - Akanksha
+68. 20162098 - Deeksha
+69. 20162043 - Rambabu
+70. 20162110 - Harika
+------------------------ROUND 10------------------------
+71. 20162127 - Prabhakar
+72. 20162094 - Sheshadri
+73. 20162006 - Viplav
+74. 20162118 - Akanksha
+75. 20162088 - Deeksha
+76. 20162048 - Rambabu
+77. 20162068 - Harika
+------------------------ROUND 11------------------------
+78. 20162107 - Prabhakar
+79. 20162076 - Sheshadri
+80. 20162035 - Viplav
+81. 20162123 - Akanksha
+82. 201560558 - Deeksha
+83. 20162084 - Rambabu
+84. 201560516 - Harika
+------------------------ROUND 12------------------------
+85. 20162025 - Prabhakar
+86. 20162042 - Sheshadri
+87. 20162126 - Viplav
+88. 20162015 - Akanksha
+89. 20162063 - Deeksha
+90. 20162060 - Rambabu
+91. 20162130 - Harika
+------------------------ROUND 13------------------------
+92. 20162104 - Prabhakar
+93. 20162044 - Sheshadri
+94. 20162102 - Viplav
+95. 20162080 - Akanksha
+96. 20162109 - Deeksha
+97. 20162055 - Rambabu
+98. 20162053 - Harika
+------------------------ROUND 14------------------------
+99. 20162101 - Prabhakar
+100. 20162008 - Sheshadri
+101. 201560573 - Viplav
+]0;vatsal@vatsal-lenovo-g50-80: ~/Sem1/Scripting/Lab5[01;32mvatsal@vatsal-lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Lab5[00m$ bash 2_1.sh 
+size :101
+1. 20162102 - Prabhakar
+2. 20162070 - Sheshadri
+3. 20162016 - Viplav
+4. 201560609 - Akanksha
+5. 20162028 - Deeksha
+6. 201560592 - Rambabu
+7. 20162130 - Harika
+------------------------ROUND 1------------------------
+8. 20162039 - Prabhakar
+9. 20162013 - Sheshadri
+10. 20162012 - Viplav
+11. 20162126 - Akanksha
+12. 201560558 - Deeksha
+13. 20162100 - Rambabu
+14. 20162109 - Harika
+------------------------ROUND 2------------------------
+15. 20162104 - Prabhakar
+16. 20162118 - Sheshadri
+17. 201560557 - Viplav
+18. 20162097 - Akanksha
+19. 20162034 - Deeksha
+20. 20162004 - Rambabu
+21. 20162063 - Harika
+------------------------ROUND 3------------------------
+22. 20162068 - Prabhakar
+23. 20162115 - Sheshadri
+24. 201560573 - Viplav
+25. 201560516 - Akanksha
+26. 20162040 - Deeksha
+27. 20162073 - Rambabu
+28. 20162094 - Harika
+------------------------ROUND 4------------------------
+29. 20162008 - Prabhakar
+30. 20162014 - Sheshadri
+31. 20162119 - Viplav
+32. 20162095 - Akanksha
+33. 20162110 - Deeksha
+34. 20162064 - Rambabu
+35. 20162060 - Harika

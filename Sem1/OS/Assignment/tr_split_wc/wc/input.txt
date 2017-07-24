@@ -1,0 +1,5 @@
+would like to know exactly how the "Is" command works in Linux and Unix.
+
+As far as I know, ls forks & exec to the linux/unix shell and then gets the output (of the current file tree. eg./home/ankit/). I need a more detailed explanation, as I am not sure about what happens after calling fork.
+
+Could any one please explain the functionality of the 'ls' command in detail?

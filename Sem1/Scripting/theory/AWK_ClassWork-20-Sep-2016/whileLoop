@@ -1,0 +1,19 @@
+BEGIN { print "Lets see while loop! "
+FS = "|"; OFS = " ! "; totalCount = 0;}
+
+{
+	k = 0;
+	while (k<NF)
+	{
+ 		k++;
+		#Write your code here
+		#print " k is ",k
+	}
+	totalCount += k
+
+}	
+
+END { print "Total number of fields are ",totalCount }
+
+#usage of NF check after begin before action NF != 6 , to check for only those stray rows which have less than 6 columns
+

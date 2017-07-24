@@ -1,0 +1,12 @@
+String :history 10 > hist
+the length reuired is 10
+147 clear
+148 pwd
+149 pwd | wc
+150 exit
+151 cat out
+152 echo " rtet tyuinoy 'eyvet etryty   ty '" rb > echo
+153 exit
+154 cd ../../
+155 history 7
+156 history 10 > hist

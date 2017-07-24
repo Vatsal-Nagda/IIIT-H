@@ -1,0 +1,164 @@
+simple awk filtering
+
+1. filer all the records containing the pattern director
+awk -F"|" '/director/' sample.lst 
+
+is same as 
+
+awk -F"|" '/director/ {print }' sample.lst  (which means by default print action is taken )
+
+is same as
+
+awk -F"|" '/director/ {print $0}' sample.lst ($0 represents the whole line which it's printing )
+
+Let's try to deduce the awk format here 
+
+awk {some options} ' {selection_list} {action list} '
+
+Default behavior:
+
+* if selection list is missing, action applies for all the lines
+
+* if action is missing, the entire line is printed
+
+2.  can use regular expressions that we use generally with grep the ERE ie (all egrep variants can be used here)
+
+echo "get me a cup of cofee " | awk '/coff?ee/'
+
+3. The classic split for which awk is remembered so much
+
+	echo "What's | up | doc" | awk -F"|" 'print {$1,$2,$3 } '
+
+we can remember up to 9 fields! with special operators $1 to $9
+
+skip specific feilds
+
+	echo " The | world | only | makes | sense | if | you | force | it | to " | awk -F="|" ' {$2=$7="" print } '
+
+simulate sed's beahvior
+
+sed -n 10,15p input
+
+awk equivalnet awk ' NR==10,NR==15 {print} ' (NR means Number of Lines Read)
+
+4. Formatting output . Printing output well
+
+awk -F "|" ' /[aA]gg?[ar]+wal/ { printf( " %3d %-20s %-12s %d\n put line here \n",NR,$2,$3,$6) } ' sample.lst
+
+awk -F "|" ' /[aA]gg?[ar]+wal/ { printf( " %3d %-20s %-12s %d\n put line here \n",NR,$2,$3,$6) > "ouput" } ' sample.lst
+
+awk -F "|" ' /[aA]gg?[ar]+wal/ { printf( " %3d %-20s %-12s %d\n put line here \n",NR,$2,$3,$6) | "sort" } ' sample.lst
+
+all the redirections and commands should be put in double quotes only
+
+Comparison operators == , > , <, >= <=, ~, !~
+
+awk -F"|" '$3 == "director" || $3 == "chairman" {
+printf "Hello %s %s %d \n",$2,$3,$6 } ' sample.lst
+
+~ stands for regex, $3 may be a field which contains "    director     ", so when I match for $3=="director" it won't match
+
+so check with this to appreciate the ~ usage (~ acts as regex, finds/matches pattern)
+
+awk -F"|" '$3 ~ "director" || $3 == "chairman" {
+printf "Hello %s %s %d \n",$2,$3,$6 } ' sample.lst
+
+Number processing
+
+print all salaries greater than 6000
+
+sed -E 's/ +//g' sample.lst | awk -F"|" ' $NF >= 6000 { print } '
+
+print add line numbers using local variables
+
+sed -E 's/ +//g' sample.lst | awk -F"|" ' $NF >= 6000 { count = count + 1 ; print count,$0 } '
+
+The begin and the end Sections
+
+/** the 2 multiplication table **/
+
+awk ' BEGIN { printf "HEllo from the other side"; mult=2;count=1; } {print "\nHello %d",mult*count; count = count + 1;} END{ print "BYE\n" }'
+
+The input file seperator and the output file seperator
+
+FS = "|" and OFS = "~" (use in the begin section)
+
+
+Arrays and Dictionaries
+
+
+BEGIN { FS="|"; OFS=" ~ "; 
+printf(" We're going to compute the total salary and average salary\n");
+}
+
+{
+total[0] = total[0] + $NF;
+total[1] += total[1] + $NF;count = count + 1;
+} 
+
+END { printf ("the avergae sal is %d, total salrary is %d ",total[0]/count, total[1]) }
+
+the -f options to store in the files
+
+dictionaries, the 1,01 and "01" and "huh"
+awk ' NR==6
+{
+asso["huh"] = "jan";
+asso["01"] = "man";
+asso[01] = "jay";
+asso[1] = "can"; print asso["huh"],asso[1],asso[01],asso["01"];
+}
+' sample.lst
+
+/** need to check why above code isn't working **/
+But this works 
+
+awk ' NR == 4 {asso["shesh"]="HI";asso["hen"]="cat"; print asso["shesh"],asso["hen"]}' sample.lst
+
+The functions supported by awk
+
+length(), substr(), split(), index()
+
+substr(arg,pos,length) Eg: substr($2,6,7) from arg 2 extract 7 chars from position 6
+
+split($5,storeHereinArray,"splitpattern") splits and stores it into an array based on the specified pat
+
+index(s1,s2) //s2 is what you're searching for
+
+length($0) //gives the lenfgth off the senetenxe
+
+
+write code for split yourself, it's simple
+/** sample usage **/
+
+echo "sheshadri | 2 | 3" | awk ' { char = substr($1,1,5); print char; print length($0); print length($1); print index($1,"d") } '
+shesh
+
+Answers should be
+17
+9
+7
+
+ 
+
+IF, FOR AND WHILE
+
+for loop usage check file forLoop
+ 
+if else usage check file ifElse
+
+while loop check file whileLoop
+
+
+awk for substitution use gsub
+
+Replace foo with bar only if foo is found on the 3d column (field) of the input file (assuming whitespace-separated fields):
+
+
+
+gawk -i inplace '{gsub(/foo/,"baz",$3); print}' file
+
+awk '{if($2=="unix") {$2="fedora"} print $0}' file.txt
+ 
+And there are many more , but this concludes simple awk
+****THE END ****

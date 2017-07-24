@@ -1,0 +1,1464 @@
+Script started on Tuesday 30 August 2016 06:23:22 PM IST
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting[00m$ mkdir 2016208_lab1
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting[00m$ pwd
+/home/vatsal/Sem1/Scripting
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting[00m$ cd 
+]0;vatsal@lenovo-g50-80: ~[01;32mvatsal@lenovo-g50-80[00m:[01;34m~[00m$ pws[Kd
+/home/vatsal
+]0;vatsal@lenovo-g50-80: ~[01;32mvatsal@lenovo-g50-80[00m:[01;34m~[00m$ subi[Klime-text answer.xt[K[Ktxt
+]0;vatsal@lenovo-g50-80: ~[01;32mvatsal@lenovo-g50-80[00m:[01;34m~[00m$ touch[K]0;vatsal@lenovo-g50-80: ~[01;32mvatsal@lenovo-g50-80[00m:[01;34m~[00m$ touchwight[K[K[K[K[K wight.xt[K[Ktxt < cat ""[K[KCreae[Kted by night[K[K[K[K[KNight King
+bash: cat: No such file or directory
+]0;vatsal@lenovo-g50-80: ~[01;32mvatsal@lenovo-g50-80[00m:[01;34m~[00m$ touch wight.txt < cat Created by Night King[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kman <<
+bash: syntax error near unexpected token `newline'
+]0;vatsal@lenovo-g50-80: ~[01;32mvatsal@lenovo-g50-80[00m:[01;34m~[00m$ man <<[K
+bash: syntax error near unexpected token `newline'
+]0;vatsal@lenovo-g50-80: ~[01;32mvatsal@lenovo-g50-80[00m:[01;34m~[00m$ man <[Ktouch
+[?1049h[?1h=TOUCH(1)                         User Commands                        TOUCH(1)[m
+[m
+[1mNAME[0m[m
+       touch - change file timestamps[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mtouch[0m [[4mOPTION[24m]... [4mFILE[24m...[m
+[m
+[1mDESCRIPTION[0m[m
+       Update  the  access  and modification times of each FILE to the current[m
+       time.[m
+[m
+       A FILE argument that does not exist is created empty, unless [1m-c[0m  or  [1m-h[0m[m
+       is supplied.[m
+[m
+       A  FILE  argument  string of - is handled specially and causes touch to[m
+       change the times of the file associated with standard output.[m
+[m
+       Mandatory arguments to long options are  mandatory  for  short  options[m
+       too.[m
+[m
+       [1m-a[0m     change only the access time[m
+[m
+[7m Manual page touch(1) line 1 (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1 (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1 (press h for help or q to quit)[27m[K[K       [1m-c[0m, [1m--no-create[0m[m
+              do not create any files[m
+[m
+       [1m-d[0m, [1m--date[0m=[4mSTRING[24m[m
+              parse STRING and use it instead of current time[m
+[m
+       [1m-f[0m     (ignored)[m
+[m
+       [1m-h[0m, [1m--no-dereference[0m[m
+              affect each symbolic link instead of any referenced file (useful[m
+              only on systems that can change the timestamps of a symlink)[m
+[m
+       [1m-m[0m     change only the modification time[m
+[m
+       [1m-r[0m, [1m--reference[0m=[4mFILE[24m[m
+              use this file's times instead of current time[m
+[m
+       [1m-t[0m STAMP[m
+              use [[CC]YY]MMDDhhmm[.ss] instead of current time[m
+[m
+       [1m--time[0m=[4mWORD[24m[m
+              change the specified time: WORD is access, atime, or use: equiv‐[m
+              alent to [1m-a[0m WORD is modify or mtime: equivalent to [1m-m[0m[m
+[7m Manual page touch(1) line 24 (press h for help or q to quit)[27m[K[K[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+       Note that the [1m-d[0m and [1m-t[0m options accept different time-date formats.[m
+[m
+[1mDATE[0m [1mSTRING[0m[m
+       The  --date=STRING  is  a mostly free format human readable date string[m
+       such as "Sun, 29 Feb 2004 16:21:42 -0800" or "2004-02-29  16:21:42"  or[m
+       even  "next Thursday".  A date string may contain items indicating cal‐[m
+       endar date, time of day, time zone, day of week, relative  time,  rela‐[m
+       tive date, and numbers.  An empty string indicates the beginning of the[m
+       day.  The date string format is more complex than is easily  documented[m
+       here but is fully described in the info documentation.[m
+[m
+[1mAUTHOR[0m[m
+       Written  by  Paul  Rubin, Arnold Robbins, Jim Kingdon, David MacKenzie,[m
+       and Randy Smith.[m
+[m
+[1mREPORTING[0m [1mBUGS[0m[m
+       GNU coreutils online help: <http://www.gnu.org/software/coreutils/>[m
+[7m Manual page touch(1) line 47 (press h for help or q to quit)[27m[K[K       Report touch translation bugs to <http://translationproject.org/team/>[m
+[m
+[1mCOPYRIGHT[0m[m
+       Copyright © 2016 Free Software Foundation, Inc.   License  GPLv3+:  GNU[m
+       GPL version 3 or later <http://gnu.org/licenses/gpl.html>.[m
+       This  is  free  software:  you  are free to change and redistribute it.[m
+       There is NO WARRANTY, to the extent permitted by law.[m
+[m
+[1mSEE[0m [1mALSO[0m[m
+       Full documentation at: <http://www.gnu.org/software/coreutils/touch>[m
+       or available locally via: info '(coreutils) touch invocation'[m
+[m
+GNU coreutils 8.25               February 2016                        TOUCH(1)[m
+[7m Manual page touch(1) line 60/82 (END) (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 60/82 (END) (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 60/82 (END) (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 60/82 (END) (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 60/82 (END) (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 60/82 (END) (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 60/82 (END) (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 60/82 (END) (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 60/82 (END) (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 60/82 (END) (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 60/82 (END) (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 60/82 (END) (press h for help or q to quit)[27m[K[K[HM       endar date, time of day, time zone, day of week, relative  time,  rela‐[m
+[HM       even  "next Thursday".  A date string may contain items indicating cal‐[m
+[HM       such as "Sun, 29 Feb 2004 16:21:42 -0800" or "2004-02-29  16:21:42"  or[m
+[HM       The  --date=STRING  is  a mostly free format human readable date string[m
+[HM[1mDATE[0m [1mSTRING[0m[m
+[HM[m
+[HM       Note that the [1m-d[0m and [1m-t[0m options accept different time-date formats.[m
+[HM[m
+[HM              output version information and exit[m
+[HM       [1m--version[0m[m
+[HM[m
+[HM       [1m--help[0m display this help and exit[m
+[HM[m
+[HM              alent to [1m-a[0m WORD is modify or mtime: equivalent to [1m-m[0m[m
+[HM              change the specified time: WORD is access, atime, or use: equiv‐[m
+[HM       [1m--time[0m=[4mWORD[24m[m
+[HM[m
+[HM              use [[CC]YY]MMDDhhmm[.ss] instead of current time[m
+[HM       [1m-t[0m STAMP[m
+[HM[m
+[HM              use this file's times instead of current time[m
+[HM       [1m-r[0m, [1m--reference[0m=[4mFILE[24m[m
+[HM[m
+[24;1H[K[7m Manual page touch(1) line 37/82 67% (press h for help or q to quit)[27m[K[K[HM       [1m-m[0m     change only the modification time[m
+[HM[m
+[HM              only on systems that can change the timestamps of a symlink)[m
+[HM              affect each symbolic link instead of any referenced file (useful[m
+[HM       [1m-h[0m, [1m--no-dereference[0m[m
+[HM[m
+[HM       [1m-f[0m     (ignored)[m
+[HM[m
+[HM              parse STRING and use it instead of current time[m
+[HM       [1m-d[0m, [1m--date[0m=[4mSTRING[24m[m
+[HM[m
+[HM              do not create any files[m
+[HM       [1m-c[0m, [1m--no-create[0m[m
+[HM[m
+[HM       [1m-a[0m     change only the access time[m
+[HM[m
+[HM       too.[m
+[HM       Mandatory arguments to long options are  mandatory  for  short  options[m
+[HM[m
+[HM       change the times of the file associated with standard output.[m
+[HM       A  FILE  argument  string of - is handled specially and causes touch to[m
+[HM[m
+[HM       is supplied.[m
+[24;1H[K[7m Manual page touch(1) line 14/82 37% (press h for help or q to quit)[27m[K[K[HM       A FILE argument that does not exist is created empty, unless [1m-c[0m  or  [1m-h[0m[m
+[HM[m
+[HM       time.[m
+[HM       Update  the  access  and modification times of each FILE to the current[m
+[HM[1mDESCRIPTION[0m[m
+[HM[m
+[HM       [1mtouch[0m [[4mOPTION[24m]... [4mFILE[24m...[m
+[HM[1mSYNOPSIS[0m[m
+[HM[m
+[HM       touch - change file timestamps[m
+[HM[1mNAME[0m[m
+[HM[m
+[HMTOUCH(1)                         User Commands                        TOUCH(1)[m
+[24;1H[K[7m Manual page touch(1) line 1/82 22% (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1/82 22% (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1/82 22% (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1/82 22% (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1/82 22% (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1/82 22% (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1/82 22% (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1/82 22% (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1/82 22% (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1/82 22% (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1/82 22% (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1/82 22% (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1/82 22% (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1/82 22% (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1/82 22% (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1/82 22% (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1/82 22% (press h for help or q to quit)[27m[K...skipping...
+TOUCH(1)                         User Commands                        TOUCH(1)[m
+[m
+[1mNAME[0m[m
+       touch - change file timestamps[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mtouch[0m [[4mOPTION[24m]... [4mFILE[24m...[m
+[m
+[1mDESCRIPTION[0m[m
+       Update  the  access  and modification times of each FILE to the current[m
+       time.[m
+[m
+       A FILE argument that does not exist is created empty, unless [1m-c[0m  or  [1m-h[0m[m
+       is supplied.[m
+[m
+       A  FILE  argument  string of - is handled specially and causes touch to[m
+       change the times of the file associated with standard output.[m
+[m
+       Mandatory arguments to long options are  mandatory  for  short  options[m
+       too.[m
+[m
+       [1m-a[0m     change only the access time[m
+[m
+       [1m-c[0m, [1m--no-create[0m[m
+              do not create any files[m
+[m
+       [1m-d[0m, [1m--date[0m=[4mSTRING[24m[m
+              parse STRING and use it instead of current time[m
+[m
+       [1m-f[0m     (ignored)[m
+[m
+       [1m-h[0m, [1m--no-dereference[0m[m
+              affect each symbolic link instead of any referenced file (useful[m
+              only on systems that can change the timestamps of a symlink)[m
+[m
+       [1m-m[0m     change only the modification time[m
+[m
+       [1m-r[0m, [1m--reference[0m=[4mFILE[24m[m
+              use this file's times instead of current time[m
+[m
+       [1m-t[0m STAMP[m
+              use [[CC]YY]MMDDhhmm[.ss] instead of current time[m
+[7m Manual page touch(1) line 1/82 44% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page touch(1) line 1/82 44% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page touch(1) line 1/82 44% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page touch(1) line 1/82 44% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page touch(1) line 1/82 44% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page touch(1) line 1/82 44% (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;vatsal@lenovo-g50-80: ~[01;32mvatsal@lenovo-g50-80[00m:[01;34m~[00m$ man touch
+[?1049h[?1h=TOUCH(1)                                                       User Commands                                                       TOUCH(1)[m
+[m
+[1mNAME[0m[m
+       touch - change file timestamps[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mtouch[0m [[4mOPTION[24m]... [4mFILE[24m...[m
+[m
+[1mDESCRIPTION[0m[m
+       Update the access and modification times of each FILE to the current time.[m
+[m
+       A FILE argument that does not exist is created empty, unless [1m-c[0m or [1m-h[0m is supplied.[m
+[m
+       A FILE argument string of - is handled specially and causes touch to change the times of the file associated with standard output.[m
+[m
+       Mandatory arguments to long options are mandatory for short options too.[m
+[m
+       [1m-a[0m     change only the access time[m
+[m
+       [1m-c[0m, [1m--no-create[0m[m
+              do not create any files[m
+[m
+       [1m-d[0m, [1m--date[0m=[4mSTRING[24m[m
+              parse STRING and use it instead of current time[m
+[m
+       [1m-f[0m     (ignored)[m
+[m
+       [1m-h[0m, [1m--no-dereference[0m[m
+              affect each symbolic link instead of any referenced file (useful only on systems that can change the timestamps of a symlink)[m
+[m
+       [1m-m[0m     change only the modification time[m
+[m
+       [1m-r[0m, [1m--reference[0m=[4mFILE[24m[m
+              use this file's times instead of current time[m
+[m
+       [1m-t[0m STAMP[m
+              use [[CC]YY]MMDDhhmm[.ss] instead of current time[m
+[m
+       [1m--time[0m=[4mWORD[24m[m
+              change the specified time: WORD is access, atime, or use: equivalent to [1m-a[0m WORD is modify or mtime: equivalent to [1m-m[0m[m
+[m
+       [1m--help[0m display this help and exit[m
+[7m Manual page touch(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--version[0m[m
+[7m Manual page touch(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              output version information and exit[m
+[7m Manual page touch(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Note that the [1m-d[0m and [1m-t[0m options accept different time-date formats.[m
+[7m Manual page touch(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[43;1H[K[7m Manual page touch(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       touch - change file timestamps[m
+[43;1H[K[7m Manual page touch(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mNAME[0m[m
+[43;1H[K[7m Manual page touch(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[43;1H[K[7m Manual page touch(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HMTOUCH(1)                                                       User Commands                                                       TOUCH(1)[m
+[43;1H[K[7m Manual page touch(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--version[0m[m
+[7m Manual page touch(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              output version information and exit[m
+[7m Manual page touch(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Note that the [1m-d[0m and [1m-t[0m options accept different time-date formats.[m
+[7m Manual page touch(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mDATE[0m [1mSTRING[0m[m
+[7m Manual page touch(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The  --date=STRING  is  a  mostly  free  format  human readable date string such as "Sun, 29 Feb 2004 16:21:42 -0800" or "2004-02-29[m
+[7m Manual page touch(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       16:21:42" or even "next Thursday".  A date string may contain items indicating calendar date, time of day, time zone, day  of  week,[m
+[7m Manual page touch(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       relative time, relative date, and numbers.  An empty string indicates the beginning of the day.  The date string format is more com‐[m
+[7m Manual page touch(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       plex than is easily documented here but is fully described in the info documentation.[m
+[7m Manual page touch(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mAUTHOR[0m[m
+[7m Manual page touch(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Written by Paul Rubin, Arnold Robbins, Jim Kingdon, David MacKenzie, and Randy Smith.[m
+[7m Manual page touch(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 16 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;vatsal@lenovo-g50-80: ~[01;32mvatsal@lenovo-g50-80[00m:[01;34m~[00m$ man touch<[K<touch wight.txt < cat Created by Night King[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Psublime-text answer.txttouch wight.txt < cat Created by Night King[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+]0;vatsal@lenovo-g50-80: ~[01;32mvatsal@lenovo-g50-80[00m:[01;34m~[00m$ ls
+answer.txt  [0m[01;34mCpp[0m  [01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  examples.desktop  [01;34mMusic[0m  [01;34monline_code[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mSem1[0m  [01;34mTemplates[0m  [01;34mVideos[0m  wight.txt
+]0;vatsal@lenovo-g50-80: ~[01;32mvatsal@lenovo-g50-80[00m:[01;34m~[00m$ rm wight.txt 
+]0;vatsal@lenovo-g50-80: ~[01;32mvatsal@lenovo-g50-80[00m:[01;34m~[00m$ mv answer.txt ./Sem1/s[KScripting/
+]0;vatsal@lenovo-g50-80: ~[01;32mvatsal@lenovo-g50-80[00m:[01;34m~[00m$ ls ./Sem1/Scripting/
+20162008.script  [0m[01;34m2016208_lab1[0m  answer.txt
+]0;vatsal@lenovo-g50-80: ~[01;32mvatsal@lenovo-g50-80[00m:[01;34m~[00m$ cd ./Sem1/Scripting/
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting[00m$ clear
+[3;J[H[2J]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting[00m$ touch wright [K.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kman cat
+[?1049h[?1h=CAT(1)                                                         User Commands                                                         CAT(1)[m
+[m
+[1mNAME[0m[m
+       cat - concatenate files and print on the standard output[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mcat[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       Concatenate FILE(s) to standard output.[m
+[m
+       With no FILE, or when FILE is -, read standard input.[m
+[m
+       [1m-A[0m, [1m--show-all[0m[m
+              equivalent to [1m-vET[0m[m
+[m
+       [1m-b[0m, [1m--number-nonblank[0m[m
+              number nonempty output lines, overrides [1m-n[0m[m
+[m
+       [1m-e[0m     equivalent to [1m-vE[0m[m
+[m
+       [1m-E[0m, [1m--show-ends[0m[m
+              display $ at end of each line[m
+[m
+       [1m-n[0m, [1m--number[0m[m
+              number all output lines[m
+[m
+       [1m-s[0m, [1m--squeeze-blank[0m[m
+              suppress repeated empty output lines[m
+[m
+       [1m-t[0m     equivalent to [1m-vT[0m[m
+[m
+       [1m-T[0m, [1m--show-tabs[0m[m
+              display TAB characters as ^I[m
+[m
+       [1m-u[0m     (ignored)[m
+[m
+       [1m-v[0m, [1m--show-nonprinting[0m[m
+              use ^ and M- notation, except for LFD and TAB[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+[7m Manual page cat(1) line 1 (press h for help or q to quit)[27m[K[K       [1m--version[0m[m
+              output version information and exit[m
+[m
+[1mEXAMPLES[0m[m
+       cat f - g[m
+              Output f's contents, then standard input, then g's contents.[m
+[m
+       cat    Copy standard input to standard output.[m
+[m
+[1mAUTHOR[0m[m
+       Written by Torbjorn Granlund and Richard M. Stallman.[m
+[m
+[1mREPORTING[0m [1mBUGS[0m[m
+       GNU coreutils online help: <http://www.gnu.org/software/coreutils/>[m
+       Report cat translation bugs to <http://translationproject.org/team/>[m
+[m
+[1mCOPYRIGHT[0m[m
+       Copyright © 2016 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.[m
+       This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the extent permitted by law.[m
+[m
+[1mSEE[0m [1mALSO[0m[m
+       [1mtac[0m(1)[m
+[m
+       Full documentation at: <http://www.gnu.org/software/coreutils/cat>[m
+       or available locally via: info '(coreutils) cat invocation'[m
+[m
+GNU coreutils 8.25                                             February 2016                                                         CAT(1)[m
+[7m Manual page cat(1) line 28/69 (END) (press h for help or q to quit)[27m[K[K[HM[m
+[HM              number all output lines[m
+[HM       [1m-n[0m, [1m--number[0m[m
+[HM[m
+[HM              display $ at end of each line[m
+[HM       [1m-E[0m, [1m--show-ends[0m[m
+[HM[m
+[HM       [1m-e[0m     equivalent to [1m-vE[0m[m
+[HM[m
+[HM              number nonempty output lines, overrides [1m-n[0m[m
+[HM       [1m-b[0m, [1m--number-nonblank[0m[m
+[HM[m
+[HM              equivalent to [1m-vET[0m[m
+[HM       [1m-A[0m, [1m--show-all[0m[m
+[HM[m
+[HM       With no FILE, or when FILE is -, read standard input.[m
+[HM[m
+[HM       Concatenate FILE(s) to standard output.[m
+[HM[1mDESCRIPTION[0m[m
+[HM[m
+[HM       [1mcat[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[HM[1mSYNOPSIS[0m[m
+[HM[m
+[HM       cat - concatenate files and print on the standard output[m
+[HM[1mNAME[0m[m
+[HM[m
+[HMCAT(1)                                                         User Commands                                                         CAT(1)[m
+[43;1H[K[7m Manual page cat(1) line 1/69 54% (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting[00m$ man cat[2Pcleard ./Sem1/Scripting/ls[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11@mv answer.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pls[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clear[Kman cat[Ktouch wright.txt
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting[00m$ cat [K]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting[00m$ cat Createdby Night King > wright.txt
+cat: Createdby: No such file or directory
+cat: Night: No such file or directory
+cat: King: No such file or directory
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting[00m$ cat Createdby Night King > wright.txt[1P wright.txt[1Pwright.txt[1P wright.txt[1P wright.txt[1P wright.txt[1P wright.txt[1Pwright.txt[1P wright.txt[1P wright.txt[1P wright.txt[1P wright.txt[1P wright.txt[1Pwright.txt[1P wright.txt[1P wright.txt[1P wright.txt[1P wright.txt[1P wright.txt[1P wright.txt[1P wright.txt[1P wright.txt[1P wright.txt[1Pwright.txt[C wright.txt
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting[00m$ cat[K[K[Kcats[K Creaeted[K[K[K[K[Kated[K[K[K[K[K[K[K[K> [K[K > wright.txt 
+Creaet  ted by Night King
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting[00m$ more wright.txt 4[K
+Created by Night King
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting[00m$ sublime-text answer.txt &
+[1] 24265
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting[00m$ 
+(sublime_text:24266): GLib-CRITICAL **: Source ID 2466 was not found when attempting to remove it
+clear
+[3;J[H[2J]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting[00m$ mkdir Winterfell
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting[00m$  touch win[K[K[Kwright.txt [K[K[K[K[K[K[K[K[K[K[KWinterfell/tep[Kmp1.txt
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting[00m$ ls ..[K[KWinterfell/
+temp1.txt
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting[00m$ cd Winterfell/
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ touc [Kh temp 2[K[K2.txt
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ mkdir ter[Kmp
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ cp temp1.txt temp/
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ ls tm[Kemp
+temp1.txt
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ ls temp/
+temp1.txt
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ clear
+[3;J[H[2J]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ ls4[K
+[0m[01;34mtemp[0m  temp1.txt  temp2.txt
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ chmod [K[K[K[K[K[Kls -a
+[0m[01;34m.[0m  [01;34m..[0m  [01;34mtemp[0m  temp1.txt  temp2.txt
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ ls -alF
+total 12
+drwxrwxr-x 3 vatsal vatsal 4096 Aug 30 18:48 [0m[01;34m.[0m/
+drwxrwxr-x 4 vatsal vatsal 4096 Aug 30 18:47 [01;34m..[0m/
+drwxrwxr-x 2 vatsal vatsal 4096 Aug 30 18:48 [01;34mtemp[0m/
+-rw-rw-r-- 1 vatsal vatsal    0 Aug 30 18:47 temp1.txt
+-rw-rw-r-- 1 vatsal vatsal    0 Aug 30 18:48 temp2.txt
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ chmod u+x temp1.txt 
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ chmod u-[K[K[K[K[K[K[K[K./temp1.txt 
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ ls
+[0m[01;34mtemp[0m  [01;32mtemp1.txt[0m  temp2.txt
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ temp1.txt[1Pemp1.txt[1Pmp1.txt[1Pp1.txt[1P1.txt[1P.txt[1Ptxt[1Pxt[1Pt[Kchmod u-e[Kr temp2.txt 
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ more temo[Kp2.txt 
+more: cannot open temp2.txt: Permission denied
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ sublime-text report.txt
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ 
+(sublime_text:24266): GLib-CRITICAL **: Source ID 23929 was not found when attempting to remove it
+
+(sublime_text:24266): GLib-CRITICAL **: Source ID 29651 was not found when attempting to remove it
+
+(sublime_text:24266): GLib-CRITICAL **: Source ID 33191 was not found when attempting to remove it
+
+(sublime_text:24266): GLib-CRITICAL **: Source ID 33734 was not found when attempting to remove it
+
+(sublime_text:24266): GLib-CRITICAL **: Source ID 33740 was not found when attempting to remove it
+sublime-text report.txt&
+[2] 24414
+[1]   Done                    sublime-text answer.txt  (wd: ~/Sem1/Scripting)
+(wd now: ~/Sem1/Scripting/Winterfell)
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ 
+(sublime_text:24415): GLib-CRITICAL **: Source ID 34508 was not found when attempting to remove it
+
+(sublime_text:24415): GLib-CRITICAL **: Source ID 36839 was not found when attempting to remove it
+sublime-text report.txt&[K[8Pmore temp2.txt [5@chmod u-r[C[C[C[C[C[C[C[C[C[C[C[5Pmore[C[C[C[C[C[C[C[C[C[C[Csublime-text report.txt[Kcat >> temp1.txt
+echo ""^[[DHello          Hello World!"
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ cat temp2.txt 
+cat: temp2.txt: Permission denied
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ 
+(sublime_text:24415): GLib-CRITICAL **: Source ID 89153 was not found when attempting to remove it
+
+(sublime_text:24415): GLib-CRITICAL **: Source ID 89538 was not found when attempting to remove it
+
+(sublime_text:24415): GLib-CRITICAL **: Source ID 89562 was not found when attempting to remove it
+cat temp2.txt >> temp1.txtsublime-text report.txt&[K[Kchmodu+x [K[K[K[K[Kd u+x temp1.txt 
+[2]+  Done                    sublime-text report.txt
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ ./temp1.txt 
+Hello World!
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ clear
+[3;J[H[2J]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ ls
+[0m[01;34mtemp[0m  [01;32mtemp1.txt[0m  temp2.txt
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ ls a[K-alF
+total 16
+drwxrwxr-x 3 vatsal vatsal 4096 Aug 30 18:48 [0m[01;34m.[0m/
+drwxrwxr-x 4 vatsal vatsal 4096 Aug 30 18:47 [01;34m..[0m/
+drwxrwxr-x 2 vatsal vatsal 4096 Aug 30 18:48 [01;34mtemp[0m/
+-rwxrw-r-- 1 vatsal vatsal   20 Aug 30 18:58 [01;32mtemp1.txt[0m*
+--w-rw-r-- 1 vatsal vatsal    0 Aug 30 18:48 temp2.txt
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ chmod[K[K[K[K[Kman chmod
+[?1049h[?1h=CHMOD(1)                         User Commands                        CHMOD(1)[m
+[m
+[1mNAME[0m[m
+       chmod - change file mode bits[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mchmod[0m [[4mOPTION[24m]... [4mMODE[24m[[4m,MODE[24m]... [4mFILE[24m...[m
+       [1mchmod[0m [[4mOPTION[24m]... [4mOCTAL-MODE[24m [4mFILE[24m...[m
+       [1mchmod[0m [[4mOPTION[24m]... [4m--reference=RFILE[24m [4mFILE[24m...[m
+[m
+[1mDESCRIPTION[0m[m
+       This manual page documents the GNU version of [1mchmod[0m.  [1mchmod[0m changes the[m
+       file mode bits of each given file  according  to  [4mmode[24m,  which  can  be[m
+       either a symbolic representation of changes to make, or an octal number[m
+       representing the bit pattern for the new mode bits.[m
+[m
+       The format of a symbolic mode is  [[1mugoa[0m...][[[1m-+=[0m][[4mperms[24m...]...],  where[m
+       [4mperms[24m  is  either zero or more letters from the set [1mrwxXst[0m, or a single[m
+       letter from the set [1mugo[0m.  Multiple symbolic modes can be  given,  sepa‐[m
+       rated by commas.[m
+[m
+       A  combination  of the letters [1mugoa[0m controls which users' access to the[m
+       file will be changed: the user who owns it  ([1mu[0m),  other  users  in  the[m
+[7m Manual page chmod(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       file's group ([1mg[0m), other users not in the file's group ([1mo[0m), or all users[m
+[7m Manual page chmod(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ([1ma[0m).  If none of these are given, the effect is as if ([1ma[0m)  were  given,[m
+[7m Manual page chmod(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       but bits that are set in the umask are not affected.[m
+[7m Manual page chmod(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mNAME[0m[m
+[24;1H[K[7m Manual page chmod(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       but bits that are set in the umask are not affected.[m
+[7m Manual page chmod(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The  operator  [1m+[0m  causes the selected file mode bits to be added to the[m
+[7m Manual page chmod(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       existing file mode bits of each file; [1m-[0m causes them to be removed;  and[m
+[7m Manual page chmod(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m=[0m  causes  them  to  be added and causes unmentioned bits to be removed[m
+[7m Manual page chmod(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       except that a directory's unmentioned set user and group  ID  bits  are[m
+[7m Manual page chmod(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       not affected.[m
+[7m Manual page chmod(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The  letters  [1mrwxXst[0m select file mode bits for the affected users: read[m
+[7m Manual page chmod(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ([1mr[0m), write ([1mw[0m), execute (or search for directories) ([1mx[0m), execute/search[m
+[7m Manual page chmod(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       only  if  the file is a directory or already has execute permission for[m
+[7m Manual page chmod(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       some user ([1mX[0m), set user or group ID on execution ([1ms[0m), restricted  dele‐[m
+[7m Manual page chmod(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       tion  flag or sticky bit ([1mt[0m).  Instead of one or more of these letters,[m
+[7m Manual page chmod(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       you can specify exactly one of the letters [1mugo[0m: the permissions granted[m
+[7m Manual page chmod(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       to  the  user  who  owns the file ([1mu[0m), the permissions granted to other[m
+[7m Manual page chmod(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       users who are members of the file's  group  ([1mg[0m),  and  the  permissions[m
+[7m Manual page chmod(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       granted  to  users  that are in neither of the two preceding categories[m
+[7m Manual page chmod(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ([1mo[0m).[m
+[7m Manual page chmod(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       A numeric mode is from one to  four  octal  digits  (0-7),  derived  by[m
+[7m Manual page chmod(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       adding up the bits with values 4, 2, and 1.  Omitted digits are assumed[m
+[7m Manual page chmod(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       to be leading zeros.  The first digit selects the set user ID  (4)  and[m
+[7m Manual page chmod(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       set group ID (2) and restricted deletion or sticky (1) attributes.  The[m
+[7m Manual page chmod(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       second digit selects permissions for the user who owns the  file:  read[m
+[7m Manual page chmod(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       (4),  write  (2),  and  execute  (1); the third selects permissions for[m
+[7m Manual page chmod(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       other users in the file's group, with the same values; and  the  fourth[m
+[7m Manual page chmod(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       for other users not in the file's group, with the same values.[m
+[7m Manual page chmod(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mchmod[0m never changes the permissions of symbolic links; the [1mchmod[0m system[m
+[7m Manual page chmod(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       call cannot change their permissions.  This is not a problem since  the[m
+[7m Manual page chmod(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       permissions  of  symbolic links are never used.  However, for each sym‐[m
+[7m Manual page chmod(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       bolic link listed on the command line, [1mchmod[0m changes the permissions of[m
+[7m Manual page chmod(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the pointed-to file.  In contrast, [1mchmod[0m ignores symbolic links encoun‐[m
+[7m Manual page chmod(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       tered during recursive directory traversals.[m
+[7m Manual page chmod(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mSETUID[0m [1mAND[0m [1mSETGID[0m [1mBITS[0m[m
+[7m Manual page chmod(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mchmod[0m clears the set-group-ID bit of a regular file if the file's group[m
+[7m Manual page chmod(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ID  does  not  match the user's effective group ID or one of the user's[m
+[7m Manual page chmod(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       supplementary group IDs, unless the user  has  appropriate  privileges.[m
+[7m Manual page chmod(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Additional restrictions may cause the set-user-ID and set-group-ID bits[m
+[7m Manual page chmod(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       of [4mMODE[24m or [4mRFILE[24m to be ignored.  This behavior depends  on  the  policy[m
+[7m Manual page chmod(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       and  functionality of the underlying [1mchmod[0m system call.  When in doubt,[m
+[7m Manual page chmod(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       check the underlying system behavior.[m
+[7m Manual page chmod(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mchmod[0m preserves a directory's set-user-ID and set-group-ID bits  unless[m
+[7m Manual page chmod(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       you  explicitly  specify otherwise.  You can set or clear the bits with[m
+[7m Manual page chmod(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       symbolic modes like [1mu+s[0m and [1mg-s[0m, and you can set (but  not  clear)  the[m
+[7m Manual page chmod(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       bits with a numeric mode.[m
+[7m Manual page chmod(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mRESTRICTED[0m [1mDELETION[0m [1mFLAG[0m [1mOR[0m [1mSTICKY[0m [1mBIT[0m[m
+[7m Manual page chmod(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The  restricted  deletion  flag  or  sticky  bit is a single bit, whose[m
+[7m Manual page chmod(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       interpretation depends on the file type.  For directories, it  prevents[m
+[7m Manual page chmod(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       unprivileged  users  from  removing or renaming a file in the directory[m
+[7m Manual page chmod(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       unless they  own  the  file  or  the  directory;  this  is  called  the[m
+[7m Manual page chmod(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4mrestricted[24m  [4mdeletion[24m  [4mflag[24m  for the directory, and is commonly found on[m
+[7m Manual page chmod(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       world-writable directories like [1m/tmp[0m.  For regular files on some  older[m
+[7m Manual page chmod(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       systems,  the  bit saves the program's text image on the swap device so[m
+[7m Manual page chmod(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       it will load more quickly when run; this is called the [4msticky[24m [4mbit[24m.[m
+[7m Manual page chmod(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mOPTIONS[0m[m
+[7m Manual page chmod(1) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Change the mode of each FILE to MODE.   With  [1m--reference[0m,  change  the[m
+[7m Manual page chmod(1) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       mode of each FILE to that of RFILE.[m
+[7m Manual page chmod(1) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-c[0m, [1m--changes[0m[m
+[7m Manual page chmod(1) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              like verbose but report only when a change is made[m
+[7m Manual page chmod(1) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-f[0m, [1m--silent[0m, [1m--quiet[0m[m
+[7m Manual page chmod(1) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              suppress most error messages[m
+[7m Manual page chmod(1) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-v[0m, [1m--verbose[0m[m
+[7m Manual page chmod(1) line 73 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              output a diagnostic for every file processed[m
+[7m Manual page chmod(1) line 74 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 75 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--no-preserve-root[0m[m
+[7m Manual page chmod(1) line 76 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              do not treat '/' specially (the default)[m
+[7m Manual page chmod(1) line 77 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 78 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--preserve-root[0m[m
+[7m Manual page chmod(1) line 79 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              fail to operate recursively on '/'[m
+[7m Manual page chmod(1) line 80 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 81 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--reference[0m=[4mRFILE[24m[m
+[7m Manual page chmod(1) line 82 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              use RFILE's mode instead of MODE values[m
+[7m Manual page chmod(1) line 83 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 84 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-R[0m, [1m--recursive[0m[m
+[7m Manual page chmod(1) line 85 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              change files and directories recursively[m
+[7m Manual page chmod(1) line 86 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 87 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--help[0m display this help and exit[m
+[7m Manual page chmod(1) line 88 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 89 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--version[0m[m
+[7m Manual page chmod(1) line 90 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              output version information and exit[m
+[7m Manual page chmod(1) line 91 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 92 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Each           MODE           is          of          the          form[m
+[7m Manual page chmod(1) line 93 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       '[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+'.[m
+[7m Manual page chmod(1) line 94 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 95 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mAUTHOR[0m[m
+[7m Manual page chmod(1) line 96 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Written by David MacKenzie and Jim Meyering.[m
+[7m Manual page chmod(1) line 97 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 98 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mREPORTING[0m [1mBUGS[0m[m
+[7m Manual page chmod(1) line 99 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GNU coreutils online help: <http://www.gnu.org/software/coreutils/>[m
+[7m Manual page chmod(1) line 100 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Report chmod translation bugs to <http://translationproject.org/team/>[m
+[7m Manual page chmod(1) line 101 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 102 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mCOPYRIGHT[0m[m
+[7m Manual page chmod(1) line 103 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Copyright © 2016 Free Software Foundation, Inc.   License  GPLv3+:  GNU[m
+[7m Manual page chmod(1) line 104 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GPL version 3 or later <http://gnu.org/licenses/gpl.html>.[m
+[7m Manual page chmod(1) line 105 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       This  is  free  software:  you  are free to change and redistribute it.[m
+[7m Manual page chmod(1) line 106 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       There is NO WARRANTY, to the extent permitted by law.[m
+[7m Manual page chmod(1) line 107 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 108 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mSEE[0m [1mALSO[0m[m
+[7m Manual page chmod(1) line 109 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       chmod(2)[m
+[7m Manual page chmod(1) line 110 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 111 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Full documentation at: <http://www.gnu.org/software/coreutils/chmod>[m
+[7m Manual page chmod(1) line 112 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       or available locally via: info '(coreutils) chmod invocation'[m
+[7m Manual page chmod(1) line 113 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 114 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              output version information and exit[m
+[24;1H[K[7m Manual page chmod(1) line 113 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--version[0m[m
+[24;1H[K[7m Manual page chmod(1) line 112 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page chmod(1) line 111 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--help[0m display this help and exit[m
+[24;1H[K[7m Manual page chmod(1) line 110 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page chmod(1) line 109 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              change files and directories recursively[m
+[24;1H[K[7m Manual page chmod(1) line 108 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-R[0m, [1m--recursive[0m[m
+[24;1H[K[7m Manual page chmod(1) line 107 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page chmod(1) line 106 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              use RFILE's mode instead of MODE values[m
+[24;1H[K[7m Manual page chmod(1) line 105 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--reference[0m=[4mRFILE[24m[m
+[24;1H[K[7m Manual page chmod(1) line 104 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page chmod(1) line 103 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              fail to operate recursively on '/'[m
+[24;1H[K[7m Manual page chmod(1) line 102 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--preserve-root[0m[m
+[24;1H[K[7m Manual page chmod(1) line 101 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ chmod u-x temp
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ cd temp
+bash: cd: temp: Permission denied
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ cho[Kmod u+x temp
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ ls temp
+temp1.txt
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ chmod u-w temp/temp1.txt 
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ cp temp/temp1.txt emp[K[K[Ktemp1.txt 
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ more temp1.txt 
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ sublime-text temp/temp1.txt temmp[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ sublime-text temp/temp1.txt[12Pmore temp1.txt [13@cp temp/temp1.txt[C[C[C[C[C[C[C[C[C[C[C[3Phmod u-w temp/[C[C[C[C[C[C[C[C[C[Cls temp[Kchmod u-w temp/temp1.txt [C[1P[1@+
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ chmod u+w temp/temp1.txt sublime-text temp/temp1.txt[12Pmore temp1.txt sublime-text temp/temp1.txt
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ sublime-text temp/temp1.txt[2Pchmod u+w temp/temp1.txt sublime-text temp/temp1.txt[12Pmore temp1.txt [13@cp temp/temp1.txt[C[C[C[C[C[C[C[C[C[C[C[13Pmore[C[C[C[C[C[C[C[C[C[C[Csublime-text temp/temp1.txt[2Pchmod u+w temp/temp1.txt sublime-text temp/temp1.txt[Ksublime-text temp/temp1.txt[2Pchmod u+w temp/temp1.txt sublime-text temp/temp1.txt[12Pmore temp1.txt [13@cp temp/temp1.txt[C[C[C[C[C[C[C[C[C[C[C[3Phmod u-w temp/[C[C[C[C[C[C[C[C[C[C
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ chmod u-w temp/temp1.txt sublime-text temp/temp1.txt[2Pchmod u+w temp/temp1.txt sublime-text temp/temp1.txt[12Pmore temp1.txt [13@cp temp/temp1.txt[C[C[C[C[C[C[C[C[C[C[C[1P[1@3
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ ls
+[0m[01;34mtemp[0m  [01;32mtemp1.txt[0m  temp2.txt  temp3.txt
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ more temp3.txt 
+sDfdfhvd
+vsthuy l dt yk
+
+ fuykfi l
+ m 
+ tj
+ 
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [K]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ clear
+[3;J[H[2J]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ man echo
+[?1049h[?1h=ECHO(1)                     User Commands                     ECHO(1)[m
+[m
+[1mNAME[0m[m
+       echo - display a line of text[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mecho[0m [[4mSHORT-OPTION[24m]... [[4mSTRING[24m]...[m
+       [1mecho[0m [4mLONG-OPTION[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       Echo the STRING(s) to standard output.[m
+[m
+       [1m-n[0m     do not output the trailing newline[m
+[m
+       [1m-e[0m     enable interpretation of backslash escapes[m
+[m
+       [1m-E[0m     disable interpretation of backslash escapes (default)[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+       If [1m-e[0m is in effect, the following sequences are recognized:[m
+[m
+       \\     backslash[m
+[m
+       \a     alert (BEL)[m
+[m
+       \b     backspace[m
+[m
+       \c     produce no further output[m
+[m
+       \e     escape[m
+[m
+       \f     form feed[m
+[m
+       \n     new line[m
+[m
+       \r     carriage return[m
+[m
+[7m Manual page echo(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \t     horizontal tab[m
+[7m Manual page echo(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \v     vertical tab[m
+[7m Manual page echo(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \0NNN  byte with octal value NNN (1 to 3 digits)[m
+[7m Manual page echo(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \xHH   byte with hexadecimal value HH (1 to 2 digits)[m
+[7m Manual page echo(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       NOTE:  your shell may have its own version of echo, which usu‐[m
+[7m Manual page echo(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ally supersedes the version described here.  Please  refer  to[m
+[7m Manual page echo(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       your  shell's  documentation  for details about the options it[m
+[7m Manual page echo(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       supports.[m
+[7m Manual page echo(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mAUTHOR[0m[m
+[7m Manual page echo(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Written by Brian Fox and Chet Ramey.[m
+[7m Manual page echo(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mREPORTING[0m [1mBUGS[0m[m
+[7m Manual page echo(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GNU coreutils online help:  <http://www.gnu.org/software/core‐[m
+[7m Manual page echo(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       utils/>[m
+[7m Manual page echo(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Report   echo   translation  bugs  to  <http://translationpro‐[m
+[7m Manual page echo(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ject.org/team/>[m
+[7m Manual page echo(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mCOPYRIGHT[0m[m
+[7m Manual page echo(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Copyright ©  2016  Free  Software  Foundation,  Inc.   License[m
+[7m Manual page echo(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GPLv3+:      GNU      GPL      version      3     or     later[m
+[7m Manual page echo(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       <http://gnu.org/licenses/gpl.html>.[m
+[7m Manual page echo(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       This is free software: you are free to change and redistribute[m
+[7m Manual page echo(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       it.  There is NO WARRANTY, to the extent permitted by law.[m
+[7m Manual page echo(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mSEE[0m [1mALSO[0m[m
+[7m Manual page echo(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Full   documentation   at:  <http://www.gnu.org/software/core‐[m
+[7m Manual page echo(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       utils/echo>[m
+[7m Manual page echo(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       or available locally via: info '(coreutils) echo invocation'[m
+[7m Manual page echo(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page echo(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[KGNU coreutils 8.25          February 2016                     ECHO(1)[m
+[7m Manual page echo(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 36/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 36/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 36/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 36/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 36/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 36/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 36/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 36/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 36/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 36/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 36/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 36/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 36/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 36/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 36/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 36/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 36/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 36/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page echo(1) line 36/76 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page echo(1) line 35/76 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       \e     escape[m
+[42;1H[K[7m Manual page echo(1) line 34/76 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page echo(1) line 33/76 94% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       \c     produce no further output[m
+[42;1H[K[7m Manual page echo(1) line 32/76 93% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page echo(1) line 31/76 90% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       \b     backspace[m
+[42;1H[K[7m Manual page echo(1) line 30/76 89% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page echo(1) line 29/76 89% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       \a     alert (BEL)[m
+[42;1H[K[7m Manual page echo(1) line 28/76 86% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page echo(1) line 27/76 83% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       \\     backslash[m
+[42;1H[K[7m Manual page echo(1) line 26/76 81% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page echo(1) line 25/76 78% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       If [1m-e[0m is in effect, the following sequences are recognized:[m
+[42;1H[K[7m Manual page echo(1) line 24/76 75% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page echo(1) line 23/76 74% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              output version information and exit[m
+[42;1H[K[7m Manual page echo(1) line 22/76 74% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--version[0m[m
+[42;1H[K[7m Manual page echo(1) line 21/76 73% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page echo(1) line 20/76 69% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--help[0m display this help and exit[m
+[42;1H[K[7m Manual page echo(1) line 19/76 69% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page echo(1) line 18/76 66% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-E[0m     disable interpretation of backslash escapes (default)[m
+[42;1H[K[7m Manual page echo(1) line 17/76 64% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page echo(1) line 16/76 64% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-e[0m     enable interpretation of backslash escapes[m
+[42;1H[K[7m Manual page echo(1) line 15/76 62% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page echo(1) line 14/76 61% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-n[0m     do not output the trailing newline[m
+[42;1H[K[7m Manual page echo(1) line 13/76 61% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page echo(1) line 12/76 60% (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ man more
+[?1049h[?1h=MORE(1)                     User Commands                     MORE(1)[m
+[m
+[1mNAME[0m[m
+       more - file perusal filter for crt viewing[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mmore[0m [options] [4mfile[24m...[m
+[m
+[1mDESCRIPTION[0m[m
+       [1mmore[0m  is  a  filter for paging through text one screenful at a[m
+       time.  This version is  especially  primitive.   Users  should[m
+       realize that [1mless[0m(1) provides [1mmore[0m(1) emulation plus extensive[m
+       enhancements.[m
+[m
+[1mOPTIONS[0m[m
+       Options are also taken  from  the  environment  variable  [1mMORE[0m[m
+       (make  sure  to precede them with a dash ([1m-[0m)) but command-line[m
+       options will override those.[m
+[m
+       [1m-d[0m     Prompt with "[Press space to continue, 'q' to  quit.]",[m
+              and  display "[Press 'h' for instructions.]" instead of[m
+              ringing the bell when an illegal key is pressed.[m
+[m
+       [1m-l[0m     Do not pause after  any  line  containing  a  [1m^L[0m  (form[m
+              feed).[m
+[m
+       [1m-f[0m     Count  logical  lines,  rather than screen lines (i.e.,[m
+              long lines are not folded).[m
+[m
+       [1m-p[0m     Do not scroll.  Instead, clear  the  whole  screen  and[m
+              then  display  the  text.   Notice  that this option is[m
+              switched on automatically if the  executable  is  named[m
+              [1mpage[0m.[m
+[m
+       [1m-c[0m     Do  not  scroll.   Instead,  paint each screen from the[m
+              top, clearing the remainder of each line as it is  dis‐[m
+              played.[m
+[m
+       [1m-s[0m     Squeeze multiple blank lines into one.[m
+[m
+       [1m-u[0m     Suppress underlining.[m
+[7m Manual page more(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ man cat
+[?1049h[?1h=CAT(1)                      User Commands                      CAT(1)[m
+[m
+[1mNAME[0m[m
+       cat - concatenate files and print on the standard output[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mcat[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       Concatenate FILE(s) to standard output.[m
+[m
+       With no FILE, or when FILE is -, read standard input.[m
+[m
+       [1m-A[0m, [1m--show-all[0m[m
+              equivalent to [1m-vET[0m[m
+[m
+       [1m-b[0m, [1m--number-nonblank[0m[m
+              number nonempty output lines, overrides [1m-n[0m[m
+[m
+       [1m-e[0m     equivalent to [1m-vE[0m[m
+[m
+       [1m-E[0m, [1m--show-ends[0m[m
+              display $ at end of each line[m
+[m
+       [1m-n[0m, [1m--number[0m[m
+              number all output lines[m
+[m
+       [1m-s[0m, [1m--squeeze-blank[0m[m
+              suppress repeated empty output lines[m
+[m
+       [1m-t[0m     equivalent to [1m-vT[0m[m
+[m
+       [1m-T[0m, [1m--show-tabs[0m[m
+              display TAB characters as ^I[m
+[m
+       [1m-u[0m     (ignored)[m
+[m
+       [1m-v[0m, [1m--show-nonprinting[0m[m
+              use ^ and M- notation, except for LFD and TAB[m
+[m
+       [1m--help[0m display this help and exit[m
+[7m Manual page cat(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--version[0m[m
+[7m Manual page cat(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              output version information and exit[m
+[7m Manual page cat(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mEXAMPLES[0m[m
+[7m Manual page cat(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       cat f - g[m
+[7m Manual page cat(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Output f's contents, then standard input, then g's con‐[m
+[7m Manual page cat(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              tents.[m
+[7m Manual page cat(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       cat    Copy standard input to standard output.[m
+[7m Manual page cat(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mAUTHOR[0m[m
+[7m Manual page cat(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Written by Torbjorn Granlund and Richard M. Stallman.[m
+[7m Manual page cat(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mREPORTING[0m [1mBUGS[0m[m
+[7m Manual page cat(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GNU coreutils online help:  <http://www.gnu.org/software/core‐[m
+[7m Manual page cat(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page cat(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              equivalent to [1m-vET[0m[m
+[42;1H[K[7m Manual page cat(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-A[0m, [1m--show-all[0m[m
+[42;1H[K[7m Manual page cat(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page cat(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       With no FILE, or when FILE is -, read standard input.[m
+[42;1H[K[7m Manual page cat(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page cat(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Concatenate FILE(s) to standard output.[m
+[42;1H[K[7m Manual page cat(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[42;1H[K[7m Manual page cat(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page cat(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mcat[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[42;1H[K[7m Manual page cat(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m[m
+[42;1H[K[7m Manual page cat(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page cat(1) line 5 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ man head
+[?1049h[?1h=HEAD(1)                     User Commands                     HEAD(1)[m
+[m
+[1mNAME[0m[m
+       head - output the first part of files[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mhead[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       Print  the  first  10  lines  of each FILE to standard output.[m
+       With more than one FILE, precede each with a header giving the[m
+       file name.[m
+[m
+       With no FILE, or when FILE is -, read standard input.[m
+[m
+       Mandatory  arguments  to  long options are mandatory for short[m
+       options too.[m
+[m
+       [1m-c[0m, [1m--bytes[0m=[4m[-]NUM[24m[m
+              print the first NUM bytes of each file; with the  lead‐[m
+              ing '-', print all but the last NUM bytes of each file[m
+[m
+       [1m-n[0m, [1m--lines[0m=[4m[-]NUM[24m[m
+              print the first NUM lines instead of the first 10; with[m
+              the leading '-', print all but the last  NUM  lines  of[m
+              each file[m
+[m
+       [1m-q[0m, [1m--quiet[0m, [1m--silent[0m[m
+              never print headers giving file names[m
+[m
+       [1m-v[0m, [1m--verbose[0m[m
+              always print headers giving file names[m
+[m
+       [1m-z[0m, [1m--zero-terminated[0m[m
+              line delimiter is NUL, not newline[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+[7m Manual page head(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       NUM  may  have a multiplier suffix: b 512, kB 1000, K 1024, MB[m
+[7m Manual page head(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       1000*1000, M 1024*1024, GB 1000*1000*1000,  G  1024*1024*1024,[m
+[7m Manual page head(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       and so on for T, P, E, Z, Y.[m
+[7m Manual page head(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page head(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mAUTHOR[0m[m
+[7m Manual page head(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Written by David MacKenzie and Jim Meyering.[m
+[7m Manual page head(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page head(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mREPORTING[0m [1mBUGS[0m[m
+[7m Manual page head(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GNU  coreutils online help: <http://www.gnu.org/software/core‐[m
+[7m Manual page head(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       utils/>[m
+[7m Manual page head(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Report  head  translation  bugs   to   <http://translationpro‐[m
+[7m Manual page head(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       With more than one FILE, precede each with a header giving the[m
+[42;1H[K[7m Manual page head(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Print  the  first  10  lines  of each FILE to standard output.[m
+[42;1H[K[7m Manual page head(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[42;1H[K[7m Manual page head(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page head(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mhead[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[42;1H[K[7m Manual page head(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m[m
+[42;1H[K[7m Manual page head(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[42;1H[K[7m Manual page head(1) line 5 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [K]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ ls
+GameOfScripting.txt  [0m[01;34mtemp[0m  [01;32mtemp1.txt[0m  temp2.txt  temp3.txt
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ man head[K[K[K[K[K[K[K[Khead -100 GameOfScripting.txt  | tail -1 
+Game of Thrones roughly follows the storylines set out in A Song of Ice and Fire,[7] set in the fictional Seven Kingdoms of Westeros. The series chronicles the violent dynastic struggles among the realm's noble families for the Iron Throne, while other families are fighting for independence from it. As the series opens, additional threats emerge in the icy North and in the eastern continent of Essos.[2]
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ head -100 GameOfScripting.txt || tail -1 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C GameOfScripting.txt | [1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C GameOfScripting.txt | t[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C GameOfScripting.txt | ta[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C3 GameOfScripting.txt | t[1@a[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C0 GameOfScripting.txt | [1@t[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chead -30 GameOfScripting.txt |  tail -1 [C[1P 1 0 
+Game of Thrones has attracted record numbers of viewers on HBO and attained an exceptionally broad and active international fan base. It has received widespread acclaim by critics, particularly for its acting, complex characters, story, scope, and production values, although its frequent use of nudity, violence, and sexual violence has attracted criticism. The series has won 26 Primetime Emmy Awards, including the Primetime Emmy Award for Outstanding Drama Series in 2015—when it set a record for most wins for a series in a single year—and numerous other awards and nominations, including three Hugo Award for Best Dramatic Presentation, a Peabody Award, and three Golden Globe Award nominations. From among the ensemble cast, Peter Dinklage won two Emmy Awards for Outstanding Supporting Actor in a Drama Series and a Golden Globe Award for Best Supporting Actor – Series, Miniseries or Television Film for his performance as Tyrion Lannister. Lena Headey, Emilia Clarke, Kit Harington, Maisie Williams, Diana Rigg, and Max von Sydow have also received Emmy nominations for their performances in the series
+Game of Thrones roughly follows the storylines set out in A Song of Ice and Fire,[7] set in the fictional Seven Kingdoms of Westeros. The series chronicles the violent dynastic struggles among the realm's noble families for the Iron Throne, while other families are fighting for independence from it. As the series opens, additional threats emerge in the icy North and in the eastern continent of Essos.[2]
+
+"The Sopranos in Middle-earth" is the tagline that showrunner David Benioff jokingly suggested for Game of Thrones, referring to its intrigue-filled plot and dark tone combined with a fantasy setting that incorporates some magic and dragons.[8] In a 2012 study of deaths per episode, the series was listed second out of 40 recent U.S. TV drama series, with an average of 14 deaths per episode.
+
+
+
+Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss. It is an adaptation of A Song of Ice and Fire, George R. R. Martin's series of fantasy novels, the first of which is titled A Game of Thrones. It is filmed at Titanic Studios in Belfast and on location elsewhere in Northern Ireland, as well as in Croatia, Iceland, Malta, Morocco, Spain, Scotland, and the United States. The series premiered on HBO in the United States on April 17, 2011, and its sixth season concluded on June 26, 2016. The series was renewed for a seventh season, which is scheduled to premiere in mid-2017 with a total of seven episodes.[5] The series will conclude with its eighth season in 2018.[6]
+
+The series is set on the fictional continents of Westeros and Essos and interweaves several plot lines with a large ensemble cast. The first narrative arc follows a dynastic conflict among competing claimants for succession to the Iron Throne of the Seven Kingdoms, with other noble families fighting for independence from it; the second covers the attempts to reclaim the throne by the exiled last scion of the realm's deposed ruling dynasty; the third chronicles the rising threat of the impending winter and the legendary creatures and fierce peoples of the North.
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ head -30 GameOfScripting.txt |  tail -10 AD[K[KD[C[C[C[C[C[C[K[KD[Kclear
+tail: option used in invalid context -- 1
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ clear
+[3;J[H[2J]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ clearhead -30 GameOfScripting.txt |  tail -10clear[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cta[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctai[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cail[1P -10clear[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail [1P-10clear[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cail -[1P10clear[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail -1[1P0clear[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail -10[1Pclear[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail -10c[1Plear[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail -10cl[1Pear[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cail -10cle[1Par[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail -10clea[1Pr[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail -10clear[K[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail -10clear [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1Phead -30 GameOfScripting.txt |  tail -10 [A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C100 GameOfScripting.txt | tail -1[C[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C30 GameOfScripting.txt | tail -10[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C t[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cta[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C tai[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C tail[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C tail [1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C tail -[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C tail -1[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C tail -10[1P [A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C tail -10 [K[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C tail -10  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[CD[KGameOfScripting.txt  [A
+
+"The Sopranos in Middle-earth" is the tagline that showrunner David Benioff jokingly suggested for Game of Thrones, referring to its intrigue-filled plot and dark tone combined with a fantasy setting that incorporates some magic and dragons.[8] In a 2012 study of deaths per episode, the series was listed second out of 40 recent U.S. TV drama series, with an average of 14 deaths per episode.
+Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss. It is an adaptation of A Song of Ice and Fire, George R. R. Martin's series of fantasy novels, the first of which is titled A Game of Thrones. It is filmed at Titanic Studios in Belfast and on location elsewhere in Northern Ireland, as well as in Croatia, Iceland, Malta, Morocco, Spain, Scotland, and the United States. The series premiered on HBO in the United States on April 17, 2011, and its sixth season concluded on June 26, 2016. The series was renewed for a seventh season, which is scheduled to premiere in mid-2017 with a total of seven episodes.[5] The series will conclude with its eighth season in 2018.[6]
+
+The series is set on the fictional continents of Westeros and Essos and interweaves several plot lines with a large ensemble cast. The first narrative arc follows a dynastic conflict among competing claimants for succession to the Iron Throne of the Seven Kingdoms, with other noble families fighting for independence from it; the second covers the attempts to reclaim the throne by the exiled last scion of the realm's deposed ruling dynasty; the third chronicles the rising threat of the impending winter and the legendary creatures and fierce peoples of the North.
+
+Game of Thrones has attracted record numbers of viewers on HBO and attained an exceptionally broad and active international fan base. It has received widespread acclaim by critics, particularly for its acting, complex characters, story, scope, and production values, although its frequent use of nudity, violence, and sexual violence has attracted criticism. The series has won 26 Primetime Emmy Awards, including the Primetime Emmy Award for Outstanding Drama Series in 2015—when it set a record for most wins for a series in a single year—and numerous other awards and nominations, including three Hugo Award for Best Dramatic Presentation, a Peabody Award, and three Golden Globe Award nominations. From among the ensemble cast, Peter Dinklage won two Emmy Awards for Outstanding Supporting Actor in a Drama Series and a Golden Globe Award for Best Supporting Actor – Series, Miniseries or Television Film for his performance as Tyrion Lannister. Lena Headey, Emilia Clarke, Kit Harington, Maisie Williams, Diana Rigg, and Max von Sydow have also received Emmy nominations for their performances in the series
+Game of Thrones roughly follows the storylines set out in A Song of Ice and Fire,[7] set in the fictional Seven Kingdoms of Westeros. The series chronicles the violent dynastic struggles among the realm's noble families for the Iron Throne, while other families are fighting for independence from it. As the series opens, additional threats emerge in the icy North and in the eastern continent of Essos.[2]
+
+"The Sopranos in Middle-earth" is the tagline that showrunner David Benioff jokingly suggested for Game of Thrones, referring to its intrigue-filled plot and dark tone combined with a fantasy setting that incorporates some magic and dragons.[8] In a 2012 study of deaths per episode, the series was listed second out of 40 recent U.S. TV drama series, with an average of 14 deaths per episode.
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ cleartail -10clearhead -30 GameOfScripting.txt |  tail -10 [A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [17Ptail -10clear
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pclear[Kcleartail -10clearhead -30 GameOfScripting.txt |  tail -10 [A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C100 GameOfScripting.txt | tail -1[C[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C30 GameOfScripting.txt | tail -10[C[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [17Ptail -10clear
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pclear[Kq[Kclear
+[3;J[H[2J]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ man touch
+[?1049h[?1h=TOUCH(1)                         User Commands                        TOUCH(1)[m
+[m
+[1mNAME[0m[m
+       touch - change file timestamps[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mtouch[0m [[4mOPTION[24m]... [4mFILE[24m...[m
+[m
+[1mDESCRIPTION[0m[m
+       Update  the  access  and modification times of each FILE to the current[m
+       time.[m
+[m
+       A FILE argument that does not exist is created empty, unless [1m-c[0m  or  [1m-h[0m[m
+       is supplied.[m
+[m
+       A  FILE  argument  string of - is handled specially and causes touch to[m
+       change the times of the file associated with standard output.[m
+[m
+       Mandatory arguments to long options are  mandatory  for  short  options[m
+       too.[m
+[m
+       [1m-a[0m     change only the access time[m
+[m
+[7m Manual page touch(1) line 1 (press h for help or q to quit)[27m[K[K       [1m-c[0m, [1m--no-create[0m[m
+[7m Manual page touch(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              do not create any files[m
+[7m Manual page touch(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-d[0m, [1m--date[0m=[4mSTRING[24m[m
+[7m Manual page touch(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              parse STRING and use it instead of current time[m
+[7m Manual page touch(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-f[0m     (ignored)[m
+[7m Manual page touch(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-h[0m, [1m--no-dereference[0m[m
+[7m Manual page touch(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              affect each symbolic link instead of any referenced file (useful[m
+[7m Manual page touch(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Update  the  access  and modification times of each FILE to the current[m
+[24;1H[K[7m Manual page touch(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[24;1H[K[7m Manual page touch(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-h[0m, [1m--no-dereference[0m[m
+[7m Manual page touch(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              affect each symbolic link instead of any referenced file (useful[m
+[7m Manual page touch(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              only on systems that can change the timestamps of a symlink)[m
+[7m Manual page touch(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-m[0m     change only the modification time[m
+[7m Manual page touch(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-r[0m, [1m--reference[0m=[4mFILE[24m[m
+[7m Manual page touch(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              use this file's times instead of current time[m
+[7m Manual page touch(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-t[0m STAMP[m
+[7m Manual page touch(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              use [[CC]YY]MMDDhhmm[.ss] instead of current time[m
+[7m Manual page touch(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--time[0m=[4mWORD[24m[m
+[7m Manual page touch(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              change the specified time: WORD is access, atime, or use: equiv‐[m
+[7m Manual page touch(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              alent to [1m-a[0m WORD is modify or mtime: equivalent to [1m-m[0m[m
+[7m Manual page touch(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--help[0m display this help and exit[m
+[7m Manual page touch(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--version[0m[m
+[7m Manual page touch(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              output version information and exit[m
+[7m Manual page touch(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Note that the [1m-d[0m and [1m-t[0m options accept different time-date formats.[m
+[7m Manual page touch(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mDATE[0m [1mSTRING[0m[m
+[7m Manual page touch(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The  --date=STRING  is  a mostly free format human readable date string[m
+[7m Manual page touch(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       such as "Sun, 29 Feb 2004 16:21:42 -0800" or "2004-02-29  16:21:42"  or[m
+[7m Manual page touch(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       even  "next Thursday".  A date string may contain items indicating cal‐[m
+[7m Manual page touch(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       endar date, time of day, time zone, day of week, relative  time,  rela‐[m
+[7m Manual page touch(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       tive date, and numbers.  An empty string indicates the beginning of the[m
+[7m Manual page touch(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       day.  The date string format is more complex than is easily  documented[m
+[7m Manual page touch(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       here but is fully described in the info documentation.[m
+[7m Manual page touch(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mAUTHOR[0m[m
+[7m Manual page touch(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Written  by  Paul  Rubin, Arnold Robbins, Jim Kingdon, David MacKenzie,[m
+[7m Manual page touch(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       and Randy Smith.[m
+[7m Manual page touch(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mREPORTING[0m [1mBUGS[0m[m
+[7m Manual page touch(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GNU coreutils online help: <http://www.gnu.org/software/coreutils/>[m
+[7m Manual page touch(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Report touch translation bugs to <http://translationproject.org/team/>[m
+[7m Manual page touch(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mCOPYRIGHT[0m[m
+[7m Manual page touch(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page touch(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--help[0m display this help and exit[m
+[24;1H[K[7m Manual page touch(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page touch(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              alent to [1m-a[0m WORD is modify or mtime: equivalent to [1m-m[0m[m
+[24;1H[K[7m Manual page touch(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              change the specified time: WORD is access, atime, or use: equiv‐[m
+[24;1H[K[7m Manual page touch(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--time[0m=[4mWORD[24m[m
+[24;1H[K[7m Manual page touch(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page touch(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              use [[CC]YY]MMDDhhmm[.ss] instead of current time[m
+[24;1H[K[7m Manual page touch(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-t[0m STAMP[m
+[24;1H[K[7m Manual page touch(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page touch(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              use this file's times instead of current time[m
+[24;1H[K[7m Manual page touch(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-r[0m, [1m--reference[0m=[4mFILE[24m[m
+[24;1H[K[7m Manual page touch(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page touch(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-m[0m     change only the modification time[m
+[24;1H[K[7m Manual page touch(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page touch(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              only on systems that can change the timestamps of a symlink)[m
+[24;1H[K[7m Manual page touch(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              affect each symbolic link instead of any referenced file (useful[m
+[24;1H[K[7m Manual page touch(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-h[0m, [1m--no-dereference[0m[m
+[24;1H[K[7m Manual page touch(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page touch(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-f[0m     (ignored)[m
+[24;1H[K[7m Manual page touch(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page touch(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              parse STRING and use it instead of current time[m
+[24;1H[K[7m Manual page touch(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-d[0m, [1m--date[0m=[4mSTRING[24m[m
+[24;1H[K[7m Manual page touch(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page touch(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              do not create any files[m
+[24;1H[K[7m Manual page touch(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-c[0m, [1m--no-create[0m[m
+[24;1H[K[7m Manual page touch(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page touch(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-a[0m     change only the access time[m
+[24;1H[K[7m Manual page touch(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page touch(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       too.[m
+[24;1H[K[7m Manual page touch(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Mandatory arguments to long options are  mandatory  for  short  options[m
+[24;1H[K[7m Manual page touch(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page touch(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       change the times of the file associated with standard output.[m
+[24;1H[K[7m Manual page touch(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       A  FILE  argument  string of - is handled specially and causes touch to[m
+[24;1H[K[7m Manual page touch(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page touch(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       is supplied.[m
+[24;1H[K[7m Manual page touch(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       A FILE argument that does not exist is created empty, unless [1m-c[0m  or  [1m-h[0m[m
+[24;1H[K[7m Manual page touch(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page touch(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       time.[m
+[24;1H[K[7m Manual page touch(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Update  the  access  and modification times of each FILE to the current[m
+[24;1H[K[7m Manual page touch(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[24;1H[K[7m Manual page touch(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page touch(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mtouch[0m [[4mOPTION[24m]... [4mFILE[24m...[m
+[24;1H[K[7m Manual page touch(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m[m
+[24;1H[K[7m Manual page touch(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page touch(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       touch - change file timestamps[m
+[24;1H[K[7m Manual page touch(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mNAME[0m[m
+[24;1H[K[7m Manual page touch(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page touch(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HMTOUCH(1)                         User Commands                        TOUCH(1)[m
+[24;1H[K[7m Manual page touch(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page touch(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page touch(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page touch(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page touch(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-c[0m, [1m--no-create[0m[m
+[7m Manual page touch(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              do not create any files[m
+[7m Manual page touch(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-d[0m, [1m--date[0m=[4mSTRING[24m[m
+[7m Manual page touch(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              parse STRING and use it instead of current time[m
+[7m Manual page touch(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-f[0m     (ignored)[m
+[7m Manual page touch(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-h[0m, [1m--no-dereference[0m[m
+[7m Manual page touch(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              affect each symbolic link instead of any referenced file (useful[m
+[7m Manual page touch(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              only on systems that can change the timestamps of a symlink)[m
+[7m Manual page touch(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-m[0m     change only the modification time[m
+[7m Manual page touch(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-r[0m, [1m--reference[0m=[4mFILE[24m[m
+[7m Manual page touch(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              use this file's times instead of current time[m
+[7m Manual page touch(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-t[0m STAMP[m
+[7m Manual page touch(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              use [[CC]YY]MMDDhhmm[.ss] instead of current time[m
+[7m Manual page touch(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--time[0m=[4mWORD[24m[m
+[7m Manual page touch(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              change the specified time: WORD is access, atime, or use: equiv‐[m
+[7m Manual page touch(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              alent to [1m-a[0m WORD is modify or mtime: equivalent to [1m-m[0m[m
+[7m Manual page touch(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--help[0m display this help and exit[m
+[7m Manual page touch(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page touch(1) line 27 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ touch HouseStarks.txt HouseLan [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn nister.txt
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ cat >>HouseStarks.txt 
+Thre  ere ssho   houd ld alwas s ys br a     e a stra  ark in winterfell
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ cat ""[C[K[KHouseLannister.txt "A Lann iste[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn ister always pays his deebts[K[K[K[Kbts"
+cat: 'A Lannister always pays his debts': No such file or directory
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ cat HouseLannister.txt "A Lanniister always pays his debts"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C>HouseLannister.txt "A Lann[1@i[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C>HouseLannister.txt "A Lan[1@n[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C HouseLannister.txt "A La[C[1@n[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C
+
+cat: 'A Lannister always pays his debts': No such file or directory
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ cat >> HouseLannister.txt "A Laannister always pays his debts"[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CA Lan[C[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CA Lann[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CA Lanni[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CA Lannis[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CA Lannist[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CA Lanniste[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CA Lannister[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CA Lannister [1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CA Lannister a[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CA Lannister al[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CA Lannister alw[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CA Lannister alwa[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[CA Lannister alway[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[CA Lannister always[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[CA Lannister always [1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[CA Lannister always p[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[CA Lannister always pa[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[CA Lannister always pay[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[CA Lannister always pays[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[CA Lannister always pays [1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[CA Lannister always pays h[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[CA Lannister always pays hi[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[CA Lannister always pays his[1P debts[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C:A Lannister always pays his debts[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C >> HouseLannister.txt 
+cat: ':A': No such file or directory
+cat: Lannister: No such file or directory
+cat: always: No such file or directory
+cat: pays: No such file or directory
+cat: his: No such file or directory
+cat: debts: No such file or directory
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ cat :A Lannister always pays hiis debts >> HouseLannister.txt [1@"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CA Lannister always pays his[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C"A Lannister always pays hi[1@s[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C
+
+cat: 'A Lannister always pays his debts': No such file or directory
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ cat "A Lannister always pays hiis debts" >> HouseLannister.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "A Lannister always pays his[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C "A Lannister always pays his [1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C "A Lannister always pays his d[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ e "A Lannister always pays his [1@d[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [Cc "A Lannister always pays his[1@ [A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[Ch "A Lannister always pays hi[1@s[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[Co "A Lannister always pays h[1@i[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C
+
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ 
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ clear
+[3;J[H[2J]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ cat >> HouseStarks.txt 
+Winter is Coming
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ more Houses[Ks[Ks[KStarks.txt 
+There should always be a stark in winterfell
+Winter is Coming
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ more HouseStarks.txt HouseLanniister.txt 
+::::::::::::::
+HouseStarks.txt
+::::::::::::::
+There should always be a stark in winterfell
+Winter is Coming
+[7m--More--(Next file: HouseLannister.txt)[27m[K
+...skipping 23 lines
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ f[Kmore HouseStarks.txt HouseLanniister.txt 
+::::::::::::::
+HouseStarks.txt
+::::::::::::::
+There should always be a stark in winterfell
+Winter is Coming
+[7m--More--(Next file: HouseLannister.txt)[27m::::::::::::::[K
+HouseLannister.txt
+::::::::::::::
+A Lannister always pays his debts
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ tr [[K[K[K[Kman tr
+[?1049h[?1h=TR(1)                            User Commands                           TR(1)[m
+[m
+[1mNAME[0m[m
+       tr - translate or delete characters[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mtr[0m [[4mOPTION[24m]... [4mSET1[24m [[4mSET2[24m][m
+[m
+[1mDESCRIPTION[0m[m
+       Translate, squeeze, and/or delete characters from standard input, writ‐[m
+       ing to standard output.[m
+[m
+       [1m-c[0m, [1m-C[0m, [1m--complement[0m[m
+              use the complement of SET1[m
+[m
+       [1m-d[0m, [1m--delete[0m[m
+              delete characters in SET1, do not translate[m
+[m
+       [1m-s[0m, [1m--squeeze-repeats[0m[m
+              replace each sequence of a repeated character that is listed  in[m
+              the last specified SET, with a single occurrence of that charac‐[m
+              ter[m
+[m
+[7m Manual page tr(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-t[0m, [1m--truncate-set1[0m[m
+[7m Manual page tr(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              first truncate SET1 to length of SET2[m
+[7m Manual page tr(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--help[0m display this help and exit[m
+[7m Manual page tr(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--version[0m[m
+[7m Manual page tr(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              output version information and exit[m
+[7m Manual page tr(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       SETs are specified as strings  of  characters.   Most  represent  them‐[m
+[7m Manual page tr(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       selves.  Interpreted sequences are:[m
+[7m Manual page tr(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \NNN   character with octal value NNN (1 to 3 octal digits)[m
+[7m Manual page tr(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \\     backslash[m
+[7m Manual page tr(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \a     audible BEL[m
+[7m Manual page tr(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \b     backspace[m
+[7m Manual page tr(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \f     form feed[m
+[7m Manual page tr(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              the last specified SET, with a single occurrence of that charac‐[m
+[24;1H[K[7m Manual page tr(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              replace each sequence of a repeated character that is listed  in[m
+[24;1H[K[7m Manual page tr(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-s[0m, [1m--squeeze-repeats[0m[m
+[24;1H[K[7m Manual page tr(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              delete characters in SET1, do not translate[m
+[24;1H[K[7m Manual page tr(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-d[0m, [1m--delete[0m[m
+[24;1H[K[7m Manual page tr(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              use the complement of SET1[m
+[24;1H[K[7m Manual page tr(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-c[0m, [1m-C[0m, [1m--complement[0m[m
+[24;1H[K[7m Manual page tr(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       ing to standard output.[m
+[24;1H[K[7m Manual page tr(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Translate, squeeze, and/or delete characters from standard input, writ‐[m
+[24;1H[K[7m Manual page tr(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[24;1H[K[7m Manual page tr(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mtr[0m [[4mOPTION[24m]... [4mSET1[24m [[4mSET2[24m][m
+[24;1H[K[7m Manual page tr(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m[m
+[24;1H[K[7m Manual page tr(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       tr - translate or delete characters[m
+[24;1H[K[7m Manual page tr(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mNAME[0m[m
+[24;1H[K[7m Manual page tr(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HMTR(1)                            User Commands                           TR(1)[m
+[24;1H[K[7m Manual page tr(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page tr(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page tr(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-t[0m, [1m--truncate-set1[0m[m
+[7m Manual page tr(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              first truncate SET1 to length of SET2[m
+[7m Manual page tr(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--help[0m display this help and exit[m
+[7m Manual page tr(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--version[0m[m
+[7m Manual page tr(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              output version information and exit[m
+[7m Manual page tr(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       SETs are specified as strings  of  characters.   Most  represent  them‐[m
+[7m Manual page tr(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       selves.  Interpreted sequences are:[m
+[7m Manual page tr(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \NNN   character with octal value NNN (1 to 3 octal digits)[m
+[7m Manual page tr(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \\     backslash[m
+[7m Manual page tr(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \a     audible BEL[m
+[7m Manual page tr(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \b     backspace[m
+[7m Manual page tr(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \f     form feed[m
+[7m Manual page tr(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \n     new line[m
+[7m Manual page tr(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \r     return[m
+[7m Manual page tr(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \t     horizontal tab[m
+[7m Manual page tr(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       \v     vertical tab[m
+[7m Manual page tr(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       CHAR1-CHAR2[m
+[7m Manual page tr(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all characters from CHAR1 to CHAR2 in ascending order[m
+[7m Manual page tr(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [CHAR*][m
+[7m Manual page tr(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              in SET2, copies of CHAR until length of SET1[m
+[7m Manual page tr(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [CHAR*REPEAT][m
+[7m Manual page tr(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              REPEAT copies of CHAR, REPEAT octal if starting with 0[m
+[7m Manual page tr(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [:alnum:][m
+[7m Manual page tr(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all letters and digits[m
+[7m Manual page tr(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [:alpha:][m
+[7m Manual page tr(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all letters[m
+[7m Manual page tr(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [:blank:][m
+[7m Manual page tr(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all horizontal whitespace[m
+[7m Manual page tr(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [:cntrl:][m
+[7m Manual page tr(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all control characters[m
+[7m Manual page tr(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [:digit:][m
+[7m Manual page tr(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all digits[m
+[7m Manual page tr(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [:graph:][m
+[7m Manual page tr(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all printable characters, not including space[m
+[7m Manual page tr(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [:lower:][m
+[7m Manual page tr(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all lower case letters[m
+[7m Manual page tr(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [:print:][m
+[7m Manual page tr(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all printable characters, including space[m
+[7m Manual page tr(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [:punct:][m
+[7m Manual page tr(1) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all punctuation characters[m
+[7m Manual page tr(1) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [:space:][m
+[7m Manual page tr(1) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all horizontal or vertical whitespace[m
+[7m Manual page tr(1) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [:upper:][m
+[7m Manual page tr(1) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all upper case letters[m
+[7m Manual page tr(1) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [:xdigit:][m
+[7m Manual page tr(1) line 73 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all hexadecimal digits[m
+[7m Manual page tr(1) line 74 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 75 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [=CHAR=][m
+[7m Manual page tr(1) line 76 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              all characters which are equivalent to CHAR[m
+[7m Manual page tr(1) line 77 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 78 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Translation  occurs  if  [1m-d[0m is not given and both SET1 and SET2 appear.[m
+[7m Manual page tr(1) line 79 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-t[0m may be used only when translating.  SET2 is extended  to  length  of[m
+[7m Manual page tr(1) line 80 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       SET1  by  repeating its last character as necessary.  Excess characters[m
+[7m Manual page tr(1) line 81 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       of SET2 are ignored.  Only [:lower:] and [:upper:]  are  guaranteed  to[m
+[7m Manual page tr(1) line 82 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       expand  in  ascending  order;  used in SET2 while translating, they may[m
+[7m Manual page tr(1) line 83 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       only be used in pairs to specify case conversion.   [1m-s[0m  uses  the  last[m
+[7m Manual page tr(1) line 84 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       specified SET, and occurs after translation or deletion.[m
+[7m Manual page tr(1) line 85 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 86 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mAUTHOR[0m[m
+[7m Manual page tr(1) line 87 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Written by Jim Meyering.[m
+[7m Manual page tr(1) line 88 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 89 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mREPORTING[0m [1mBUGS[0m[m
+[7m Manual page tr(1) line 90 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GNU coreutils online help: <http://www.gnu.org/software/coreutils/>[m
+[7m Manual page tr(1) line 91 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Report tr translation bugs to <http://translationproject.org/team/>[m
+[7m Manual page tr(1) line 92 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 93 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [:upper:][m
+[24;1H[K[7m Manual page tr(1) line 92 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 91 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              all horizontal or vertical whitespace[m
+[24;1H[K[7m Manual page tr(1) line 90 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [:space:][m
+[24;1H[K[7m Manual page tr(1) line 89 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 88 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              all punctuation characters[m
+[24;1H[K[7m Manual page tr(1) line 87 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [:punct:][m
+[24;1H[K[7m Manual page tr(1) line 86 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 85 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              all printable characters, including space[m
+[24;1H[K[7m Manual page tr(1) line 84 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [:print:][m
+[24;1H[K[7m Manual page tr(1) line 83 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 82 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              all lower case letters[m
+[24;1H[K[7m Manual page tr(1) line 81 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [:lower:][m
+[24;1H[K[7m Manual page tr(1) line 80 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 79 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              all printable characters, not including space[m
+[24;1H[K[7m Manual page tr(1) line 78 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [:graph:][m
+[24;1H[K[7m Manual page tr(1) line 77 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 76 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              all digits[m
+[24;1H[K[7m Manual page tr(1) line 75 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [:digit:][m
+[24;1H[K[7m Manual page tr(1) line 74 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 73 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              all control characters[m
+[24;1H[K[7m Manual page tr(1) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [:cntrl:][m
+[24;1H[K[7m Manual page tr(1) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              all horizontal whitespace[m
+[24;1H[K[7m Manual page tr(1) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [:blank:][m
+[24;1H[K[7m Manual page tr(1) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              all letters[m
+[24;1H[K[7m Manual page tr(1) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [:alpha:][m
+[24;1H[K[7m Manual page tr(1) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              all letters and digits[m
+[24;1H[K[7m Manual page tr(1) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [:alnum:][m
+[24;1H[K[7m Manual page tr(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              REPEAT copies of CHAR, REPEAT octal if starting with 0[m
+[24;1H[K[7m Manual page tr(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [CHAR*REPEAT][m
+[24;1H[K[7m Manual page tr(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              in SET2, copies of CHAR until length of SET1[m
+[24;1H[K[7m Manual page tr(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [CHAR*][m
+[24;1H[K[7m Manual page tr(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              all characters from CHAR1 to CHAR2 in ascending order[m
+[24;1H[K[7m Manual page tr(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       CHAR1-CHAR2[m
+[24;1H[K[7m Manual page tr(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       \v     vertical tab[m
+[24;1H[K[7m Manual page tr(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       \t     horizontal tab[m
+[24;1H[K[7m Manual page tr(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       \r     return[m
+[24;1H[K[7m Manual page tr(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       \n     new line[m
+[24;1H[K[7m Manual page tr(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       \f     form feed[m
+[24;1H[K[7m Manual page tr(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       \b     backspace[m
+[24;1H[K[7m Manual page tr(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       \a     audible BEL[m
+[24;1H[K[7m Manual page tr(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       \\     backslash[m
+[24;1H[K[7m Manual page tr(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       \NNN   character with octal value NNN (1 to 3 octal digits)[m
+[24;1H[K[7m Manual page tr(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       selves.  Interpreted sequences are:[m
+[24;1H[K[7m Manual page tr(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       SETs are specified as strings  of  characters.   Most  represent  them‐[m
+[24;1H[K[7m Manual page tr(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              output version information and exit[m
+[24;1H[K[7m Manual page tr(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--version[0m[m
+[24;1H[K[7m Manual page tr(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--help[0m display this help and exit[m
+[24;1H[K[7m Manual page tr(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              first truncate SET1 to length of SET2[m
+[24;1H[K[7m Manual page tr(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-t[0m, [1m--truncate-set1[0m[m
+[24;1H[K[7m Manual page tr(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              ter[m
+[24;1H[K[7m Manual page tr(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              the last specified SET, with a single occurrence of that charac‐[m
+[24;1H[K[7m Manual page tr(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              replace each sequence of a repeated character that is listed  in[m
+[24;1H[K[7m Manual page tr(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-s[0m, [1m--squeeze-repeats[0m[m
+[24;1H[K[7m Manual page tr(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              delete characters in SET1, do not translate[m
+[24;1H[K[7m Manual page tr(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-d[0m, [1m--delete[0m[m
+[24;1H[K[7m Manual page tr(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              use the complement of SET1[m
+[24;1H[K[7m Manual page tr(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-c[0m, [1m-C[0m, [1m--complement[0m[m
+[24;1H[K[7m Manual page tr(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       ing to standard output.[m
+[24;1H[K[7m Manual page tr(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Translate, squeeze, and/or delete characters from standard input, writ‐[m
+[24;1H[K[7m Manual page tr(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[24;1H[K[7m Manual page tr(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mtr[0m [[4mOPTION[24m]... [4mSET1[24m [[4mSET2[24m][m
+[24;1H[K[7m Manual page tr(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m[m
+[24;1H[K[7m Manual page tr(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page tr(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       tr - translate or delete characters[m
+[24;1H[K[7m Manual page tr(1) line 4 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ tr [:alpha'[K:] {[K[:upper:] HouseStaarks.txt HouseStarks.txt [1@1
+tr: extra operand ‘HouseStarks.txt’
+Try 'tr --help' for more information.
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ man tr
+[?1049h[?1h=TR(1)                            User Commands                           TR(1)[m
+[m
+[1mNAME[0m[m
+       tr - translate or delete characters[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mtr[0m [[4mOPTION[24m]... [4mSET1[24m [[4mSET2[24m][m
+[m
+[1mDESCRIPTION[0m[m
+       Translate, squeeze, and/or delete characters from standard input, writ‐[m
+       ing to standard output.[m
+[m
+       [1m-c[0m, [1m-C[0m, [1m--complement[0m[m
+              use the complement of SET1[m
+[m
+       [1m-d[0m, [1m--delete[0m[m
+              delete characters in SET1, do not translate[m
+[m
+       [1m-s[0m, [1m--squeeze-repeats[0m[m
+              replace each sequence of a repeated character that is listed  in[m
+              the last specified SET, with a single occurrence of that charac‐[m
+              ter[m
+[m
+[7m Manual page tr(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-t[0m, [1m--truncate-set1[0m[m
+[7m Manual page tr(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              first truncate SET1 to length of SET2[m
+[7m Manual page tr(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page tr(1) line 4 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ man trtr [:alpha:] [:upper:] HouseStaarks.txt HouseStarks1.txt [C[C[C[1@ [1@>[1@>[C[1@ 
+tr: extra operand ‘HouseStarks.txt’
+Try 'tr --help' for more information.
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ tr [:alpha:] [:upper:] HouseStaarks.txt >>  HouseStarks1.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C HouseSt[1@a[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C< HouseS[1@t[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C< House[1@S[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+> c
+> D
+> bash: warning: here-document at line 98 delimited by end-of-file (wanted `HouseStarks.txt')
+tr: misaligned [:upper:] and/or [:lower:] construct
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ clear
+[3;J[H[2J]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ cleartr [:alpha:] [:upper:] << HouseeStarks.txt >>  HouseStarks1.txt 
+c
+D
+[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CHouseSta[3P
+[K
+[K
+[K[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C<< HouseStarks.txt >>  HouseStarks1.txt 
+c
+D
+[K[A[C[K[K[A[C[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktr [:alpha:] [:upper:] HouseStaarks.txt >>  HouseStarks1.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctr [:alpha:] [:upper:] HouseStaarks.txt >>  HouseStarks1.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C] [:upper:] HouseStar[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C] [:upper:] HouseStark[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C] [:upper:] HouseStarks[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C] [:upper:] HouseStarks.[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C] [:upper:] HouseStarks.t[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C] [:upper:] HouseStarks.tx[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C] [:upper:] HouseStarks.txt[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[Ca] [:upper:] HouseStarks.tx[1@t[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C-] [:upper:] HouseStarks.t[1@x[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[Cz] [:upper:] HouseStarks.[1@t[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C
+
+tr: extra operand ‘HouseStarks.txt’
+Try 'tr --help' for more information.
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ tr [a-z] [:upper:] HouseStarks..txt >>  HouseStarks1.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CHouseStarks.t[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CHouseStarks.tx[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CHouseStarks.txt[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CHouseStarks.txt [1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[CHouseStarks.txt >[C[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[CHouseStarks.txt >>[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[CHouseStarks.txt >> [C[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[CHouseStarks.txt >>  [1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[CHouseStarks.txt >> 
+[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CHouseStarks.txt >>  Ho[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C
+
+^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D                                        ^[[A^[[A        ]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ tr [a-z] HouseStarks.txt >>  HoouseStarks1.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C H[1@o[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[
+[1@ [A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C: [1@ [1@u[1@p[1@p[1@r[1P[1@e[1@r[1@:[1@[[1P[1@]
+tr: extra operand ‘HouseStarks1.txt’
+Try 'tr --help' for more information.
+]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ tr [a-z] HouseStarks.txt >> [:uupper:]  HouseStarks1.txt [1P[1P[1P[1P[1P[1P[1P[1P[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CHo[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CHou[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CHous[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CHouse[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CHouseS[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CHouseSt[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CHouseSta[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CHouseStar[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CHouseStark[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CHouseStarks[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CHouseStarks1[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CHouseStarks1.[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CHouseStarks1.t[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CHouseStarks1.tx[1P[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CHouseStarks1.txt[1P [A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[CHouseStarks1.txt [K[A]0;vatsal@lenovo-g50-80: ~/Sem1/Scripting/Winterfell[01;32mvatsal@lenovo-g50-80[00m:[01;34m~/Sem1/Scripting/Winterfell[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[CHouseStarks1.txt  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kezsfccfsdcf[K[K[K[K[K[K[K[K[K[K[Kexit
+exit
+
+Script done on Tuesday 30 August 2016 07:45:12 PM IST
